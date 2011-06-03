@@ -72,7 +72,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Repos\NHibernateSessionFactory.cs" />
+    <Compile Include="ViewModels\RouteNames.cs" />
     <Compile Include="Services\ProfileService.cs" />
+    <Compile Include="ViewModels\EventsViewModel.cs" />
     <Compile Include="ViewModels\NewsViewModel.cs" />
     <Compile Include="ViewModels\GalleryViewModel.cs" />
     <Compile Include="ViewModels\EventForm.cs" />
@@ -80,7 +82,6 @@
     <Compile Include="Controllers\CustomErrorHandler.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
-    <Compile Include="ViewModels\EventsViewModel.cs" />
     <Compile Include="ViewModels\NewsForm.cs" />
     <Compile Include="Mappers\NewsMapper.cs" />
     <Compile Include="DescribeRoutes.cs" />

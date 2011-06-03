@@ -34,3 +34,11 @@ C:\guruji\myapp\guruji\Portal\src\bin\Antlr3.Runtime.dll
 C:\guruji\myapp\guruji\Portal\src\obj\Debug\ResolveAssemblyReference.cache
 C:\guruji\myapp\guruji\Portal\src\obj\Debug\guruji.dll
 C:\guruji\myapp\guruji\Portal\src\obj\Debug\guruji.pdb
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\bin\guruji.dll
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\bin\guruji.pdb
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\bin\log4net.dll
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\bin\Iesi.Collections.dll
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\bin\Antlr3.Runtime.dll
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\obj\Debug\ResolveAssemblyReference.cache
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\obj\Debug\guruji.dll
+C:\guruji\myapp\jagadgururambhadracharya.org\Portal\src\obj\Debug\guruji.pdb

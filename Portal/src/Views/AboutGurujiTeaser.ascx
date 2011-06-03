@@ -1,4 +1,6 @@
-﻿<div class="section mar_right20">
+﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
+<%@ Import Namespace="guruji.ViewModels"%>
+<div class="section mar_right20">
     <h3>
         Know About Guruji</h3>
     <img src="/ViewContent/images/events/event1.jpg" width="220" height="75" class="section_img" />
@@ -9,6 +11,6 @@
         Lord in the battlefield of Kurukṣetra. At the age of two months...
     </p>
     <div class="controls">
-        <a href="/rambhadracharya/biography">Read More ></a>
+        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.Biography)) %>">Read More ></a>
     </div>
 </div>

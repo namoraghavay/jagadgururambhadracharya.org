@@ -32,7 +32,7 @@
             <%=Model.EventContent.Teaser %></p>
     </div>
     <div class="controls">
-        <a href="/rambhadracharya/upcomingkathas">More Details ></a>
+        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.KathasSchedule)) %>">More Details ></a>
     </div>
 </div>
 <%} %>

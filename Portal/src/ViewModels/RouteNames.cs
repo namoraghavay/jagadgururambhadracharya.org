@@ -1,0 +1,7 @@
+namespace guruji.ViewModels
+{
+    public enum RouteNames
+    {
+        Root, Biography, Literature, Awards, KathasSchedule, OtherProgramsSchedule, TulsipeethNews, MediaNews, PhotoGallery, VideoGallery
+    }
+}

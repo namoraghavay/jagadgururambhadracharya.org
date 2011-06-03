@@ -9,11 +9,13 @@
     <div class="main_content">
         <div class="tab_head">
             <div>
+            <%
+                var type = typeof (RouteNames); %>
             <a class="tab_link <%=Model.DefaultTab.Equals(EventsKathasTabs.Katha) ? "selected_tab" : ""%>"
-                href="/rambhadracharya/upcomingkathas">Kathas</a> </div>
+                href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.KathasSchedule)) %>">Kathas</a> </div>
                 <div>
             <a class="tab_link <%=Model.DefaultTab.Equals(EventsKathasTabs.Events) ? "selected_tab" : ""%>"
-                href="/rambhadracharya/upcomingevents">Other Programs</a></div>
+                href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.OtherProgramsSchedule)) %>">Other Programs</a></div>
         </div>
         <div class="tabs">
             <% if (Model.DefaultTab.Equals(EventsKathasTabs.Katha))

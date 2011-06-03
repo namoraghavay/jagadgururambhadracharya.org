@@ -18,6 +18,6 @@
             <%=Model.NewsContent.Teaser %></p>
     </div>
     <div class="controls">
-        <a href="/rambhadracharya/tulsipeethnews">More Details ></a>
+        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.TulsipeethNews)) %>">More Details ></a>
     </div>
 </div>

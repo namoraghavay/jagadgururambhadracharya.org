@@ -10,11 +10,13 @@
     <div class="main_content">
         <div class="tab_head">
             <div>
+            <%
+                var type = typeof (RouteNames); %>
             <a class="tab_link <%=Model.DefaultTab.Equals(NewsTabs.Tulsipeeth) ? "selected_tab" : ""%>"
-                href="/rambhadracharya/tulsipeethnews">Tulsipeeth News</a> </div>
+                href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.TulsipeethNews)) %>">Tulsipeeth News</a> </div>
                 <div>
             <a class="tab_link <%=Model.DefaultTab.Equals(NewsTabs.Media) ? "selected_tab" : ""%>"
-                href="/rambhadracharya/medianews">Media News</a></div>
+                href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.MediaNews)) %>">Media News</a></div>
         </div>
         <div class="tabs">
             <% if (Model.DefaultTab.Equals(NewsTabs.Tulsipeeth))
