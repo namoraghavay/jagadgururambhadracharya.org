@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="guruji.Domain" assembly="guruji">
+
+	<class name="Event" table="EVENT" lazy="false">
+		<id name="Id" >
+			<column name="ID" sql-type="Int32" not-null="true" />
+			<generator class="identity" />
+		</id>
+		<property name="Title" column="TITLE"/>
+		<property name="IsKathaDb" column="IS_KATHA"/>
+		<property name="ImportanceDb" column="IMPORTANCE"/>
+		<property name="EventContentXml" column="EVT_CONTENT"/>
+		<property name="EventBeginDate" column="EVT_BEGIN_DATE"/>
+		<property name="EventEndDate" column="EVT_END_DATE"/>
+		<property name="TelecastContentXml" column="TELE_CONTENT"/>
+		<property name="TelecastBeginDate" column="TELE_BEGIN_DATE"/>
+		<property name="TelecastEndDate" column="TELE_END_DATE"/>
+	</class>
+
+	<query name="load.upcoming.events">
+		<![CDATA[from Event T where T.EventEndDate > now() and T.IsKathaDb='N' order by T.EventBeginDate asc]]>
+	</query>
+
+	<query name="load.upcoming.kathas">
+		<![CDATA[from Event T where T.EventEndDate > now() and T.IsKathaDb='Y' order by T.EventBeginDate asc]]>
+	</query>
+
+</hibernate-mapping>

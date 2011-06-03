@@ -1,0 +1,21 @@
+<%@ Master Language="C#" MasterPageFile="~/Views/Masters/Site.Master" %>
+
+<asp:Content ID="styleContent" ContentPlaceHolderID="StyleSheet" runat="server">
+</asp:Content>
+<asp:Content ID="headContent" ContentPlaceHolderID="HeadIncludes" runat="server">
+    <title>Jagadguru Rambhadracharya</title>
+</asp:Content>
+<asp:Content ID="scriptContent" ContentPlaceHolderID="Javascript" runat="server">
+    <asp:ContentPlaceHolder ID="Javascript" runat="server" />
+</asp:Content>
+<asp:Content ID="mainContent" ContentPlaceHolderID="MainContentContainer" runat="server">
+    <div class="banner" >
+        <div id="slider" class="nivoSlider">
+            <img alt="" src="https://lh6.googleusercontent.com/-D9-250qsQRs/TeejuXMV0FI/AAAAAAAAABg/dwMu6QqrnDk/banner1.jpg" />
+            <img alt="" src="https://lh5.googleusercontent.com/-XzwyaZ2_ReY/TeejsYKQ4tI/AAAAAAAAABU/e1Aj0XOLo14/banner4.jpg" />
+            <img alt="" src="https://lh3.googleusercontent.com/-yY7rxnLO83k/TeejvSxCBgI/AAAAAAAAABk/zqjwcwF7MfE/banner2.jpg" />
+            <img alt="" src="https://lh5.googleusercontent.com/-30VSRn2T3_0/TeejtdE8-iI/AAAAAAAAABc/uy3CwyOYIaE/banner3.jpg" />
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="LandingPageContainer" runat="server" />
+</asp:Content>

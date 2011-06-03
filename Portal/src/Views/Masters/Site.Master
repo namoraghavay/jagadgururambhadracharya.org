@@ -1,0 +1,60 @@
+<%@ Master Language="C#" Inherits="guruji.PortalViewMasterPage" %>
+
+<%@ Import Namespace="guruji.Controllers" %>
+<%@ Import Namespace="System.Web.Mvc.Html" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:PlaceHolder runat="server" id="mainScripts">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javscript" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link href="/ViewContent/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css">
+        <link href="/ViewContent/css/nivo-slider.css" rel="stylesheet" type="text/css">
+        <link href="/ViewContent/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="/ViewContent/css/site.css" rel="stylesheet" type="text/css" />
+        <link href="/ViewContent/css/jquery.ad-gallery.css" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet"
+            type="text/css">
+
+        <script src="/ViewContent/js/jquery-1.5.min.js" language="javascript" type="text/javascript"></script>
+
+        <script src="/ViewContent/js/jquery.lightbox-0.5.pack.js" language="javascript" type="text/javascript"></script>
+
+        <script src="/ViewContent/js/jquery.nivo.slider.pack.js" language="javascript" type="text/javascript"></script>
+
+        <script src="/ViewContent/js/menu.js" language="javascript" type="text/javascript"></script>
+
+        <script src="/ViewContent/js/jquery.ad-gallery.pack.js" language="javascript" type="text/javascript"></script>
+
+        <script type="text/javascript" src="/ViewContent/js/jquery.jcarousel.min.js"></script>  
+        
+        <script type="text/javascript" src="/ViewContent/js/jquery.opacityrollover.js"></script>
+    
+        <script type="text/javascript" src="/ViewContent/js/jquery.galleriffic.js"></script>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({ pauseTime: 5000, pauseOnHover: false });
+            });
+        </script>
+
+    </asp:PlaceHolder>
+    <asp:ContentPlaceHolder ID="HeadIncludes" runat="server" />
+    <asp:ContentPlaceHolder ID="StyleSheet" runat="server" />
+    <asp:ContentPlaceHolder ID="Javascript" runat="server" />
+</head>
+<body>
+    <div id="wrap" class="wrapper">
+        <% Html.RenderPartial("TopNav"); %>
+        <asp:ContentPlaceHolder ID="MainContentContainer" runat="server" />
+        <div class="footer_wrap">
+            <div class="copyright"><span>&copy; Copyright 2011 Shri Tulsi Peeth Seva Nyas, All Rights Reserved.</span></div>
+            <%Html.RenderPartial("SiteMap"); %>
+        </div>
+    </div>
+</body>
+</html>
+

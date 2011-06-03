@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema>">
+	<Albums>
+		<Album>
+			<Name>ahalyoddhar</Name>
+			<Title>Ahalyoddhar &amp; Naari ka Samman</Title>
+			<Description>Tulsidas ji respects "Naari" more than any other poet does. Guruji explains alongwith the prasang of Ahalyoddhar.</Description>
+			<Videos>
+				<Video>
+					<Title>Part - 1</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/MEErX8fexvc" frameborder="0" allowTransparency="true"</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 2</Title>
+					<Id>2</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/pCDy2JFIxEg" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 3</Title>
+					<Id>3</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/03lZByp-DOs" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 4</Title>
+					<Id>4</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/BT-mCsgXAtU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 5</Title>
+					<Id>5</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/5H_GQtdw47E" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 6</Title>
+					<Id>6</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/KhIflrKw27c" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 7</Title>
+					<Id>7</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/s84zNAjwrMw" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 8</Title>
+					<Id>8</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ged_Y-D0rd0" frameborder="0" allowfullscreen</Iframe>				
+				</Video>
+				<Video>
+					<Title>Part - 9</Title>
+					<Id>9</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/Z3zWJBbJSNM" frameborder="0" allowfullscreen</Iframe>				
+				</Video>
+				<Video>
+					<Title>Part - 10</Title>
+					<Id>10</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8DoV8VPb1IY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 11</Title>
+					<Id>11</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/QbzzFDoRLyc" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 12</Title>
+					<Id>12</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/r5yqc_MX4C8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+		<Album>
+			<Name>sundar_kand</Name>
+			<Title>Sundar Kand</Title>
+			<Description>Katha when Hanuman ji enters Lanks in search of Sita Ji.</Description>
+			<Videos>
+				<Video>
+					<Title>Part - 11</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/QbzzFDoRLyc" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 12</Title>
+					<Id>2</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/r5yqc_MX4C8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+	</Albums>
+</Gallery>

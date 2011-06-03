@@ -1,0 +1,273 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC36602A-D91B-4147-9D6C-9E03B3DCC91D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>guruji</RootNamespace>
+    <AssemblyName>guruji</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MvcContrib, Version=2.0.36.0, Culture=neutral, PublicKeyToken=ee21a6eb40af4b86, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Views\HomePage.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Serializer.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\AboutGurujiController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
+    <Compile Include="Controllers\LoginHandler.cs" />
+    <Compile Include="Controllers\PortalAuthorizeAttribute.cs" />
+    <Compile Include="Controllers\PortalSession.cs" />
+    <Compile Include="Domain\Gallery.cs" />
+    <Compile Include="Mappers\EventMapper.cs" />
+    <Compile Include="PortalViewMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repos\NHibernateSessionFactory.cs" />
+    <Compile Include="Services\ProfileService.cs" />
+    <Compile Include="ViewModels\NewsViewModel.cs" />
+    <Compile Include="ViewModels\GalleryViewModel.cs" />
+    <Compile Include="ViewModels\EventForm.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\CustomErrorHandler.cs" />
+    <Compile Include="Controllers\EventController.cs" />
+    <Compile Include="Controllers\HomePageController.cs" />
+    <Compile Include="ViewModels\EventsViewModel.cs" />
+    <Compile Include="ViewModels\NewsForm.cs" />
+    <Compile Include="Mappers\NewsMapper.cs" />
+    <Compile Include="DescribeRoutes.cs" />
+    <Compile Include="Domain\BaseEntity.cs" />
+    <Compile Include="Domain\Contact.cs" />
+    <Compile Include="Domain\EventContent.cs" />
+    <Compile Include="Domain\NewsContent.cs" />
+    <Compile Include="Domain\TelecastContent.cs" />
+    <Compile Include="Domain\PortalUser.cs" />
+    <Compile Include="Domain\Event.cs" />
+    <Compile Include="Domain\NewsItem.cs" />
+    <Compile Include="Domain\Password.cs" />
+    <Compile Include="Domain\Role.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlExtensions\HtmlElement.cs" />
+    <Compile Include="HtmlExtensions\ViewDataDictionaryExtensions.cs" />
+    <Compile Include="PortalViewPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\UserRepository.cs" />
+    <Compile Include="Repos\NewsRepository.cs" />
+    <Compile Include="Repos\EventRepository.cs" />
+    <Compile Include="Repos\Repository.cs" />
+    <Compile Include="Repos\UserRoleRepository.cs" />
+    <Compile Include="Services\ContentService.cs" />
+    <Compile Include="ViewServices\Config.cs" />
+    <Compile Include="ViewServices\ControllerFileService.cs" />
+    <Compile Include="ViewServices\FileService.cs" />
+    <Compile Include="ViewModels\HomePageViewModel.cs" />
+    <Compile Include="ViewServices\PortalViewEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Masters\LandingPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Repos\Role.hbm.xml" />
+    <EmbeddedResource Include="Repos\Event.hbm.xml" />
+    <EmbeddedResource Include="Repos\NewsItem.hbm.xml" />
+    <EmbeddedResource Include="Repos\PortalUser.hbm.xml" />
+    <Content Include="ViewContent\css\galleriffic-2.css" />
+    <Content Include="ViewContent\css\jquery.ad-gallery.css" />
+    <Content Include="ViewContent\css\nivo-slider.css" />
+    <Content Include="ViewContent\css\reset.css" />
+    <Content Include="ViewContent\css\site.css" />
+    <Content Include="ViewContent\flash\jwplayer.swf" />
+    <Content Include="ViewContent\html\biography.html" />
+    <Content Include="ViewContent\html\awards.html" />
+    <Content Include="ViewContent\html\literatureHome.html" />
+    <Content Include="ViewContent\images\banner1.jpg" />
+    <Content Include="ViewContent\images\banner2.jpg" />
+    <Content Include="ViewContent\images\banner3.jpg" />
+    <Content Include="ViewContent\images\events\event1.jpg" />
+    <Content Include="ViewContent\images\footer.jpg" />
+    <Content Include="ViewContent\images\logo.jpg" />
+    <Content Include="ViewContent\images\nav_bg.jpg" />
+    <Content Include="ViewContent\js\jquery-1.5.min.js" />
+    <Content Include="ViewContent\js\jquery.ad-gallery.js" />
+    <Content Include="ViewContent\js\jquery.ad-gallery.pack.js" />
+    <Content Include="ViewContent\js\jquery.lightbox-0.5.pack.js" />
+    <Content Include="ViewContent\js\jquery.nivo.slider.pack.js" />
+    <Content Include="ViewContent\js\jwplayer.js" />
+    <Content Include="ViewContent\js\menu.js" />
+    <Content Include="Views\Videos.aspx" />
+    <Content Include="Views\Gallery.aspx" />
+    <Content Include="Views\EventTab.ascx" />
+    <Content Include="Views\TopNav.ascx" />
+    <Content Include="Views\LoginNav.ascx" />
+    <Content Include="Views\EventsHome.aspx" />
+    <Content Include="Views\HtmlPage.aspx" />
+    <Content Include="Views\NewsTeaser.ascx" />
+    <Content Include="Views\EventsTeaser.ascx" />
+    <Content Include="Views\Masters\Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ViewContent\css\_notes\site.css.mno" />
+    <Content Include="ViewContent\css\skin.css" />
+    <Content Include="ViewContent\flash\jwplayerskin.zip" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\1.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\2.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\3.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\4.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\5.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\6.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\images\7.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\1.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\2.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\3.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\4.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\5.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\6.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\originals\7.JPG" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\1.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\2.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\3.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\4.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\5.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\6.jpg" />
+    <Content Include="ViewContent\gallery\awards_prizes\thumbs\7.jpg" />
+    <Content Include="ViewContent\gallery\gallery.xml" />
+    <Content Include="ViewContent\gallery\guruji_photos\images\1.jpg" />
+    <Content Include="ViewContent\gallery\guruji_photos\originals\1.jpg" />
+    <Content Include="ViewContent\gallery\guruji_photos\thumbs\1.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\1.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\2.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\3.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\4.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\5.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\images\6.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\originals\1.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\originals\2.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\originals\3.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\originals\4.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\originals\5.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\originals\6.JPG" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\1.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\2.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\3.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\4.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\5.jpg" />
+    <Content Include="ViewContent\gallery\raghavji\thumbs\6.jpg" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\images\1.jpg" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\images\2.jpg" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\images\3.jpg" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\images\4.jpg" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\originals\1.JPG" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\originals\2.JPG" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\originals\3.JPG" />
+    <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
+    <Content Include="ViewContent\images\ad_next.png" />
+    <Content Include="ViewContent\images\ad_prev.png" />
+    <Content Include="ViewContent\images\ad_scroll_back.png" />
+    <Content Include="ViewContent\images\ad_scroll_forward.png" />
+    <Content Include="ViewContent\images\loader.gif" />
+    <Content Include="ViewContent\images\next-horizontal.png" />
+    <Content Include="ViewContent\images\next-vertical.png" />
+    <Content Include="ViewContent\images\opa75.png" />
+    <Content Include="ViewContent\images\prev-horizontal.png" />
+    <Content Include="ViewContent\images\prev-vertical.png" />
+    <Content Include="ViewContent\js\jquery.galleriffic.js" />
+    <Content Include="ViewContent\js\jquery.jcarousel.min.js" />
+    <Content Include="ViewContent\js\jquery.opacityrollover.js" />
+    <Content Include="ViewContent\videos\Ahalyoddhar.jpg" />
+    <Content Include="ViewContent\videos\gallery.xml" />
+    <Content Include="ViewContent\videos\lankadahan1.jpg" />
+    <Content Include="ViewContent\videos\sundar_kand.jpg" />
+    <Content Include="Views\AboutGurujiTeaser.ascx" />
+    <Content Include="Views\SiteMap.ascx" />
+    <Content Include="Views\NewsTab.ascx" />
+    <Content Include="Views\NewsHome.aspx" />
+    <Content Include="Views\QueriesTeaser.ascx" />
+    <Content Include="Views\TickerMarquee.ascx" />
+    <Content Include="hibernate.cfg.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ViewContent\gallery\ramnavmi2011\thumbs\" />
+    <Folder Include="WindsorConfig\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14733</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

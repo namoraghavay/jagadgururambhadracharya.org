@@ -1,0 +1,42 @@
+CREATE TABLE `event` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `TITLE` varchar(100) NOT NULL,
+  `IS_KATHA` char(1) NOT NULL DEFAULT 'N',
+  `IMPORTANCE` char(1) DEFAULT 'M',
+  `EVT_CONTENT` longtext,
+  `EVT_BEGIN_DATE` datetime NOT NULL,
+  `EVT_END_DATE` datetime NOT NULL,
+  `TELE_CONTENT` longtext,
+  `TELE_BEGIN_DATE` datetime DEFAULT NULL,
+  `TELE_END_DATE` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `news` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `TITLE` varchar(100) NOT NULL,
+  `IMPORTANCE` char(1) NOT NULL DEFAULT 'M',
+  `DATE` datetime NOT NULL,
+  `MAIN_CONTENT` longtext,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1 ;
+
+CREATE TABLE `user` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `EMAIL` varchar(255) NOT NULL,
+  `PASSWORD` varchar(3000) NOT NULL,
+  `STATUS` varchar(50) NOT NULL DEFAULT 'Inactive',
+  `FIRST_NAME` varchar(50) NOT NULL,
+  `MIDDLE_NAME` varchar(50) DEFAULT NULL,
+  `LAST_NAME` varchar(50) DEFAULT NULL,
+  `ROLE` varchar(50) NOT NULL DEFAULT 'General',
+  `SUCCESSFULL_LOGINS` int(11) DEFAULT NULL,
+  `LAST_LOGIN_DATE` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `EMAIL_UNIQUE` (`EMAIL`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;
+
+
+
+
+

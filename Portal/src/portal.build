@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<project name="guruji" default="build" basedir="." >	
+	<target name="build">
+		<delete file="C:\guruji\myapp\guruji\Portal\src\ViewContent\js\jquery.galleriffic.min.js" failonerror="false" />
+		<concatfilesinorder filetype="*.js" basedir="C:\guruji\myapp\guruji\Portal\src\ViewContent\js\" destinationfile="C:\guruji\myapp\guruji\Portal\src\ViewContent\js\jquery.galleriffic.min.js" dependencyorderfile="C:\guruji\myapp\guruji\Portal\src\ViewContent\js\dependencies.txt"/>
+		<exec program="java.exe" commandline="-jar &quot;C:\guruji\myapp\guruji\tools\yuicompressor\yuicompressor-2.4.2.jar&quot; &quot;C:\guruji\myapp\guruji\Portal\src\ViewContent\js\jquery.galleriffic.min.js&quot; --preserve-semi --charset utf-8 -o &quot;C:\guruji\myapp\guruji\Portal\src\ViewContent\js\jquery.galleriffic.min.js&quot;"/>
+	</target>
+</project>

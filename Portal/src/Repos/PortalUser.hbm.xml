@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="guruji.Domain" assembly="guruji">
+
+	<class name="PortalUser" table="USER" lazy="false">
+		<id name="Id" >
+			<column name="ID" sql-type="Int32" not-null="true" />
+			<generator class="identity" />
+		</id>
+		<property name="Email" column="EMAIL"/>
+		<component name="Password" class="Password"  >
+			<property name="EncryptedPassword" column="PASSWORD" />
+		</component>
+		<property name="StatusDb" column="STATUS"/>
+		<property name="RoleDb" column="ROLE"/>
+		<property name="FirstName" column="FIRST_NAME"/>
+		<property name="MiddleName" column="MIDDLE_NAME"/>
+		<property name="LastName" column="LAST_NAME"/>
+		<property name="SuccessfullLogins" column="SUCCESSFULL_LOGINS"/>
+		<property name="LastLoginDate" column="LAST_LOGIN_DATE"/>
+	</class>
+
+	<query name="load.by.email">
+		<![CDATA[from PortalUser where Email=:email]]>
+		<query-param name="email" type="string" />
+	</query>
+
+</hibernate-mapping>
