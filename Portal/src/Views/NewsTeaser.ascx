@@ -2,7 +2,7 @@
 <%@ Import Namespace="guruji.ViewServices" %>
 <%@ Import Namespace="guruji.Domain" %>
 <%@ Import Namespace="guruji.ViewModels" %>
-<div class="section mar20">
+<div class="section">
     <h3>
         News Column</h3>
     <img alt="pratibha_patil" src="/ViewContent/images/news/with_pratibha.png" width="220"
@@ -18,6 +18,6 @@
             <%=Model.NewsContent.Teaser %></p>
     </div>
     <div class="controls">
-        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.TulsipeethNews)) %>">More Details ></a>
+        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.TulsipeethNews)) %>">Read further ></a>
     </div>
 </div>

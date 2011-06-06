@@ -7,5 +7,12 @@ namespace guruji.Controllers
         protected BaseController()
         {
         }
+
+        protected ActionResult ViewFor(string htmlFileName)
+        {
+            string path = Server.MapPath("/");
+            object html = System.IO.File.ReadAllText(path + "/ViewContent/html/" + htmlFileName + ".html");
+            return View("HtmlPage", html);
+        }
     }
 }

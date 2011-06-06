@@ -1,3 +1,4 @@
+<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
 <%@ Import Namespace="guruji.ViewServices" %>
 <div class="section">
     <h3>

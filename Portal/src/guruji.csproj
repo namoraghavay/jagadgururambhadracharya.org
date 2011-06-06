@@ -62,6 +62,7 @@
     <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\AboutGurujiController.cs" />
+    <Compile Include="Controllers\SocialServiceController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\LoginHandler.cs" />
     <Compile Include="Controllers\PortalAuthorizeAttribute.cs" />
@@ -133,9 +134,6 @@
     <Content Include="ViewContent\html\biography.html" />
     <Content Include="ViewContent\html\awards.html" />
     <Content Include="ViewContent\html\literatureHome.html" />
-    <Content Include="ViewContent\images\banner1.jpg" />
-    <Content Include="ViewContent\images\banner2.jpg" />
-    <Content Include="ViewContent\images\banner3.jpg" />
     <Content Include="ViewContent\images\events\event1.jpg" />
     <Content Include="ViewContent\images\footer.jpg" />
     <Content Include="ViewContent\images\logo.jpg" />
@@ -213,6 +211,7 @@
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\2.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\3.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
+    <Content Include="ViewContent\html\jrhu.html" />
     <Content Include="ViewContent\images\ad_next.png" />
     <Content Include="ViewContent\images\ad_prev.png" />
     <Content Include="ViewContent\images\ad_scroll_back.png" />
@@ -231,6 +230,8 @@
     <Content Include="ViewContent\videos\lankadahan1.jpg" />
     <Content Include="ViewContent\videos\sundar_kand.jpg" />
     <Content Include="Views\AboutGurujiTeaser.ascx" />
+    <Content Include="Views\JrhuDonate.aspx" />
+    <Content Include="Views\JrhuTeaser.ascx" />
     <Content Include="Views\SiteMap.ascx" />
     <Content Include="Views\NewsTab.ascx" />
     <Content Include="Views\NewsHome.aspx" />

@@ -4,7 +4,7 @@
 <%@ Import Namespace="guruji.ViewModels" %>
 <%if (Model != null)
   { %>
-<div class="section">
+<div class="section mar20">
     <h3>
         Upcoming Kathas</h3>
     <img src="/ViewContent/images/events/katha.png" width="220" height="75" class="section_img" />

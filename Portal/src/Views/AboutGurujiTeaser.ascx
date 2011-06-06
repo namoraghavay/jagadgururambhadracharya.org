@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
 <%@ Import Namespace="guruji.ViewModels"%>
-<div class="section mar_right20">
+<div class="section">
     <h3>
         Know About Guruji</h3>
     <img src="/ViewContent/images/events/event1.jpg" width="220" height="75" class="section_img" />

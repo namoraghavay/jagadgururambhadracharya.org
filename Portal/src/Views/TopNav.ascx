@@ -63,10 +63,11 @@
                         <li><a href="/videos/ahalyoddhar?id=1">Videos</a></li>
                     </ul>
                 </li>
-                <li class="trigger"><a href="#">Cultural Queries</a>
+                <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">Social Service</a>
                     <ul class="sub_menu">
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Ask Guruji</a></li>
+                        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">JRH University</a></li>
+                        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHUDonate)) %>">Donate to JRHU</a></li>
+                        <li><a href="#">Tulsipeeth</a></li>
                     </ul>
                 </li>
             </ul>
