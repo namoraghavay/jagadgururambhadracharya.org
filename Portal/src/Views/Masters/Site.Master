@@ -34,12 +34,31 @@
         <script type="text/javascript" src="/ViewContent/js/jquery.opacityrollover.js"></script>
     
         <script type="text/javascript" src="/ViewContent/js/jquery.galleriffic.js"></script>
+        <script type="text/javascript" src="/ViewContent/js/facebook.all.js"></script>
 
         <script type="text/javascript">
             $(window).load(function() {
                 $('#slider').nivoSlider({ pauseTime: 5000, pauseOnHover: false });
             });
         </script>
+        
+        <script type="text/javascript">
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId: '133735100037870',
+                    status: true,
+                    cookie: true,
+                    xfbml: true
+                });
+            };
+            (function() {
+                var e = document.createElement('script');
+                e.type = 'text/javascript';
+                e.src = document.location.protocol + '//connect.facebook.net/en_GB/all.js';
+                e.async = true;
+                document.getElementById('fb-root').appendChild(e);
+            } ());
+    </script>
 
     </asp:PlaceHolder>
     <asp:ContentPlaceHolder ID="HeadIncludes" runat="server" />

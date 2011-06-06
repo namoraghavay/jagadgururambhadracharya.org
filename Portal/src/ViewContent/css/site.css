@@ -11,7 +11,7 @@ strong {color:#493E2C;}
 a:link { color: #cd7e0a; }
 a:visited { color: #cd7e0a; }
 a:active, a:hover { color: #ff4b33; }
-h1.logo { padding: 18px 0 0; }
+h1.logo { padding: 18px 0 0; float:left;}
 /*naivgation*/
 .nav_wrap { clear:both; background: url(/ViewContent/images/nav_bg.jpg) repeat-x scroll left top; height: 40px; }
 .primary_navigation { margin:0 auto; width:960px; position:relative; z-index:1000; }
@@ -136,3 +136,6 @@ iframe {border: 2px solid #4F250F;padding: 2px;}
 .footer li a{font-size: 0.9em;font-weight:600;}
 
 .phone_number {border-left: 1px dotted #CCCCCC;border-right: 1px dotted #CCCCCC;margin:0 10px;padding:0 5px;}
+
+/*facebook*/
+.fb_login {float:right;margin-right:10px;}

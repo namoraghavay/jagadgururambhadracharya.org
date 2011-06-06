@@ -25,7 +25,7 @@
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
                         <div id="album_image_<%= index + 1  %>" class="carousalimg">
-                        <a class="album_link" href="/rambhadracharya/photogallery/<%=album.Name %>">
+                        <a class="album_link" href="/photogallery/<%=album.Name %>">
                             <img src="<%=landingImageFolder %>/<%=album.LandingImage %>" alt="" class="carousel_item <%=(Model.SelectedAlbumName == album.Name) ? "carousel_selected" : "" %>" />
                             <%=album.Title %>
                         </a></div>

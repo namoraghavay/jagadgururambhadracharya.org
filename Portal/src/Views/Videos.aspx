@@ -23,7 +23,7 @@
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
                         <div id="album_image_<%= index + 1  %>" class="carousalimg">
-                            <a class="album_link" href="/rambhadracharya/videos/<%=album.Name %>">
+                            <a class="album_link" href="/videos/<%=album.Name %>">
                                 <img src="/ViewContent/videos/<%=album.Name %>.jpg" alt="<%=album.Title %>" class="carousel_item <%=(Model.SelectedAlbumName == album.Name) ? "carousel_selected" : "" %>" />
                                     <%=album.Title %>
                             </a>
@@ -40,7 +40,7 @@
                     var Id = Request.QueryString.Get("id");
                     
                     foreach (var video in Model.SelectedAlbum.Videos) {
-                    string selectedVideoUrl = "/rambhadracharya/videos/" + Model.SelectedAlbumName + "?id=" + video.Id;
+                    string selectedVideoUrl = "/videos/" + Model.SelectedAlbumName + "?id=" + video.Id;
                 %>
                     <li class="<%=(Id == video.Id) ? "video_selected" : "" %>">
                         <a class="<%=(Id == video.Id) ? "video_selected" : "" %>" href="<%=selectedVideoUrl %>"><%=video.Title %></a>
