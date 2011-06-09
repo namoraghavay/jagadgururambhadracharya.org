@@ -3,6 +3,7 @@ body { background:#f6f6f6; color: #000; margin:0; padding:0; }
 strong {color:#493E2C;}
 /*header*/
 .header_wrap { width:100%;background:#f1dd98; }
+a {outline:0;border:0;}
 .logo a {margin-left:-3px;}
 .header, .footer, .featured_area, .main_content { width:960px; margin:0 auto; }
 .header { height: 81px; }
@@ -46,7 +47,7 @@ h1.logo { padding: 18px 0 0; float:left;}
 .section_cont { margin: 20px 0; overflow: hidden; width: 960px;}
 .section { float:left; width:220px; }
 h3 { color: #493E2C; font-size: 12px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; text-transform: uppercase; }
-h2 {color: #493E2C; font-size: 18px; font-weight: 700; line-height: 1.2; text-transform: uppercase; display:block; margin:20px 0;}
+h2 {color: #493E2C; font-size: 18px; font-weight: 700; line-height: 1.2; text-transform: uppercase; display:block; margin-bottom:20px;}
 .section .section_img { margin-bottom:5px; border: 1px solid #CCCCCC;}
 .section  p { font-size:13px;text-align: justify;}
 .mar20 { margin: 0 25px;}
@@ -87,13 +88,13 @@ h2 {color: #493E2C; font-size: 18px; font-weight: 700; line-height: 1.2; text-tr
 
 
 .main_content {clear:both; overflow:hidden;}
-.left_box {width:460px;float:left;}
+.left_box {width:460px;float:left;margin-top:10px;}
 .left_box.border_right {border-right:1px dotted #CCCCCC; padding-right:20px;}
-.right_box {width:460px;float:right;}
+.right_box {width:460px;float:right;margin-top:10px;}
 
 .content_section {width:460px; padding-bottom:15px; margin-bottom:15px; border-bottom:1px dotted #CCCCCC;text-align: justify;overflow:hidden;}
 .content_section p {margin-bottom:5px; text-align:justify; font-size:.9em;}
-.content_section.last {margin-bottom:0px; border:none;height:230px;}
+.content_section.last {margin-bottom:0px; border:none;}
 
 .img_content {float:left;margin: 5px 10px 0 0;}
 .content_section  p.quote,span.quote {margin:10px 0px; font-weight:bold; color:Maroon; font-family:Arial Unicode MS; font-size:1.1em;}
