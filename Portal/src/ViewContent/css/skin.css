@@ -1,9 +1,10 @@
 .jcarousel-skin-tango .jcarousel-container {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
     background: #F1DD98;
     margin: 0 0 10px;
+    behavior: url(/ViewContent/css/PIE.htc);
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl {
