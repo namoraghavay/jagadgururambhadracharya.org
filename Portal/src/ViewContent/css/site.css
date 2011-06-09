@@ -96,7 +96,7 @@ h2 {color: #493E2C; font-size: 18px; font-weight: 700; line-height: 1.2; text-tr
 .content_section.last {margin-bottom:0px; border:none;height:230px;}
 
 .img_content {float:left;margin: 5px 10px 0 0;}
-.content_section  p.quote {margin:10px 0px; font-weight:bold; color:Maroon; font-family:Arial Unicode MS; font-size:1.1em;}
+.content_section  p.quote,span.quote {margin:10px 0px; font-weight:bold; color:Maroon; font-family:Arial Unicode MS; font-size:1.1em;}
 
 .page_quote { color: maroon;float: left;text-align: center;width: 960px;font-family:Arial Unicode MS;margin-bottom:10px;}
 .page_quote h1 {font-size:1.1em;}

@@ -9,7 +9,7 @@
     </ul>
     <ul class="mar20">
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.KathasSchedule)) %>">Kathas Schedule</a></li>
-        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.OtherProgramsSchedule)) %>">Other Proframs Schedule</a></li>
+        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.OtherProgramsSchedule)) %>">Other Programs</a></li>
     </ul>
     <ul class="mar_right20">
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.TulsipeethNews)) %>">Tulsipeeth News</a></li>
