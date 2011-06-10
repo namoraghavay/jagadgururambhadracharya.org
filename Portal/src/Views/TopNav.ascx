@@ -57,9 +57,9 @@
                     var galleryPage = (url.Contains("photogallery") || url.Contains("videos"))
                                         ? "current"
                                         : "trigger"; %>
-                <li class="<%=galleryPage %>"><a href="/photogallery/raghavji">Gallery</a>
+                <li class="<%=galleryPage %>"><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Gallery</a>
                     <ul class="sub_menu">
-                        <li><a href="/photogallery/raghavji">Photos</a></li>
+                        <li><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Photos</a></li>
                         <li><a href="/videos/ahalyoddhar?id=1">Videos</a></li>
                     </ul>
                 </li>

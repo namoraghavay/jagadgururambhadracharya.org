@@ -6,7 +6,7 @@ namespace guruji.Controllers
     {
         public ActionResult Jrhu()
         {
-            return ViewFor("jrhu");
+            return ViewForHtml("jrhu");
         }
 
         public ActionResult Donate()

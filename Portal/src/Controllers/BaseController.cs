@@ -8,7 +8,7 @@ namespace guruji.Controllers
         {
         }
 
-        protected ActionResult ViewFor(string htmlFileName)
+        protected ActionResult ViewForHtml(string htmlFileName)
         {
             string path = Server.MapPath("/");
             object html = System.IO.File.ReadAllText(path + "/ViewContent/html/" + htmlFileName + ".html");

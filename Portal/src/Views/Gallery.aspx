@@ -1,5 +1,6 @@
-<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage<GalleryViewModel>" %>
+<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage<PictureGalleryViewModel>" %>
 
+<%@ Import Namespace="System.IO" %>
 <%@ Import Namespace="guruji.Domain" %>
 <%@ Import Namespace="guruji.ViewModels" %>
 <asp:Content ID="head_content" ContentPlaceHolderID="HeadIncludes" runat="server">
@@ -8,27 +9,29 @@
 
     <script type="text/javascript">
         document.write('<style>.noscript { display: none; }</style>');
-	</script>
+    </script>
 
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="main_content">
+    
         <div id="album_carousel">
             <ul id="mycarousel" class="jcarousel-skin-tango">
                 <%
-                    var albums = Model.Gallery.Albums;
-                    for (int index = 0; index < albums.Count; index++)
+                    var albums = Model.AlbumFolders;
+                    for (int index = 0; index < albums.Length; index++)
                     {
                         var album = albums[index];
-                        var landingImageFolder = "/ViewContent/gallery/" + album.Name + "/thumbs";
+                        var landingImageFolder = "/ViewContent/gallery/" + album + "/thumbs";
                 %>
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
                         <div id="album_image_<%= index + 1  %>" class="carousalimg">
-                        <a class="album_link" href="/photogallery/<%=album.Name %>">
-                            <img src="<%=landingImageFolder %>/<%=album.LandingImage %>" alt="" class="carousel_item <%=(Model.SelectedAlbumName == album.Name) ? "carousel_selected" : "" %>" />
-                            <%=album.Title %>
-                        </a></div>
+                            <a class="album_link" href="/photogallery/<%=Server.UrlPathEncode(album.Name) %>">
+                                <img src="<%=landingImageFolder %>/1.jpg" alt="" class="carousel_item <%=(Model.SelectedAlbumFolder == Server.UrlPathEncode(album.Name)) ? "carousel_selected" : "" %>" />
+                                <%=album.Name %>
+                            </a>
+                        </div>
                     </div>
                 </li>
                 <%
@@ -37,7 +40,7 @@
         </div>
         <div id="gallery_container">
             <h1>
-                <%=Model.SelectedAlbum.Title %></h1>
+                <%=Server.UrlDecode(Model.SelectedAlbumFolder) %></h1>
             <div id="gallery" class="content">
                 <div id="controls" class="controls">
                 </div>
@@ -53,23 +56,23 @@
             <div id="thumbs" class="navigation">
                 <ul class="thumbs noscript">
                     <%
-                        var imagesFolder = "/ViewContent/gallery/" + Model.SelectedAlbumName + "/images";
-                        var thumbsFolder = "/ViewContent/gallery/" + Model.SelectedAlbumName + "/thumbs";
-                        var originalsFolder = "/ViewContent/gallery/" + Model.SelectedAlbumName + "/originals";
-                        foreach (var image in Model.SelectedAlbum.Images)
+                        var albumPath = Server.MapPath("/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/thumbs");
+                        var thumbsFolder1 = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/thumbs";
+                        var imagesFolder = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/images";
+                        var originalsFolder = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/originals";
+                        foreach (var imagePath in Directory.GetFiles(Server.UrlDecode(albumPath), "*.jpg"))
                         {
+                            var imageName = imagePath.Split('\\').Last();
                     %>
-                    <li><a class="thumb" name="leaf" href="<%=imagesFolder %>/<%=image.Name %>" title="Title #0">
-                        <img src="<%= thumbsFolder %>/<%=image.Name %>" alt="Title #0" />
+                    <li><a class="thumb" name="leaf" href="<%=imagesFolder %>/<%=imageName %>" title="Title #0">
+                        <img src="<%= thumbsFolder1 %>/<%=imageName %>" alt="<%=imageName %>" />
                     </a>
                         <div class="caption">
                             <div class="download">
-                                <a href="<%=originalsFolder %>/<%=image.Name %>" target="_blank">Download Original</a>
+                                <a href="<%=originalsFolder %>/<%=imageName %>" target="_blank">Download Original</a>
                             </div>
                             <div class="image-title">
-                                <%=image.Title %></div>
-                            <div class="image-desc">
-                                <%=image.Description %></div>
+                                <%=imageName %></div>
                         </div>
                     </li>
                     <% } %>
@@ -136,7 +139,7 @@
             jQuery('#mycarousel').jcarousel({
         });
 
-        });
+    });
 		</script>
 
 </asp:Content>

@@ -8,22 +8,20 @@ namespace guruji.Controllers
     {
         public ActionResult ViewPictureGallery()
         {
-            return ViewFor("/ViewContent/gallery/gallery.xml", "Gallery");
+            var gallery = new PictureGallery(Server.MapPath("/ViewContent/gallery"));
+            return View("Gallery", new PictureGalleryViewModel(GetSelectedAlbum(), gallery.AlbumsFolders));
         }
 
         public ActionResult ViewVideoGallery()
         {
-            return ViewFor("/ViewContent/videos/gallery.xml", "Videos");
+            var gallery = Gallery.ConstructGallery(System.IO.File.ReadAllText(Server.MapPath("/") + "/ViewContent/videos/gallery.xml"));
+            return View("Videos", new VideoGalleryViewModel(GetSelectedAlbum(), gallery.Albums));
         }
 
-        private ActionResult ViewFor(string galleryXmlPath, string view)
+        private string GetSelectedAlbum()
         {
-            var split = Request.Url.AbsolutePath.Split('/');
-            var selectedAlbum = split[split.Length - 1];
-            object albumXml = System.IO.File.ReadAllText(Server.MapPath("/") + galleryXmlPath);
-            var gallery = Gallery.ConstructGallery(albumXml.ToString());
-            var galleryViewModel = new GalleryViewModel(selectedAlbum, gallery);
-            return View(view, galleryViewModel);
+            var pathSplit = Request.Url.AbsolutePath.Split('/');
+            return pathSplit[pathSplit.Length - 1];
         }
     }
 }

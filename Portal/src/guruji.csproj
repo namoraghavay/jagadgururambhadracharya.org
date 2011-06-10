@@ -67,7 +67,7 @@
     <Compile Include="Controllers\LoginHandler.cs" />
     <Compile Include="Controllers\PortalAuthorizeAttribute.cs" />
     <Compile Include="Controllers\PortalSession.cs" />
-    <Compile Include="Domain\Gallery.cs" />
+    <Compile Include="Domain\PictureGallery.cs" />
     <Compile Include="Mappers\EventMapper.cs" />
     <Compile Include="PortalViewMasterPage.cs">
       <SubType>ASPXCodeBehind</SubType>
@@ -77,7 +77,7 @@
     <Compile Include="Services\ProfileService.cs" />
     <Compile Include="ViewModels\EventsViewModel.cs" />
     <Compile Include="ViewModels\NewsViewModel.cs" />
-    <Compile Include="ViewModels\GalleryViewModel.cs" />
+    <Compile Include="ViewModels\PictureGalleryViewModel.cs" />
     <Compile Include="ViewModels\EventForm.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\CustomErrorHandler.cs" />
@@ -111,6 +111,7 @@
     <Compile Include="Repos\Repository.cs" />
     <Compile Include="Repos\UserRoleRepository.cs" />
     <Compile Include="Services\ContentService.cs" />
+    <Compile Include="ViewModels\VideoGalleryViewModel.cs" />
     <Compile Include="ViewServices\Config.cs" />
     <Compile Include="ViewServices\ControllerFileService.cs" />
     <Compile Include="ViewServices\FileService.cs" />
