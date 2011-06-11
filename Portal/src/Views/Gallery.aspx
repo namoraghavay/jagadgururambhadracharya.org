@@ -14,7 +14,6 @@
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="main_content">
-    
         <div id="album_carousel">
             <ul id="mycarousel" class="jcarousel-skin-tango">
                 <%
@@ -28,7 +27,12 @@
                     <div class="carousel-item-container">
                         <div id="album_image_<%= index + 1  %>" class="carousalimg">
                             <a class="album_link" href="/photogallery/<%=Server.UrlPathEncode(album.Name) %>">
-                                <img src="<%=landingImageFolder %>/1.jpg" alt="" class="carousel_item <%=(Model.SelectedAlbumFolder == Server.UrlPathEncode(album.Name)) ? "carousel_selected" : "" %>" />
+                                <%
+                                    var images = Directory.GetFiles(Server.MapPath(landingImageFolder));
+                                    string albumThumb = images.Where(x => x.Split('\\').Last().StartsWith("album_thumb")).FirstOrDefault();
+                                %>
+                                <img src="<%=landingImageFolder %>/<%=albumThumb.Split(Convert.ToChar("\\")).Last() %>"
+                                    alt="" class="carousel_item <%=(Model.SelectedAlbumFolder == Server.UrlPathEncode(album.Name)) ? "carousel_selected" : "" %>" />
                                 <%=album.Name %>
                             </a>
                         </div>
@@ -64,15 +68,16 @@
                         {
                             var imageName = imagePath.Split('\\').Last();
                     %>
-                    <li><a class="thumb" name="leaf" href="<%=imagesFolder %>/<%=imageName %>" title="Title #0">
+                    <li><a class="thumb" name="leaf" href="<%=imagesFolder %>/<%=imageName.Replace("album_thumb", "") %>">
                         <img src="<%= thumbsFolder1 %>/<%=imageName %>" alt="<%=imageName %>" />
                     </a>
                         <div class="caption">
                             <div class="download">
-                                <a href="<%=originalsFolder %>/<%=imageName %>" target="_blank">Download Original</a>
+                                <a href="<%=originalsFolder %>/<%=imageName.Replace("album_thumb", "") %>" target="_blank">
+                                    Download Original</a>
                             </div>
                             <div class="image-title">
-                                <%=imageName %></div>
+                                <%=imageName.Replace("album_thumb", "").Split('.').First()%></div>
                         </div>
                     </li>
                     <% } %>
