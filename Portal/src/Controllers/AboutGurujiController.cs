@@ -6,17 +6,17 @@ namespace guruji.Controllers
     {
         public ActionResult Biography()
         {
-            return ViewForHtml("biography");
+            return HtmlViewFor("biography");
         }
 
         public ActionResult LiteratureHome()
         {
-            return ViewForHtml("literatureHome");
+            return HtmlViewFor("literatureHome");
         }
 
         public ActionResult Awards()
         {
-            return ViewForHtml("awards");
+            return HtmlViewFor("awards");
         }
     }
 }

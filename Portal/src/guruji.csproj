@@ -134,7 +134,6 @@
     <Content Include="ViewContent\flash\jwplayer.swf" />
     <Content Include="ViewContent\html\biography.html" />
     <Content Include="ViewContent\html\awards.html" />
-    <Content Include="ViewContent\html\literatureHome.html" />
     <Content Include="ViewContent\images\events\event1.jpg" />
     <Content Include="ViewContent\images\footer.jpg" />
     <Content Include="ViewContent\images\logo.jpg" />
@@ -212,6 +211,7 @@
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\2.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\3.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
+    <Content Include="ViewContent\html\literatureHome.html" />
     <Content Include="ViewContent\html\jrhu.html" />
     <Content Include="ViewContent\images\ad_next.png" />
     <Content Include="ViewContent\images\ad_prev.png" />
