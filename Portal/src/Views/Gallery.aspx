@@ -72,12 +72,12 @@
                         <img src="<%= thumbsFolder1 %>/<%=imageName %>" alt="<%=imageName %>" />
                     </a>
                         <div class="caption">
+                            <div class="image-title">
+                                <%=imageName.Replace("album_thumb", "").Split('.').First()%></div>
                             <div class="download">
                                 <a href="<%=originalsFolder %>/<%=imageName.Replace("album_thumb", "") %>" target="_blank">
                                     Download Original</a>
                             </div>
-                            <div class="image-title">
-                                <%=imageName.Replace("album_thumb", "").Split('.').First()%></div>
                         </div>
                     </li>
                     <% } %>
@@ -118,10 +118,10 @@
                 loadingContainerSel: '#loading',
                 renderSSControls: true,
                 renderNavControls: true,
-                playLinkText: 'Play Slideshow',
-                pauseLinkText: 'Pause Slideshow',
-                prevLinkText: '&lsaquo; Previous Photo',
-                nextLinkText: 'Next Photo &rsaquo;',
+                playLinkText: 'Play',
+                pauseLinkText: 'Pause',
+                prevLinkText: '&lsaquo;&lsaquo; Previous',
+                nextLinkText: 'Next &rsaquo;&rsaquo;',
                 nextPageLinkText: 'Next &rsaquo;',
                 prevPageLinkText: '&lsaquo; Prev',
                 enableHistory: false,
