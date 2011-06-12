@@ -10,6 +10,7 @@
     <script type="text/javascript">
         document.write('<style>.noscript { display: none; }</style>');
     </script>
+    <title>Photo Gallery</title>
 
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">

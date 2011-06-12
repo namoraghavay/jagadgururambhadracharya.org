@@ -62,6 +62,7 @@
     <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\AboutGurujiController.cs" />
+    <Compile Include="ViewModels\HtmlPageViewModel.cs" />
     <Compile Include="Controllers\SocialServiceController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\LoginHandler.cs" />

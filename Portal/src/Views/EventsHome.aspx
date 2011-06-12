@@ -2,6 +2,14 @@
 
 <%@ Import Namespace="guruji.Domain" %>
 <%@ Import Namespace="guruji.ViewModels" %>
+<asp:Content ID="title" ContentPlaceHolderID="Javascript" runat="server">
+    <% if (Model.DefaultTab.Equals(EventsKathasTabs.Katha))
+       { %>
+        <title>Upcoming Kathas</title>
+    <% } else { %>
+        <title>Upcoming Other Programs</title>        
+    <%} %>
+</asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">
         <img alt="" src="https://lh3.googleusercontent.com/-qxFjVNS98NU/TeelS46U0KI/AAAAAAAAAB8/NsQ4iTbVLek/kathas_featured.jpg" />

@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage" %>
-
+<asp:Content ID="head" ContentPlaceHolderID="HeadIncludes" runat="server">
+    <title>Donate to JRHU</title>
+</asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">
         <img alt="JRHU" src="https://lh4.googleusercontent.com/-hEQsEPhGnTE/Te0FK-HPKyI/AAAAAAAAADI/whcAbtxA5j4/u4.jpg" />
