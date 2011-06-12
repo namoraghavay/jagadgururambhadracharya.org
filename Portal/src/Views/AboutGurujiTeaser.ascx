@@ -5,12 +5,14 @@
         Know About Guruji</h3>
     <img src="/ViewContent/images/events/event1.jpg" width="220" height="75" class="section_img" />
     <p>
-        The one Lord of the universe, Śrī Rāma, wished him not to see the horrors of Kaliyuga,
-        but regale in the sight of mother Sītā and Lord Rāma through divine internal vision;
-        the very same vision with which Arjuna and Sañjaya saw the universal form of the
-        Lord in the battlefield of Kurukṣetra. At the age of two months...
+		A living legend - bereft of phsical vision since infancy, child prodigy, 
+		all time gold-medalist, first Sanskrit commentator on Prasthānatrayī in 500 years, 
+		founder and chancellor of a university for disabled, speaker of 22 languages, 
+		prolific composer of 80+ works, a Guru with unparalleled knowledge and genius ... 
     </p>
     <div class="controls">
         <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.Biography)) %>">Read More ></a>
     </div>
 </div>
+
+
