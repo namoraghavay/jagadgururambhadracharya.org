@@ -74,7 +74,6 @@
                     You may use this receipt for claiming tax exemption under sections 80G and 35AC
                     of the Income Tax Act.</strong></p>
         </div>
-    </div>
         <div class="page_quote">
             <h1>
 				॥ दान परशु बुधि शक्ति प्रचंडा ॥</h1>
@@ -83,4 +82,5 @@
             <p>
                 - The Rāmcaritamānasa (6.80.8) </p>
         </div>
+    </div>
 </asp:Content>
