@@ -91,9 +91,34 @@
 			<Description>An Intoduction to JRHU</Description>
 			<Videos>
 				<Video>
-					<Title>Hindi</Title>
+					<Title>Hindi Introduction</Title>
 					<Id>1</Id>
 					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4_yOkZIcyk8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>JRHU - Part 1 of 5</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/z6brlzyph9c" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>JRHU - Part 2 of 5</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4ZtTzshYO_I" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>JRHU - Part 3 of 5</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/qpNV7wC5odk" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>JRHU - Part 4 of 5</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/lD5M1BJDPAM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>JRHU - Part 5 of 5</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/bgO0IU36Kpg" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 			</Videos>
 		</Album>
