@@ -5,7 +5,7 @@
         Know About Guruji</h3>
     <img src="/ViewContent/images/events/event1.jpg" width="220" height="75" class="section_img" />
     <p>
-		A living legend - bereft of phsical vision since infancy, child prodigy, 
+		A living legend - wihout physical eyesight since infancy, child prodigy, 
 		all time gold-medalist, first Sanskrit commentator on Prasthānatrayī in 500 years, 
 		founder and chancellor of a university for disabled, speaker of 22 languages, 
 		prolific composer of 80+ works, a Guru with unparalleled knowledge and genius ... 
