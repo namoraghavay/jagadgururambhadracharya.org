@@ -107,7 +107,7 @@
 }
 
 .nivo-controlNav {
-    bottom: 0;
+    bottom: 7px;
     left: 0px;
     position: absolute;
     color:White;
@@ -116,9 +116,14 @@
 	display:block;
 	margin-left:6px;
 	float:left;
+	 text-indent:-2000px;
+	 width:9px; 
+	 height:20px;	
 }
-.nivo-controlNav a.active {
-	background-position:0 -22px;
+
+.nivo-controlNav a.nivo-control {background:url(/ViewContent/images/bullet.png) no-repeat -5px 5px;}
+.nivo-controlNav a.nivo-control.active {
+	background:url(/ViewContent/images/bullet.png) no-repeat -21px 5px;
 }
 
 .nivo-directionNav a {

@@ -1,8 +1,8 @@
 body { font: 400 normal 14px/20px 'Droid Sans', "Arial", Arial, Helvetica, sans-serif; }
-body { background:#f6f6f6; color: #000; margin:0; padding:0; }
+body { background:#fffdf4; color: #000; margin:0; padding:0; }
 strong {color:#493E2C;}
 /*header*/
-.header_wrap { width:100%;background:#f1dd98; }
+.header_wrap { width:100%;background:#5a4939; }
 a {outline:0;border:0;}
 .logo a {margin-left:-3px;}
 .header, .footer, .featured_area, .main_content { width:960px; margin:0 auto; }
@@ -15,31 +15,31 @@ a:active, a:hover { color: #ff4b33; }
 h1.logo { padding: 18px 0 0; float:left;}
 /*naivgation*/
 .nav_wrap { clear:both; background: url(/ViewContent/images/nav_bg.jpg) repeat-x scroll left top; height: 40px; }
-.nivo-controlNav {background: url("/ViewContent/images/opa75.png") repeat scroll left top transparent;color: #493E2C;padding-right: 10px;z-index: 99;}
+.nivo-controlNav {color: #493E2C;padding-right: 10px;z-index: 99;}
 .primary_navigation { margin:0 auto; width:960px; position:relative; z-index:1000; }
 #nav { }
 #nav, #nav ul { position:relative; float:left; list-style-type:none }
 #nav a { color: #4f250f; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; padding: 9px 20px 9px 10px; display:block; }
 #nav a:hover { color:#c25a25 }
-#nav li { float:left; position:relative; padding: 0 0 0 10px; height: 42px; margin:0 1px; -moz-border-radius:0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);}
+#nav li { float:left; position:relative; padding: 0 0 0 10px; height: 40px; margin:0 1px; behavior: url(/ViewContent/css/PIE.htc);}
 #nav li.last a { background-image:none; }
-#nav ul { position:absolute; display:none; width:auto; top:40px; background:#4F250F; padding:10px 0; left:0px; }
-#nav li ul a { width:12em; height:auto; float:left; color:#c25a25; padding: 0px 10px 0 20px; text-transform:none; display:block; text-align:left; }
-#nav li.on.trigger { cursor:default; background-color:#f1ead0; display:block; }
-#nav li.current { background: url(/ViewContent/images/nav_current.jpg) repeat-x scroll left top; display:block; -moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);}
+#nav ul { position:absolute; display:none; width:auto; top:40px; background:#5a4939; padding:10px 0; left:0px; }
+#nav li ul a { width:12em; height:auto; float:left; color:#c25a25; padding: 5px 10px 5px 20px; text-transform:none; display:block; text-align:left; }
+#nav li.on.trigger { cursor:default;  background: url(/ViewContent/images/nav_current.jpg) repeat-x scroll left top; display:block; }
+#nav li.current { background: url(/ViewContent/images/nav_current.jpg) repeat-x scroll left top; display:block; behavior: url(/ViewContent/css/PIE.htc);}
 #nav li.current a { color:#F6F6F6;}
 #nav li.on.trigger a:hover { color:#F6F6F6;}
 #nav li.on.trigger ul li a { cursor:pointer; }
 #nav li ul a:hover, #nav li.on.trigger ul li a:hover { color:#c25a25; background:#f1ead0; }
-#nav li.on.trigger { background:#4F250F; }
-#nav li.on.trigger a { color:#c25a25; }
+#nav li.on.trigger { background: url(/ViewContent/images/nav_current.jpg) repeat-x scroll left top; }
+#nav li.on.trigger a { color:#fff; }
 #nav ul ul { top:auto; }
 #nav li ul li { padding:0; }
 #nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul { display:none; }
 #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul { display:block; -moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);}
-#nav .sub_menu li {height:35px;}
+#nav .sub_menu li {height:auto;}
 /*banner*/
-.banner { width:960px; margin:0 auto; height:250px;}
+.banner { width:960px; margin:10px auto; height:250px; background: url(/ViewContent/images/sliderShadow.png) repeat-x scroll left bottom;padding-bottom:42px;}
 .featured_img { width:960px; margin:0 auto; height:200px;}
 /*news tickr*/
 .news_tickr { background: none repeat scroll 0 0 #DCA165; height: 20px; padding: 10px; width: 940px; color:#4F250F; font:16px "Trebuchet MS",Arial,Helvetica,sans-serif;-moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);}
