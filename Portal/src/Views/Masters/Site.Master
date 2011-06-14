@@ -1,3 +1,4 @@
+<%@ Import Namespace="guruji.ViewServices"%>
 <%@ Master Language="C#" Inherits="guruji.PortalViewMasterPage" %>
 
 <%@ Import Namespace="guruji.Controllers" %>
@@ -40,11 +41,33 @@
                 $('#slider').nivoSlider({ pauseTime: 5000, pauseOnHover: false });
             });
         </script>
+        
+        <script type="text/javascript">
+            function GetUserDetails() {
+                if (FB._userStatus == 'connected') {
+                    var imgUrl = "https://graph.facebook.com/" + FB._session.uid + "/picture";
+                    $('.fb_login img').attr('src', imgUrl);
+                    $('.fb_login img').show();
+                    var loginUrl = '/fconnect?' + FB._session.uid;
+                    var args = { url: loginUrl, cache: false };
+                    $.ajax(args);
+                } else {
+                    $('.fb_login img').hide();
+                    var logoutUrl = '/flogout';
+                    var args = { url: logoutUrl, cache: false };
+                    $.ajax(args);
+                }
+            }
+
+            function alertme() {
+                alert("call back");
+            }
+        </script>
 
         <script type="text/javascript">
             window.fbAsyncInit = function() {
                 FB.init({
-                    appId: '133735100037870',
+                    appId: '<%=Config.FacebookAppId %>',
                     status: true,
                     cookie: true,
                     xfbml: true

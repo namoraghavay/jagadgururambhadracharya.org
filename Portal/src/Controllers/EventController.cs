@@ -25,7 +25,7 @@ namespace guruji.Controllers
             return GetUpcomingEvents();
         }
 
-        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest)]
+        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest | UserRole.Facebook)]
         public ActionResult GetUpcomingEvents()
         {
             var eventsViewModel = new EventsViewModel
@@ -36,7 +36,7 @@ namespace guruji.Controllers
             return View("EventsHome", eventsViewModel);
         }
 
-        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest)]
+        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest | UserRole.Facebook)]
         public ActionResult GetUpcomingKathas()
         {
             var kathasViewModel = new EventsViewModel

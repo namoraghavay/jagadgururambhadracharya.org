@@ -23,5 +23,10 @@ namespace guruji.ViewServices
         {
             get { return ConfigurationManager.AppSettings["WebmasterEmail"]; }
         }
+
+        public static string FacebookAppId
+        {
+            get { return ConfigurationManager.AppSettings["FacebookAppId"]; }
+        }
     }
 }

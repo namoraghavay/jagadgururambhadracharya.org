@@ -1,4 +1,6 @@
 <%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
+<%@ Import Namespace="guruji.Domain"%>
+<%@ Import Namespace="guruji.Controllers"%>
 <%@ Import Namespace="guruji.ViewModels" %>
 <div class="header_wrap">
     <div>
@@ -7,7 +9,16 @@
                 <a href="/default" title="Homepage">
                     <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
             <div class="fb_login">
-                <fb:login-button autologoutlink="true"></fb:login-button>
+                <%
+                    var portalUser = new PortalSession().PortalUser;
+                    var userImage = "";
+                    if (portalUser.Role.Equals(UserRole.Facebook))
+                    {
+                        userImage = "https://graph.facebook.com/" + ((FacebookUser) portalUser).FacebookId + "/picture";
+                    }                        
+                %>
+                <img src="<%=userImage %>" alt="user_image" class='<%= string.IsNullOrEmpty(userImage) ? "hide" : "show" %>' />
+                <fb:login-button autologoutlink="true" onlogin="javascript:GetUserDetails();"></fb:login-button>
                 <div id="fb-root">
                 </div>
             </div>

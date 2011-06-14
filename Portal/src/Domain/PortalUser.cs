@@ -40,6 +40,11 @@ namespace guruji.Domain
         }
     }
 
+    public class FacebookUser : PortalUser
+    {
+        public string FacebookId { get; set; }
+    }
+
     public enum UserStatus
     {
         Active,
@@ -52,6 +57,7 @@ namespace guruji.Domain
     {
         Guest = 0,
         General = 1,
-        Admin = 2
+        Admin = 2,
+        Facebook = 4
     }
 }

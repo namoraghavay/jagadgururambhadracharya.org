@@ -104,6 +104,7 @@ h2 {color: #493E2C; font-size: 18px; font-weight: 700; line-height: 1.2; text-tr
 .page_quote h1 {font-size:1.1em;}
 
 .hide {display:none;}
+.show {display:block;}
 .spacer {width:900px; border:border-style:dotted;}
 .first_letter {font-size:1.5em;font-weight:bold;}
 .second_letter {font-size:1.5em;}
@@ -145,7 +146,8 @@ iframe {border: 2px solid #4F250F;padding: 2px;}
 .phone_number {border-left: 1px dotted #CCCCCC;border-right: 1px dotted #CCCCCC;margin:0 10px;padding:0 5px;}
 
 /*facebook*/
-.fb_login {float:right;margin-right:10px;}
+.fb_login {float:right;}
+.fb_login img {float: left;margin-right: 10px;border:1px solid;}
 
 /*Donation Page*/
 .donate_modes {border-bottom: 1px dotted #CCCCCC;clear: both;margin-bottom: 20px;overflow: hidden;}

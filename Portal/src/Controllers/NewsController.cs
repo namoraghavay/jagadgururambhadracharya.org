@@ -26,7 +26,7 @@ namespace guruji.Controllers
             return GetTulsipeethNews();
         }
 
-        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest)]
+        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest | UserRole.Facebook)]
         public ActionResult GetTulsipeethNews()
         {
             var newsItems = contentService.GetNewsItems();
@@ -38,7 +38,7 @@ namespace guruji.Controllers
             return View("NewsHome", tulsipeethNewsModel);
         }
 
-        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest)]
+        [PortalAuthorize(Roles = UserRole.Admin | UserRole.General | UserRole.Guest | UserRole.Facebook)]
         public ActionResult GetMediaNews()
         {
             var newsItems = contentService.GetNewsItems();

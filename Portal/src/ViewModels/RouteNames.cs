@@ -4,6 +4,8 @@ namespace guruji.ViewModels
     {
         Root, Biography, Literature, Awards, KathasSchedule, OtherProgramsSchedule, TulsipeethNews, MediaNews, PhotoGallery, VideoGallery,
         JRHU,
-        JRHUDonate
+        JRHUDonate,
+        FConnect,
+        FLogout
     }
 }
