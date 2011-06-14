@@ -40,7 +40,7 @@ h1.logo { padding: 18px 0 0; float:left;}
 #nav .sub_menu li {height:auto;}
 /*banner*/
 .banner { width:960px; margin:10px auto; height:250px; background: url(/ViewContent/images/sliderShadow.png) repeat-x scroll left bottom;padding-bottom:42px;}
-.featured_img { width:960px; margin:0 auto; height:200px;}
+.featured_img { background: url("/ViewContent/images/sliderShadow.png") repeat-x scroll left bottom transparent;height: 241px;margin: 10px auto 0;width: 960px;}
 /*news tickr*/
 .news_tickr { background: none repeat scroll 0 0 #DCA165; height: 20px; padding: 10px; width: 940px; color:#4F250F; font:16px "Trebuchet MS",Arial,Helvetica,sans-serif;-moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);}
 /*sections*/
