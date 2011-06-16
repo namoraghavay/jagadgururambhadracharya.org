@@ -107,18 +107,18 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: white;display: block;font-
 
 
 .main_content {clear:both; }
-.left_box {width:460px;float:left;margin-top:10px;}
-.left_box.border_right {border-right:1px dotted #CCCCCC; padding-right:20px;}
-.right_box {width:460px;float:right;margin-top:10px;}
+.left_box {width:458px;float:left;margin-top:10px;}
+.left_box.border_right {padding-right:20px;}
+.right_box {width:458px;float:right;margin-top:10px;padding-left:20px;border-left:1px dotted #CCCCCC;}
 
-.content_section {width:460px; padding-bottom:15px; margin-bottom:15px; border-bottom:1px dotted #CCCCCC;text-align: justify;overflow:hidden;}
+.content_section {width:458px; padding-bottom:15px; margin-bottom:15px; border-bottom:1px dotted #CCCCCC;text-align: justify;overflow:hidden;}
 .content_section p {margin-bottom:5px; text-align:justify;}
 .content_section.last {margin-bottom:0px; border:none;}
 
 .img_content {float:left;padding:0 0 20px 12px;width:189px;}
 .content_section  p.quote,span.quote {margin:10px 0px; font-weight:bold; color:#5A4939; font-family:Arial Unicode MS; font-size:1.1em;}
 
-.page_quote { float: left;text-align: center;width: 960px;font-family:Arial Unicode MS;margin-bottom:30px;}
+.page_quote { float: left;text-align: center;width: 960px;font-family:Arial Unicode MS;margin-bottom:25px;}
 .page_quote h1 {color: #F26522;font-size:1.1em;}
 .page_quote p {color: #5A4939;}
 
@@ -136,6 +136,7 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: white;display: block;font-
 
 /* Video */
 .video_playlist { float: left;margin: 20px;width: 180px;}
+.video_playlist ul {display:block;overflow:hidden; background:#f6f6f6;-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;box-shadow: 0 0 29px #000000;text-align:center;behavior: url(/ViewContent/css/PIE.htc);}
 .youtube_iframes {margin-top:20px;}
 .video_selected {background:#FFC469;color:#F6F6F6;}
 
@@ -161,7 +162,7 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: white;display: block;font-
 /*tabs*/
 .tabs {padding:0 10px;}
 
-iframe {border: 2px solid #4F250F;padding: 2px;}
+iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;box-shadow: 0 0 29px #000000;margin: 18px 0 30px 80px;behavior: url(/ViewContent/css/PIE.htc);}
 
 /*footer*/
 .footer_wrap { background:#f1dd98 url(/ViewContent/images/footer.jpg); height: 138px; clear: both;margin-top:10px;}
@@ -190,12 +191,15 @@ iframe {border: 2px solid #4F250F;padding: 2px;}
 .content_section li{font-size:0.9em;}
 
 /*Overlay Styles*/
-.simple_overlay {display:none;z-index:10000;background-color:#333;width:675px;min-height:200px;border:1px solid #666;-moz-box-shadow:0 0 90px 5px #000;-webkit-box-shadow: 0 0 90px 5px #000;box-shadow: 0 0 90px 5px #000;behavior: url(/ViewContent/css/PIE.htc);}
+.simple_overlay {height:380px;display:none;z-index:10000;background-color:#F99D1C;width:714px;border:1px solid #666;-moz-box-shadow:0 0 90px 5px #000;-webkit-box-shadow: 0 0 90px 5px #000;box-shadow: 0 0 90px 5px #000;behavior: url(/ViewContent/css/PIE.htc);}
 .simple_overlay .close {background-image:url(/ViewContent/images/close.png);position:absolute;right:-15px;top:-15px;cursor:pointer;height:35px;width:35px;}
 #triggers {margin-left:5px;}
 #triggers img:hover{background-color: #AABBAA;border:1px solid #AABBAA;}
 #triggers img {cursor:pointer;margin:0 25px 35px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 30px #000000;-moz-box-shadow: 0px 0px 30px #000000;box-shadow:0px 0px 30px #000000;behavior: url(/ViewContent/css/PIE.htc);}
 
-.simple_overlay .content {position:absolute;top:28px;right:34px;font-size:11px;color:#fff;width:435px;}
-.simple_overlay h3 {color:#aba;font-size:15px;margin: 10px 0 10px 10px;}
+.simple_overlay .content {position:absolute;top:28px;right:20px;font-size:12px;color:#001722;width:486px;text-align:justify;}
+.simple_overlay h3 {color:#001722;font-size:16px;margin: 10px 0 10px 10px;}
 .simple_overlay img {border: 2px solid #AABBAA;}
+
+#album_carousel {
+}

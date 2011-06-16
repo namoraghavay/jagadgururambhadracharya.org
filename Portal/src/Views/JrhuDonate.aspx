@@ -13,9 +13,7 @@
             <h1>
                 ॥ धनाद्धर्मः ततःसुखम् ॥</h1>
             <p>
-                From wealth one obtains Dharma, and from Dharma one obtains [true] happiness.</p>
-            <p>
-                - The Hitopadeśa</p>
+                From wealth one obtains Dharma, and from Dharma one obtains [true] happiness - The Hitopadeśa</p>
         </div>
         <div class="donate_modes">
             <div class="left_box border_right">
@@ -78,9 +76,7 @@
             <h1>
 				॥ दान परशु बुधि शक्ति प्रचंडा ॥</h1>
             <p>
-				[In the chariot of Dharma,] charity is the axe and reason the formidable lance.
-            <p>
-                - The Rāmcaritamānasa (6.80.8) </p>
+				[In the chariot of Dharma,] charity is the axe and reason the formidable lance - The Rāmcaritamānasa (6.80.8)
         </div>
     </div>
 </asp:Content>

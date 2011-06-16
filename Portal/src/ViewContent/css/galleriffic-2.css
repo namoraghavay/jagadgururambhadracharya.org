@@ -54,7 +54,11 @@ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.sli
 }
 div.slideshow img {
 	vertical-align: middle;
+	-moz-box-shadow: 0 17px 69px #000000;
+	-webkit-box-shadow: 0 17px 69px #000000;
+	box-shadow: 0 17px 69px #000000;
 	border: 1px solid #ccc;
+	behavior: url(/ViewContent/css/PIE.htc);
 }
 div.download {
 	float: right;
