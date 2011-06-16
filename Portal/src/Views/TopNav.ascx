@@ -8,6 +8,9 @@
             <h1 class="logo">
                 <a href="/default" title="Homepage">
                     <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
+            <div class="" >
+                
+            </div>        
             <div class="fb_login">
                 <%
                     var portalUser = new PortalSession().PortalUser;
