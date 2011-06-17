@@ -5,19 +5,18 @@ div.content {
 	width: 708px; 
 }
 div.controls {
-	height: 23px;
-    margin: 5px auto;
+	height: 22px;border: 1px solid #CCCCCC;
+    margin: 10px auto 14px;
     overflow: hidden;
-    width: 165px;}
+    width: 180px;}
 div.controls a {
-	padding: 5px;
+	padding: 8px;
 }
 div.ss-controls {
 	float: left;
-	width:50px;
+	width:50px;border-right: 1px solid #CCCCCC;text-align: center;
 }
-div.nav-controls {
-}
+div.nav-controls a.prev{border-right: 1px solid #CCCCCC;}
 div.slideshow-container {
 	position: relative;
 	clear: both;
@@ -54,19 +53,19 @@ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.sli
 }
 div.slideshow img {
 	vertical-align: middle;
-	-moz-box-shadow: 0 0 33px #000000;
+	-moz-box-shadow: 0 0 25px #000000;
 	-webkit-box-shadow: 0 0 33px #000000;
 	box-shadow: 0 0 33px #000000;
-	border: 1px solid #ccc;
 	behavior: url(/ViewContent/css/PIE.htc);
-	max-height: 502px;}
+	max-height: 502px;margin-left:-17px;}
 div.download {
-	float: right;
+	text-align: center;
 }
 div.caption-container {
 	position: relative;
 	clear: left;
 	height: 75px;
+	margin:20px auto;
 }
 span.image-caption {
 	display: block;
@@ -76,11 +75,11 @@ span.image-caption {
 	left: 0;
 }
 div.caption {
-	padding: 12px;
+	padding-left: 5px;
 }
 div.image-title {
-	font-weight: bold;
-	font-size:0.85em;
+	font-weight: normal;
+	font-size:12px;
 	text-align:center;
 }
 div.image-desc {
@@ -149,3 +148,4 @@ div.pagination span.ellipsis {
 	border: none;
 	padding: 5px 0 3px 2px;
 }
+div.controls .pause {background-color:#FF8C00;color:#f6f6f6;}
