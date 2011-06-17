@@ -8,13 +8,13 @@ div.controls {
 	height: 23px;
     margin: 5px auto;
     overflow: hidden;
-    width: 150px;}
+    width: 165px;}
 div.controls a {
 	padding: 5px;
 }
 div.ss-controls {
 	float: left;
-	width:33px;
+	width:50px;
 }
 div.nav-controls {
 }
@@ -59,7 +59,7 @@ div.slideshow img {
 	box-shadow: 0 17px 69px #000000;
 	border: 1px solid #ccc;
 	behavior: url(/ViewContent/css/PIE.htc);
-}
+	height: 502px;}
 div.download {
 	float: right;
 }
@@ -122,8 +122,9 @@ div.pagination {
 	clear: both;
 }
 div.navigation div.top {
-	margin-bottom: 12px;
-	height: 11px;
+	height: 33px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 div.navigation div.bottom {
 	margin-top: 12px;
@@ -141,8 +142,8 @@ div.pagination a:hover {
 }
 div.pagination span.current {
 	font-weight: bold;
-	background-color: #000;
-	border-color: #000;
+	background-color: #FF8C00;
+	border-color: #FF8C00;
 	color: #fff;
 }
 div.pagination span.ellipsis {

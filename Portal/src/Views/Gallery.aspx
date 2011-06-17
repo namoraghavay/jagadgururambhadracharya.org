@@ -44,8 +44,7 @@
             </ul>
         </div>
         <div id="gallery_container">
-            <h1>
-                <%=Server.UrlDecode(Model.SelectedAlbumFolder) %></h1>
+            <p class="page_heading"><%=Server.UrlDecode(Model.SelectedAlbumFolder) %></p>
             <div id="gallery" class="content">
                 <div id="controls" class="controls">
                 </div>
