@@ -54,12 +54,12 @@ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.sli
 }
 div.slideshow img {
 	vertical-align: middle;
-	-moz-box-shadow: 0 17px 69px #000000;
-	-webkit-box-shadow: 0 17px 69px #000000;
-	box-shadow: 0 17px 69px #000000;
+	-moz-box-shadow: 0 0 33px #000000;
+	-webkit-box-shadow: 0 0 33px #000000;
+	box-shadow: 0 0 33px #000000;
 	border: 1px solid #ccc;
 	behavior: url(/ViewContent/css/PIE.htc);
-	height: 502px;}
+	max-height: 502px;}
 div.download {
 	float: right;
 }
@@ -74,7 +74,6 @@ span.image-caption {
 	width: 705px;
 	top: 0;
 	left: 0;
-	background: url("/ViewContent/images/opa75.png") repeat scroll left top transparent;
 }
 div.caption {
 	padding: 12px;
