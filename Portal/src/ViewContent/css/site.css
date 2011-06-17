@@ -181,7 +181,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .phone_number {border-left: 1px dotted #CCCCCC;border-right: 1px dotted #CCCCCC;margin:0 10px;padding:0 5px;}
 
 /*facebook*/
-.fb_login {float:right;}
+.fb_login {float:right;width:178px;}
 .fb_login img {float: left;margin-right: 10px;border:1px solid;}
 
 /*Donation Page*/

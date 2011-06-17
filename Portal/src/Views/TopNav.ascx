@@ -20,10 +20,10 @@
                         userImage = "https://graph.facebook.com/" + ((FacebookUser) portalUser).FacebookId + "/picture";
                     }                        
                 %>
-                <img src="<%=userImage %>" alt="user_image" class='<%= string.IsNullOrEmpty(userImage) ? "hide" : "show" %>' />
-                <fb:login-button autologoutlink="true" onlogin="javascript:GetUserDetails();"></fb:login-button>
+                <fb:login-button autologoutlink="true" onlogin="javascript:GetUserDetails();" style="float:right"></fb:login-button>
                 <div id="fb-root">
                 </div>
+                <img src="<%=userImage %>" alt="user_image" class='<%= string.IsNullOrEmpty(userImage) ? "hide" : "show" %>' />
             </div>
         </div>
     </div>
