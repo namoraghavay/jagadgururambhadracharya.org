@@ -10,7 +10,7 @@
     <%}
        else
        { %>
-    <title>Guruji in Media</title>
+    <title>Rambhadracharya - Jagadguru Rambhadracharya in Media</title>
     <%} %>
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">

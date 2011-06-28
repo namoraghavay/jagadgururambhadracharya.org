@@ -3,7 +3,7 @@
 <asp:Content ID="styleContent" ContentPlaceHolderID="StyleSheet" runat="server">
 </asp:Content>
 <asp:Content ID="headContent" ContentPlaceHolderID="HeadIncludes" runat="server">
-    <title>Jagadguru Rambhadracharya</title>
+    <title>Rambhadracharya - Official Site</title>
 </asp:Content>
 <asp:Content ID="scriptContent" ContentPlaceHolderID="Javascript" runat="server">
     <asp:ContentPlaceHolder ID="Javascript" runat="server" />

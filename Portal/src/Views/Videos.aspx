@@ -9,7 +9,7 @@
         document.write('<style>.noscript { display: none; }</style>');
     </script>
     
-    <title>Videos</title>
+    <title>Rambhadracharya - Multimedia Videos</title>
 
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">

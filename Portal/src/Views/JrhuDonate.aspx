@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage" %>
 <asp:Content ID="head" ContentPlaceHolderID="HeadIncludes" runat="server">
-    <title>Donate to JRHU</title>
+    <title>Rambhadracharya - Donate to Jagadguru Rambhadracharya Handicapped University, Chitrakoot</title>
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">

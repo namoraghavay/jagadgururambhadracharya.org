@@ -10,7 +10,7 @@
     <script type="text/javascript">
         document.write('<style>.noscript { display: none; }</style>');
     </script>
-    <title>Photo Gallery</title>
+    <title>Rambhadracharya - Photo Gallery</title>
 
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
@@ -107,7 +107,7 @@
             // Initialize Advanced Galleriffic Gallery
             var gallery = $('#thumbs').galleriffic({
                 delay: 2500,
-                numThumbs: 15,
+                numThumbs: 10,
                 preloadAhead: 10,
                 enableTopPager: true,
                 enableBottomPager: true,
