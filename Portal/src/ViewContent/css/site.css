@@ -201,7 +201,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .simple_overlay .close {background-image:url(/ViewContent/images/close.png);position:absolute;right:-15px;top:-15px;cursor:pointer;height:35px;width:35px;}
 #triggers {margin-left:5px;}
 #triggers img:hover{background-color: #AABBAA;border:1px solid #AABBAA;}
-#triggers img {cursor:pointer;margin:0 25px 35px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 30px #000000;-moz-box-shadow: 0px 0px 30px #000000;box-shadow:0px 0px 30px #000000;behavior: url(/ViewContent/css/PIE.htc);}
+#triggers img {cursor:pointer;margin:0 25px 35px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 12px #000000;-moz-box-shadow: 0px 0px 12px #000000;box-shadow:0px 0px 12px #000000;behavior: url(/ViewContent/css/PIE.htc);}
 
 .simple_overlay .content {position:absolute;top:28px;right:20px;font-size:12px;color:#000000;width:486px;text-align:justify;}
 .simple_overlay h3 {color:#001722;font-size:16px;margin: 10px 0 10px 10px;}
