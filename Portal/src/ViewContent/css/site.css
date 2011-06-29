@@ -187,7 +187,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .phone_number {border-left: 1px dotted #CCCCCC;border-right: 1px dotted #CCCCCC;margin:0 10px;padding:0 5px;}
 
 /*facebook*/
-.fb_login {float:right;width:177px;}
+.fb_login {float:right;width:193px;}
 .fb_login img {float: left;margin-right: 10px;border:1px solid;}
 
 /*Donation Page*/
@@ -199,7 +199,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 /*Lightbox Styles*/
 .simple_overlay {height:380px;display:none;z-index:10000;background-color:#FF8C00;width:714px;border:1px solid #666;-moz-box-shadow:0 0 90px 5px #000;-webkit-box-shadow: 0 0 90px 5px #000;box-shadow: 0 0 90px 5px #000;behavior: url(/ViewContent/css/PIE.htc);}
 .simple_overlay .close {background-image:url(/ViewContent/images/close.png);position:absolute;right:-15px;top:-15px;cursor:pointer;height:35px;width:35px;}
-#triggers {margin-left:5px;}
+#triggers {margin-left:10px;}
 #triggers img:hover{background-color: #AABBAA;border:1px solid #AABBAA;}
 #triggers img {cursor:pointer;margin:0 25px 35px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 12px #000000;-moz-box-shadow: 0px 0px 12px #000000;box-shadow:0px 0px 12px #000000;behavior: url(/ViewContent/css/PIE.htc);}
 

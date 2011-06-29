@@ -6,7 +6,7 @@
     <div>
         <div class="header">
             <h1 class="logo">
-                <a href="/default" title="Homepage">
+                <a href="/" title="Homepage">
                     <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
             
             <%Html.RenderPartial("ContactUs"); %>
