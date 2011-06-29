@@ -232,6 +232,7 @@
     <Content Include="ViewContent\videos\lankadahan1.jpg" />
     <Content Include="ViewContent\videos\sundar_kand.jpg" />
     <Content Include="Views\AboutGurujiTeaser.ascx" />
+    <Content Include="Views\ContactUs.ascx" />
     <Content Include="Views\JrhuDonate.aspx" />
     <Content Include="Views\JrhuTeaser.ascx" />
     <Content Include="Views\SiteMap.ascx" />

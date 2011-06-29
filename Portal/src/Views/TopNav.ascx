@@ -1,6 +1,6 @@
 <%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
-<%@ Import Namespace="guruji.Domain"%>
-<%@ Import Namespace="guruji.Controllers"%>
+<%@ Import Namespace="guruji.Domain" %>
+<%@ Import Namespace="guruji.Controllers" %>
 <%@ Import Namespace="guruji.ViewModels" %>
 <div class="header_wrap">
     <div>
@@ -8,19 +8,19 @@
             <h1 class="logo">
                 <a href="/default" title="Homepage">
                     <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
-            <div class="" >
-                
-            </div>        
+            
+            <%Html.RenderPartial("ContactUs"); %>
+            
             <div class="fb_login">
                 <%
                     var portalUser = new PortalSession().PortalUser;
                     var userImage = "";
                     if (portalUser.Role.Equals(UserRole.Facebook))
                     {
-                        userImage = "https://graph.facebook.com/" + ((FacebookUser) portalUser).FacebookId + "/picture";
+                        userImage = "https://graph.facebook.com/" + ((FacebookUser)portalUser).FacebookId + "/picture";
                     }                        
                 %>
-                <fb:login-button autologoutlink="true" onlogin="javascript:GetUserDetails();" style="float:right"></fb:login-button>
+                <fb:login-button autologoutlink="true" onlogin="javascript:GetUserDetails();" style="float: right"></fb:login-button>
                 <div id="fb-root">
                 </div>
                 <img src="<%=userImage %>" alt="user_image" class='<%= string.IsNullOrEmpty(userImage) ? "hide" : "show" %>' />
@@ -71,17 +71,19 @@
                     var galleryPage = (url.Contains("photogallery") || url.Contains("videos"))
                                         ? "current"
                                         : "trigger"; %>
-                <li class="<%=galleryPage %>"><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Gallery</a>
+                <li class="<%=galleryPage %>"><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>
+                    Multimedia</a>
                     <ul class="sub_menu">
-                        <li><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Photos</a></li>
+                        <li><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Pictures Gallery</a></li>
                         <li><a href="/videos/ahalyoddhar?id=1">Videos</a></li>
                     </ul>
                 </li>
-                <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">Social Service</a>
+                <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">
+                    Social Service</a>
                     <ul class="sub_menu">
                         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">JRH University</a></li>
-                        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHUDonate)) %>">Donate to JRHU</a></li>
-                        <li><a href="#">Tulsipeeth</a></li>
+                        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHUDonate)) %>">Donate to
+                            JRHU</a></li>
                     </ul>
                 </li>
             </ul>
