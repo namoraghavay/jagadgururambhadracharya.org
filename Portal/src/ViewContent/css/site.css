@@ -213,6 +213,6 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .contactus {color:#f6f6f6;cursor:pointer;float:right;}
 .contactus:hover {color:#f26522;}
 #contactus_overlay li {margin:15px 20px 0;background: url("/ViewContent/images/bullet.png") no-repeat scroll -21px 1px transparent;padding-left:20px;}
-#contactus_overlay.simple_overlay {background-color: #F6F6F6;}
+#contactus_overlay.simple_overlay {background-color: #F6F6F6;height: 445px;}
 #contactus_overlay.simple_overlay h3 {color: #F26522; margin-left:20px;}
 .overlay_on {display: block;left: 353.5px;position: fixed;top: 47.7px;z-index: 10000;}

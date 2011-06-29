@@ -20,6 +20,8 @@
         <p>Phone: +91-281-2364465</p></li>
         <li><p>Shri Tulsi Mandal III-A 67, Nehru Nagar, Ghaziabad (Uttar Pradesh)</p> 
         <p>Phone: +91-120-4713352, +91-120-4721380</p></li>
+        <li><p> Dr. surendra sharma "susheel", D-255, govindpuram, Ghaziabad (U.P), India</p> 
+        <p>Phone: +91-120-2963031, +91-9868932755</p></li>
     </ul>
 </div>
 
@@ -29,7 +31,9 @@
             $("#contactusMask").show();
             $("#contactus_overlay").addClass("overlay_on");
             var leftMargin = ($(window).width() - $("#contactus_overlay").width()) / 2;
+            var topMargin = ($(window).height() * .1);
             $(".overlay_on").css("left", leftMargin + 'px');
+            $(".overlay_on").css("top", topMargin + 'px');
         });
         $("#contactus_overlay .close").click(function() {
             $("#contactus_overlay").removeClass("overlay_on");
