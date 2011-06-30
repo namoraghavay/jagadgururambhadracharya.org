@@ -195,7 +195,6 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .donate_modes {border-bottom: 1px dotted #CCCCCC;clear: both;margin-bottom: 20px;overflow: hidden;}
 .donate_modes ul{margin-top: 10px;}
 .donate_modes p.important{font-size:1em; margin-top:20px;}
-.content_section li{font-size:0.9em;}
 
 /*Lightbox Styles*/
 .simple_overlay {height:380px;display:none;z-index:10000;background-color:#EEC900;width:714px;border:1px solid #666;-moz-box-shadow:0 0 90px 5px #000;-webkit-box-shadow: 0 0 90px 5px #000;box-shadow: 0 0 90px 5px #000;behavior: url(/ViewContent/css/PIE.htc);}
