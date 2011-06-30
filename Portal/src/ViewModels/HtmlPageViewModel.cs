@@ -21,6 +21,8 @@ namespace guruji.ViewModels
                     return title + "Virudavali";
                 if (PageName == "jrhu")
                     return title + "Jagadguru Rambhadracharya Handicapped University";
+                if (PageName == "biographyTulsidas")
+                    return title + "Biography of Goswami Tulsidas Ji";
                 return title;
             }
         }
