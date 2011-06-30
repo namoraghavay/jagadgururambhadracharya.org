@@ -6,6 +6,7 @@
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Biography)) %>">Biography</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Virudavali)) %>">Virudavali</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Literature)) %>">Literature</a></li>
+        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.TulsidasBiography)) %>">Biography of Tulsidas ji</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Awards)) %>">Awards</a></li>
     </ul>
     <ul class="mar20">
