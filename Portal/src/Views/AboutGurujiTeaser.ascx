@@ -11,7 +11,7 @@
 		prolific composer of 80+ works, a Guru with unparalleled knowledge and genius ... 
     </p>
     <div class="controls">
-        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.Biography)) %>">Read More ></a>
+        <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.Biography)) %>">More</a>
     </div>
 </div>
 

@@ -18,5 +18,10 @@ namespace guruji.Controllers
         {
             return HtmlViewFor("awards");
         }
+
+        public ActionResult Virudavali()
+        {
+            return HtmlViewFor("virudavali");
+        }
     }
 }

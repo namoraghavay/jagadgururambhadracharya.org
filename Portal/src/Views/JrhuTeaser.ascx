@@ -14,6 +14,6 @@
     </p>
     <div class="controls">
         <a href="<%=Url.RouteUrl(Enum.GetName(typeof(RouteNames), RouteNames.JRHU)) %>">
-            Read More ></a>
+            More</a>
     </div>
 </div>

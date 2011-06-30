@@ -17,6 +17,8 @@ namespace guruji.ViewModels
                     return title + "Literature";
                 if (PageName == "awards")
                     return title + "Awards and Prizes";
+                if (PageName == "virudavali")
+                    return title + "Virudavali";
                 if (PageName == "jrhu")
                     return title + "Jagadguru Rambhadracharya Handicapped University";
                 return title;

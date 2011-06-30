@@ -214,6 +214,7 @@
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
     <Content Include="ViewContent\html\literatureHome.html" />
     <Content Include="ViewContent\html\jrhu.html" />
+    <Content Include="ViewContent\html\virudavali.html" />
     <Content Include="ViewContent\images\ad_next.png" />
     <Content Include="ViewContent\images\ad_prev.png" />
     <Content Include="ViewContent\images\ad_scroll_back.png" />

@@ -6,6 +6,7 @@ namespace guruji.ViewModels
         JRHU,
         JRHUDonate,
         FConnect,
-        FLogout
+        FLogout,
+        Virudavali
     }
 }

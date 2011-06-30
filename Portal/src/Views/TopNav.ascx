@@ -37,13 +37,14 @@
                 <li class="<%= (url.Contains("default") || url.Equals("/")) ? "current" : "trigger" %>">
                     <a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Root)) %>">Home</a></li>
                 <%
-                    var aboutPage = (url.Contains("biography") || url.Contains("literature") || url.Contains("awards"))
+                    var aboutPage = (url.Contains("biography") || url.Contains("literature") || url.Contains("awards") || url.Contains("virudavali"))
                                         ? "current"
                                         : "trigger"; %>
                 <li class="<%=aboutPage %>"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Biography)) %>">
                     About Guruji</a>
                     <ul class="sub_menu">
                         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Biography)) %>">Biography</a></li>
+                        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Virudavali)) %>">Virudavali</a></li>
                         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Literature)) %>">Literature</a></li>
                         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Awards)) %>">Awards</a></li>
                     </ul>

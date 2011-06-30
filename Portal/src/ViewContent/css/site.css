@@ -149,7 +149,7 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
 /*gallery*/
 #gallery_container {padding: 0 10px;}
 .album_link {font-size:12px;}
-.section .controls {float:right; margin:10px 20px 0 0;}
+.section .controls {float:right; margin-top:10px;background:url("/ViewContent/images/link_arrow.png") no-repeat scroll 31px 7px transparent;width:40px;}
 .controls a {font-size:12px;}
 .download a {font-size:12px;}
 
@@ -216,3 +216,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 #contactus_overlay.simple_overlay {height: 445px;color: #001722;}
 #contactus_overlay.simple_overlay h3 {color: #001722; font-size:16px;margin-left:20px;}
 .overlay_on {display: block;left: 353.5px;position: fixed;top: 47.7px;z-index: 10000;}
+
+#virudavali_translation li {background:url("/ViewContent/images/bullet.png") no-repeat scroll -20px 1px transparent;margin-top: 10px;padding-left: 20px;}
+.virudavali.page_quote {float:none;margin-top:20px;}
+#virudavali_translation {margin-bottom:20px;}
