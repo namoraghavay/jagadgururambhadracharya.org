@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Serializer.cs" />
+    <Compile Include="Controllers\ArticlesController.cs" />
     <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\AboutGurujiController.cs" />
@@ -212,6 +213,7 @@
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\2.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\3.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
+    <Content Include="ViewContent\html\biographyTulsidas.html" />
     <Content Include="ViewContent\html\literatureHome.html" />
     <Content Include="ViewContent\html\jrhu.html" />
     <Content Include="ViewContent\html\virudavali.html" />

@@ -118,12 +118,13 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
 .donate_modes .right_box {border-left:1px dotted #CCCCCC;}
 
 .content_section {width:458px; padding-bottom:15px; margin-bottom:15px; border-bottom:1px dotted #CCCCCC;text-align: justify;overflow:hidden;}
-.content_section p {margin-bottom:5px; text-align:justify;}
+.content_section p {margin-bottom:5px; text-align:justify;clear: right;}
 .content_section.last {margin-bottom:0px; border:none;}
 
 .img_content {float:left;padding:0 0 20px 12px;width:189px;}
-.content_section  p.quote,span.quote {margin:10px 0px; font-weight:bold; color:#5A4939; font-family:Arial Unicode MS; font-size:1.1em;}
-
+.content_section  p.quote, span.quote, ul.quote {margin:10px 0 10px 10px; font-weight:bold; color:#5A4939; font-family:Arial Unicode MS; font-size:1.1em;}
+p.quote_reference {float:right;margin-top: -5px;}
+.poem_alt{margin-left:30px;}
 .page_quote { float: left;text-align: center;width: 960px;font-family:Arial Unicode MS;margin-bottom:25px;}
 .page_quote h1 {color: #F26522;font-size:1.1em;}
 .page_quote p {color: #5A4939;}
@@ -199,9 +200,9 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 /*Lightbox Styles*/
 .simple_overlay {height:380px;display:none;z-index:10000;background-color:#EEC900;width:714px;border:1px solid #666;-moz-box-shadow:0 0 90px 5px #000;-webkit-box-shadow: 0 0 90px 5px #000;box-shadow: 0 0 90px 5px #000;behavior: url(/ViewContent/css/PIE.htc);}
 .simple_overlay .close {background-image:url(/ViewContent/images/close.png);position:absolute;right:-13px;top:-13px;cursor:pointer;height:28px;width:28px;}
-#triggers {margin-left:10px;}
-#triggers img:hover{background-color: #AABBAA;border:1px solid #AABBAA;}
-#triggers img {cursor:pointer;margin:0 25px 35px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 12px #000000;-moz-box-shadow: 0px 0px 12px #000000;box-shadow:0px 0px 12px #000000;behavior: url(/ViewContent/css/PIE.htc);}
+#triggers {margin-left:10px;float: left;width:654px;}
+#triggers img:hover{background-color: #FF8C00;border:1px solid #FF8C00;}
+#triggers img {cursor:pointer;margin:0 15px 25px;background-color:#fff;border:1px solid #ccc;padding:2px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;-webkit-box-shadow: 0px 0px 12px #000000;-moz-box-shadow: 0px 0px 12px #000000;box-shadow:0px 0px 12px #000000;behavior: url(/ViewContent/css/PIE.htc);}
 
 .simple_overlay .content {position:absolute;top:28px;right:20px;font-size:12px;color:#000000;width:486px;text-align:justify;}
 .simple_overlay h3 {color:#001722;font-size:16px;margin: 10px 0 10px 10px;}
@@ -210,7 +211,7 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .content .award_name {color: #5A4939;font-weight: bold;}
 
 /* Contact Us */
-.contactus {color:#f6f6f6;cursor:pointer;float:right;}
+.contactus {color:#f6f6f6;cursor:pointer;float:right;margin-left: 10px;}
 .contactus:hover {color:#f26522;}
 #contactus_overlay li {margin:15px 20px 0;background: url("/ViewContent/images/darkBullet.png") no-repeat scroll -5px 1px transparent;padding-left:20px;}
 #contactus_overlay.simple_overlay {height: 445px;color: #001722;}
@@ -223,3 +224,13 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 
 #virudavali_translation {margin-bottom:20px;}
 #virudavali_translation p{text-align: center;}
+
+/* Right Section */
+.right_section{float: right;width:280px;}
+.right_section .articles_heading{-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius: 4px 4px 0 0;background: none repeat scroll 0 0 #5A4939;font: 16px "Trebuchet MS",Arial,Helvetica,sans-serif;padding: 2px 10px;color:#f6f6f6;behavior: url(/ViewContent/css/PIE.htc);}
+.right_section .articles_section ul li {border-bottom: 1px dotted #CCCCCC;overflow: hidden;padding: 10px;}
+.right_section .articles_section ul li.last {border-bottom: none;}
+.right_section .articles_section ul li .teaser {line-height: 18px;margin-top: 5px;text-align: justify;font-size:12px;}
+.right_section .articles_section {-moz-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;border-bottom: 3px solid #FF8C00;border-left: 1px solid #FF8C00;border-right: 1px solid #FF8C00;behavior: url(/ViewContent/css/PIE.htc);}
+.right_section .articles_section ul li .thumb {float:left;margin: 0 10px 5px 0;}
+.right_section .articles_section ul li .title {line-height:18px;font-size:14px;padding-bottom: 5px;}

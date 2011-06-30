@@ -1,5 +1,5 @@
 <%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>
-<div id="triggers" class="contactus">
+<div class="contactus">
     <span>Contact Us</span>
 </div>
 <div class="simple_overlay" id="contactus_overlay">

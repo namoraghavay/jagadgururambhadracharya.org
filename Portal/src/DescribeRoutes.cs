@@ -16,6 +16,7 @@ namespace guruji
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Literature), "literature", new { controller = "AboutGuruji", action = "LiteratureHome" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Awards), "awards", new { controller = "AboutGuruji", action = "Awards" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Virudavali), "virudavali", new { controller = "AboutGuruji", action = "Virudavali" }, defaultPageConstraints);
+            RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.TulsidasJeevani), "tulsidas/biography", new { controller = "Articles", action = "BiographyTulsidas" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.KathasSchedule), "upcomingkathas", new { controller = "Event", action = "GetUpcomingKathas" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.OtherProgramsSchedule), "upcomingevents", new { controller = "Event", action = "GetUpcomingEvents" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.TulsipeethNews), "tulsipeethnews", new { controller = "News", action = "GetTulsipeethNews" }, defaultPageConstraints);
