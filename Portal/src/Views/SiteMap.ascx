@@ -23,6 +23,5 @@
     <ul>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">JRH University</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHUDonate)) %>">Donate to JRHU</a></li>
-        <li><a href="#">Tulsipeeth</a></li>
     </ul>
 </div>
