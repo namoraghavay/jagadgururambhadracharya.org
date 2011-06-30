@@ -218,5 +218,8 @@ iframe {-moz-box-shadow: 0 0 29px #000000;-webkit-box-shadow: 0 0 29px #000000;b
 .overlay_on {display: block;left: 353.5px;position: fixed;top: 47.7px;z-index: 10000;}
 
 #virudavali_translation li {background:url("/ViewContent/images/bullet.png") no-repeat scroll -20px 1px transparent;margin-top: 10px;padding-left: 20px;}
-.virudavali.page_quote {float:none;margin-top:20px;}
+.virudavali {border-bottom: 1px dotted #CCCCCC;float: none;font-family: Arial Unicode MS;margin: 20px 0;padding-bottom: 20px;text-align: center;}
+.virudavali p.heading {font-size: 23px;font-weight: normal;line-height: 36px;color: #F26522;}
+
 #virudavali_translation {margin-bottom:20px;}
+#virudavali_translation p{text-align: center;}
