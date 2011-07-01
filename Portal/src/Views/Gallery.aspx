@@ -10,8 +10,8 @@
     <script type="text/javascript">
         document.write('<style>.noscript { display: none; }</style>');
     </script>
-    <title>Rambhadracharya - Photo Gallery</title>
 
+    <title>Rambhadracharya - Photo Gallery</title>
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="main_content">
@@ -44,7 +44,8 @@
             </ul>
         </div>
         <div id="gallery_container">
-            <p class="page_heading"><%=Server.UrlDecode(Model.SelectedAlbumFolder) %></p>
+            <p class="page_heading">
+                <%=Server.UrlDecode(Model.SelectedAlbumFolder) %></p>
             <div id="gallery" class="content">
                 <div id="controls" class="controls">
                 </div>
@@ -142,9 +143,10 @@
                 }
             });
             jQuery('#mycarousel').jcarousel({
+                start: <%=Model.StartCarouselIndex %>
         });
 
     });
-		</script>
+	</script>
 
 </asp:Content>
