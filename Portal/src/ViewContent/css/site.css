@@ -122,9 +122,9 @@ p.quote_reference {float:right;margin-top: -5px;}
 .second_letter {font-size:16px;}
 
 /* Carousel */
-.carousel_item {float:left; margin-right:5px; border:1px solid #414032; opacity:0.67;padding:1px;background-color: #F6F6F6;}
+.carousel_item {float:left; margin-right:5px; border:1px solid #414032; opacity:0.5;padding:1px;background-color: #F6F6F6;}
 .carousel_item:hover {border:solid 1px #FF8C00; cursor:pointer; opacity:1;}
-.carousel_item.carousel_selected {border:solid 1px #FF8C00; cursor:default; opacity:1;}
+.carousel_item.carousel_selected {border:solid 1px #FF8C00; cursor:default; opacity:1;background-color: #FF8C00;}
 .carousalimg {overflow:hidden;}
 
 /* Video */
