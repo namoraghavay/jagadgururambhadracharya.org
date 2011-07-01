@@ -122,5 +122,102 @@
 				</Video>
 			</Videos>
 		</Album>
+		<Album>
+			<Name>manasdharma</Name>
+			<Title>Manas Dharma</Title>
+			<Description>Shri Ram Katha on Manasa Dharma (September 2009)</Description>
+			<Videos>
+				<Video>
+					<Title>Part 01 (Day 1, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=Fq-8wowsdWQ" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 02 (Day 1, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=B8g_KHOPlPE" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 03 (Day 2, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=OiFIQ1hAuSo" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 04 (Day 2, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=_z6-uVXDrYM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 05 (Day 3, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=lipHMRsjSfY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 06 (Day 3, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=_JvLpSUqfak" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 07 (Day 4, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=rj-kwgnwLJQ" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 08 (Day 4, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=PkzMADRagWQ" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 09 (Day 5, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=75gisCGZR3Q" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 10 (Day 5, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=Ktc_b_APfwM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 11 (Day 6, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=ZMQpP-ZWri8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 12 (Day 6, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=EO2hkFrRYMs" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 13 (Day 7, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=axlYGJkOlLM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 14 (Day 7, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=FCtkGX6XAz8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 15 (Day 8, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=iNjQMGHV_EU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 16 (Day 8, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=ifzIiiLl7AM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 17 (Day 9, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=7wmoWgogo-s" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 18 (Day 9, Part 2)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/watch?v=zvvsHE0mt8E" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
 	</Albums>
 </Gallery>
