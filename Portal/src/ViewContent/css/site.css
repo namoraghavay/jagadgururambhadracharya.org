@@ -130,7 +130,6 @@ p.quote_reference {float:right;margin-top: -5px;}
 /* Video */
 .video_playlist { float: left;margin:0 20px;width: 180px;border: 1px solid #CCCCCC;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px 4px 4px 4px;}
 .video_playlist ul {display:block;overflow:hidden; text-align:center;behavior: url(/ViewContent/css/PIE.htc);}
-.youtube_iframes {margin-top:-20px;}
 .video_selected {background:#FF8C00;color:#F6F6F6;}
 .video_selected a.video_selected{color: #F6F6F6;cursor: auto;}
 
@@ -156,7 +155,7 @@ p.quote_reference {float:right;margin-top: -5px;}
 /*tabs*/
 .tabs {padding:0 10px;}
 
-iframe {margin: 18px 0 30px 80px;padding:5px;border:1px solid #CCC;}
+iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 
 /*footer*/
 .footer_wrap { background:#f1dd98 url(/ViewContent/images/footer.jpg); height: 138px; clear: both;margin-top:10px;}
