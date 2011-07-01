@@ -132,6 +132,7 @@ p.quote_reference {float:right;margin-top: -5px;}
 .video_playlist ul {display:block;overflow:hidden; text-align:center;behavior: url(/ViewContent/css/PIE.htc);}
 .youtube_iframes {margin-top:-20px;}
 .video_selected {background:#FF8C00;color:#F6F6F6;}
+.video_selected a.video_selected{color: #F6F6F6;cursor: auto;}
 
 /*gallery*/
 #gallery_container {padding: 0 10px;}
