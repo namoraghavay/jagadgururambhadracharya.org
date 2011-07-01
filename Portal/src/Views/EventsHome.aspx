@@ -5,9 +5,9 @@
 <asp:Content ID="title" ContentPlaceHolderID="Javascript" runat="server">
     <% if (Model.DefaultTab.Equals(EventsKathasTabs.Katha))
        { %>
-        <title>Upcoming Kathas</title>
+        <title>Rambhadracharya - Upcoming Kathas</title>
     <% } else { %>
-        <title>Upcoming Other Programs</title>        
+        <title>Rambhadracharya - Upcoming Other Programs</title>        
     <%} %>
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
