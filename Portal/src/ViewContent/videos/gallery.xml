@@ -3,7 +3,7 @@
 	<Albums>
 		<Album>
 			<Name>ahalyoddhar</Name>
-			<Title>Ahalyoddhar &amp; Naari ka Samman</Title>
+			<Title>Ahalyoddhar - Naari ka Samman</Title>
 			<Description>Tulsidas ji respects "Naari" more than any other poet does. Guruji explains alongwith the prasang of Ahalyoddhar.</Description>
 			<Videos>
 				<Video>
@@ -69,19 +69,69 @@
 			</Videos>
 		</Album>
 		<Album>
-			<Name>sundar_kand</Name>
-			<Title>Sundar Kand</Title>
-			<Description>Katha when Hanuman ji enters Lanks in search of Sita Ji.</Description>
+			<Name>bhagavata</Name>
+			<Title>Bhagavata Katha</Title>
+			<Description>Bhagavata Katha in Naimisharanya, Uttar Pradesh, India</Description>
 			<Videos>
 				<Video>
-					<Title>Sundar Kand Part 1</Title>
+					<Title>Part 01 (Day 1, Part 1)</Title>
 					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/iNjQMGHV_EU" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CWYOUUOJylM" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 				<Video>
-					<Title>Sundar Kand Part 2</Title>
+					<Title>Part 02 (Day 1, Part 2)</Title>
 					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ifzIiiLl7AM" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/G-XVZCKyDmY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 03 (Day 2, Part 1)</Title>
+					<Id>3</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/yIYkRWEawZM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 04 (Day 2, Part 2)</Title>
+					<Id>4</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CyK5TFG67XU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 07 (Day 4, Part 1)</Title>
+					<Id>7</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uTI66w52aY0" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 08 (Day 4, Part 2)</Title>
+					<Id>8</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WL6SvRSGNGM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 11 (Day 6, Part 1)</Title>
+					<Id>11</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/FAtXglastE8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 12 (Day 6, Part 2)</Title>
+					<Id>12</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8H3huzwNxoU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 13 (Day 7, Part 1)</Title>
+					<Id>13</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WuRLgzDAg4E" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 14 (Day 7, Part 2)</Title>
+					<Id>14</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uO753HOxH4U" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 15 (Day 8, Part 1)</Title>
+					<Id>15</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4xxGhLsaQGc" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 16 (Day 8, Part 2)</Title>
+					<Id>16</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/TVRhVVECcNw" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 			</Videos>
 		</Album>
@@ -220,69 +270,19 @@
 			</Videos>
 		</Album>
 		<Album>
-			<Name>bhagavata</Name>
-			<Title>Bhagavata Katha</Title>
-			<Description>Bhagavata Katha in Naimisharanya, Uttar Pradesh, India</Description>
+			<Name>sundar_kand</Name>
+			<Title>Sundar Kand</Title>
+			<Description>Katha when Hanuman ji enters Lanks in search of Sita Ji.</Description>
 			<Videos>
 				<Video>
-					<Title>Part 01 (Day 1, Part 1)</Title>
+					<Title>Sundar Kand Part 1</Title>
 					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CWYOUUOJylM" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/iNjQMGHV_EU" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 				<Video>
-					<Title>Part 02 (Day 1, Part 2)</Title>
+					<Title>Sundar Kand Part 2</Title>
 					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/G-XVZCKyDmY" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 03 (Day 2, Part 1)</Title>
-					<Id>3</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/yIYkRWEawZM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 04 (Day 2, Part 2)</Title>
-					<Id>4</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CyK5TFG67XU" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 07 (Day 4, Part 1)</Title>
-					<Id>7</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uTI66w52aY0" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 08 (Day 4, Part 2)</Title>
-					<Id>8</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WL6SvRSGNGM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 11 (Day 6, Part 1)</Title>
-					<Id>11</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/FAtXglastE8" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 12 (Day 6, Part 2)</Title>
-					<Id>12</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8H3huzwNxoU" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 13 (Day 7, Part 1)</Title>
-					<Id>13</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WuRLgzDAg4E" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 14 (Day 7, Part 2)</Title>
-					<Id>14</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uO753HOxH4U" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 15 (Day 8, Part 1)</Title>
-					<Id>15</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4xxGhLsaQGc" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 16 (Day 8, Part 2)</Title>
-					<Id>16</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/TVRhVVECcNw" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ifzIiiLl7AM" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 			</Videos>
 		</Album>
