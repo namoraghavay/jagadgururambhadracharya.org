@@ -8,6 +8,7 @@ namespace guruji.ViewModels
         FConnect,
         FLogout,
         Virudavali,
-        TulsidasBiography
+        TulsidasBiography,
+        Downloads
     }
 }

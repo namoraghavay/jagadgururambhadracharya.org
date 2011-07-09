@@ -9,4 +9,12 @@ namespace guruji.Controllers
             return HtmlViewFor("biographyTulsidas");
         }
     }
+
+    public class DownloadController : BaseController
+    {
+        public ActionResult Show()
+        {
+            return View("downloads");
+        }
+    }
 }

@@ -87,6 +87,9 @@
                             JRHU</a></li>
                     </ul>
                 </li>
+                <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Downloads)) %>">
+                    Downloads</a>
+                </li>
             </ul>
         </div>
     </div>

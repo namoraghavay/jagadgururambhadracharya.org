@@ -25,6 +25,7 @@ namespace guruji
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.VideoGallery), "videos/{albumName}", new { controller = "Gallery", action = "ViewVideoGallery" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.JRHU), "jrhu", new { controller = "SocialService", action = "Jrhu" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.JRHUDonate), "jrhu/donate", new { controller = "SocialService", action = "Donate" }, defaultPageConstraints);
+            RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Downloads), "downloads", new { controller = "Download", action = "Show" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.FConnect), "fconnect", new { controller = "Authentication", action = "FConnect" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.FLogout), "flogout", new { controller = "Authentication", action = "FLogout" }, defaultPageConstraints);
         }
