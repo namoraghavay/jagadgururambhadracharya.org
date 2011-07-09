@@ -17,7 +17,7 @@
         <ul>
             <li class="download">
                 <p>Bhavarth Bodhini, Hindi (Shri Ramcharitmanas Tika)</p>
-                <a target="_blank" href="/ViewContent/pdfs/BhavarthBodhini.pdf" class="download_link"> [3.4 Mb]</a>
+                <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf" class="download_link"> [6.21 Mb]</a>
             </li>
         </ul>
     </div>    
