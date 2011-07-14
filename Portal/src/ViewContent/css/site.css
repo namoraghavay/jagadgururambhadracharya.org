@@ -220,6 +220,6 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .right_section .articles_section ul li .thumb {float:left;margin: 0 10px 5px 0;}
 .right_section .articles_section ul li .title {line-height:18px;font-size:14px;padding-bottom: 5px;}
 
-.download_link { background: url(/ViewContent/images/download.png) no-repeat scroll left 2px;float: left;margin-left: 20px;padding-left: 25px;background-size:20px 20px;}
+.download_link { background: url(/ViewContent/images/download.png) no-repeat scroll left 2px;float: left;margin-left: 20px;padding-left: 25px;}
 li.download {display: block;margin-bottom: 20px;overflow: hidden;}
 li.download p{float:left;}
