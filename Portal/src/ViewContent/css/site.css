@@ -217,7 +217,7 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .right_section .articles_section ul li.last {border-bottom: none;}
 .right_section .articles_section ul li .teaser {line-height: 18px;margin-top: 5px;text-align: justify;font-size:12px;}
 .right_section .articles_section {-moz-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;border-bottom: 3px solid #FF8C00;border-left: 1px solid #FF8C00;border-right: 1px solid #FF8C00;behavior: url(/ViewContent/css/PIE.htc);}
-.right_section .articles_section ul li .thumb {float:left;margin: 0 10px 5px 0;}
+.right_section .articles_section ul li .thumb {float:left;margin: 0 8px 5px 0;border:1px solid #ccc; padding:2px;}
 .right_section .articles_section ul li .title {line-height:18px;font-size:14px;padding-bottom: 5px;}
 
 .download_link { background: url(/ViewContent/images/download.png) no-repeat scroll left 2px;float: left;margin-left: 20px;padding-left: 25px;}
