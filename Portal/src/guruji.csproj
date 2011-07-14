@@ -63,6 +63,7 @@
     <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\AboutGurujiController.cs" />
+    <Compile Include="Controllers\DownloadController.cs" />
     <Compile Include="ViewModels\HtmlPageViewModel.cs" />
     <Compile Include="Controllers\SocialServiceController.cs" />
     <Compile Include="Controllers\GalleryController.cs" />
@@ -214,6 +215,7 @@
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\3.JPG" />
     <Content Include="ViewContent\gallery\ramnavmi2011\originals\4.JPG" />
     <Content Include="ViewContent\html\biographyTulsidas.html" />
+    <Content Include="ViewContent\html\hanumanChalisa.html" />
     <Content Include="ViewContent\html\literatureHome.html" />
     <Content Include="ViewContent\html\jrhu.html" />
     <Content Include="ViewContent\html\virudavali.html" />

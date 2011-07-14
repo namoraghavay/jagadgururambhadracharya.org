@@ -8,13 +8,10 @@ namespace guruji.Controllers
         {
             return HtmlViewFor("biographyTulsidas");
         }
-    }
 
-    public class DownloadController : BaseController
-    {
-        public ActionResult Show()
+        public ActionResult HanumanChalisa()
         {
-            return View("downloads");
+            return HtmlViewFor("hanumanChalisa");
         }
     }
 }

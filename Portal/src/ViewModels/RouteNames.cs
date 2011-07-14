@@ -9,6 +9,7 @@ namespace guruji.ViewModels
         FLogout,
         Virudavali,
         TulsidasBiography,
-        Downloads
+        Downloads,
+        HanumanChalisa
     }
 }

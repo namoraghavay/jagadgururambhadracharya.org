@@ -158,7 +158,7 @@ p.quote_reference {float:right;margin-top: -5px;}
 iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 
 /*footer*/
-.footer_wrap { background:#f1dd98 url(/ViewContent/images/footer.jpg); height: 138px; clear: both;margin-top:10px;}
+.footer_wrap { background:#f1dd98 url(/ViewContent/images/footer.jpg) repeat-X scroll 0 0; height: 188px; clear: both;margin-top:10px;}
 .footer {margin-top: 15px;overflow: hidden;padding-left: 36px;width: 642px;}    
    
 .copyright {
@@ -221,5 +221,9 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .right_section .articles_section ul li .title {line-height:18px;font-size:14px;padding-bottom: 5px;}
 
 .download_link { background: url(/ViewContent/images/download.png) no-repeat scroll left 2px;float: left;margin-left: 20px;padding-left: 25px;}
-li.download {display: block;margin-bottom: 10px;overflow: hidden;}
-li.download p{float:left;}
+.download {display: block;margin-bottom: 10px;overflow: hidden;}
+.download p{float:left;}
+
+/*hanuman chalisa page*/
+.hanuman_chalisa {font-family: Arial Unicode MS;font-size: 17px;line-height: 28px;text-align: center;width: 500px;float: left;}
+.hanuman_chalisa p {font-weight:bold;margin: 10px 0;text-align: center;}
