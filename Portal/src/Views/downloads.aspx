@@ -31,6 +31,11 @@
                         Hanuman Chalisa (Shuddh Path)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 Kb]</a> </li>
+                <li class="download">
+                    <p>
+                        Shree Ramcharitmanas Aarti (By Guruji)</p> 
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
+                        class="download_link">[98 Kb]</a> </li>
             </ul>
         </div>
     </div>

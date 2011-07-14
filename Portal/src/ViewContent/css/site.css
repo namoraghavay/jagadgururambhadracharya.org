@@ -50,7 +50,7 @@ h1.logo { padding: 18px 0 0; float:left;}
 /*sections*/
 .section_cont { margin: 20px 0; overflow: hidden; width: 960px;}
 .section { float:left; width:220px; }
-h3 {color: #F26522;font-size: 16px;font-weight: normal;line-height: 1.2;margin-bottom: 6px;}
+h3 {color: #F26522;font-size: 16px;font-weight: normal;margin-bottom: 10px;}
 h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;font-size: 17px;font-weight:normal;line-height: 1.2;margin-bottom: 10px;padding: 3px 12px 3px 0;text-align: right;
     -moz-border-radius: 12px 12px 12px 12px;-webkit-border-radius: 12px 12px 12px 12px;border-radius: 12px 12px 12px 12px;behavior: url(/ViewContent/css/PIE.htc);}
 .section .section_img { margin-bottom:5px; border: 1px solid #CCCCCC;}
@@ -221,5 +221,5 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .right_section .articles_section ul li .title {line-height:18px;font-size:14px;padding-bottom: 5px;}
 
 .download_link { background: url(/ViewContent/images/download.png) no-repeat scroll left 2px;float: left;margin-left: 20px;padding-left: 25px;}
-li.download {display: block;margin-bottom: 20px;overflow: hidden;}
+li.download {display: block;margin-bottom: 10px;overflow: hidden;}
 li.download p{float:left;}
