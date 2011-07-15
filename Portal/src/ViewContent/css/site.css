@@ -227,3 +227,5 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 /*hanuman chalisa page*/
 .hanuman_chalisa {font-family: Arial Unicode MS;font-size: 17px;line-height: 28px;text-align: center;width: 500px;float: left;}
 .hanuman_chalisa p {font-weight:bold;margin: 10px 0;text-align: center;}
+
+.content_section.download {border:1px solid #ccc;padding:5px;}    

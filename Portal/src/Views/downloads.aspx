@@ -28,6 +28,11 @@
             <ul>
                 <li class="download">
                     <p>
+                        Authentic Biography of Goswami Tulsidas ji</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Biography of Goswami Tulsidas.pdf"
+                        class="download_link">[84 Kb]</a> </li>
+                <li class="download">
+                    <p>
                         Hanuman Chalisa (Shuddh Path)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 Kb]</a> </li>
