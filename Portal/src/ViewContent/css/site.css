@@ -13,6 +13,10 @@ a:link { color: #0a82af; }
 a:visited { color: #0a82af; }
 a:active, a:hover { color: #f26522;}
 h1.logo { padding: 18px 0 0; float:left;}
+
+.center_align {text-align:center;}
+.right_align {text-align:right;}
+.hindi_font{font-family:Arial Unicode MS;}
 /*naivgation*/
 .nav_wrap { clear:both; background: url(/ViewContent/images/nav_bg.jpg) repeat-x scroll left top; height: 40px; }
 .nivo-controlNav {color: #493E2C;padding-right: 10px;z-index: 99;}
@@ -159,7 +163,7 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 
 /*footer*/
 .footer_wrap { background:#f1dd98 url(/ViewContent/images/footer.jpg) repeat-X scroll 0 0; height: 188px; clear: both;margin-top:10px;}
-.footer {margin-top: 15px;overflow: hidden;padding-left: 36px;width: 642px;}    
+.footer {margin-top: 15px;overflow: hidden;padding-left: 36px;width: 740px;}    
    
 .copyright {
     font-size: 11px;
@@ -228,4 +232,8 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .hanuman_chalisa {font-family: Arial Unicode MS;font-size: 17px;line-height: 28px;text-align: center;width: 500px;float: left;}
 .hanuman_chalisa p {font-weight:bold;margin: 10px 0;text-align: center;}
 
-.content_section.download {border:1px solid #ccc;padding:5px;}    
+.content_section.download {border:1px solid #ccc;padding:5px;} 
+
+/*raghav seva page*/   
+.content_section.raghav_seva.hindi_font{font-size:16px;line-height:26px;}
+.content_section .right_align{text-align:right;}

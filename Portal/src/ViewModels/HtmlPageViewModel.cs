@@ -10,22 +10,24 @@ namespace guruji.ViewModels
         {
             get
             {
-                var title = "Rambhadracharya - ";
+                const string TITLE = "Rambhadracharya - ";
                 if (PageName == "biography")
-                    return title + "Biography";
+                    return TITLE + "Biography";
                 if (PageName == "literatureHome")
-                    return title + "Literature";
+                    return TITLE + "Literature";
                 if (PageName == "awards")
-                    return title + "Awards and Prizes";
+                    return TITLE + "Awards and Prizes";
                 if (PageName == "virudavali")
-                    return title + "Virudavali";
+                    return TITLE + "Virudavali";
                 if (PageName == "jrhu")
-                    return title + "Jagadguru Rambhadracharya Handicapped University";
+                    return TITLE + "Jagadguru Rambhadracharya Handicapped University";
                 if (PageName == "biographyTulsidas")
-                    return title + "Biography of Goswami Tulsidas Ji";
+                    return TITLE + "Biography of Goswami Tulsidas Ji";
                 if (PageName == "hanumanChalisa")
-                    return title + "Hanuman Chalisa";
-                return title;
+                    return TITLE + "Hanuman Chalisa";
+                if (PageName == "raghavSeva")
+                    return TITLE + "Raghav Seva - Vedic tradition";
+                return TITLE;
             }
         }
     }

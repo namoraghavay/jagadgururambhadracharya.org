@@ -10,6 +10,7 @@ namespace guruji.ViewModels
         Virudavali,
         TulsidasBiography,
         Downloads,
-        HanumanChalisa
+        HanumanChalisa,
+        RaghavSeva
     }
 }

@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage" %>
 
 <%@ Import Namespace="guruji.ViewModels" %>
 <asp:Content ID="script_content" ContentPlaceHolderID="Javascript" runat="server">
@@ -20,6 +20,11 @@
                         Bhavarth Bodhini, Hindi (Shri Ramcharitmanas Tika)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
                         class="download_link">[6.21 Mb]</a> </li>
+                <li class="download">
+                    <p>
+                        Shree Raghav Seva, Hindi (श्री राघव सेवा विधि) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
+                        class="download_link">[346 Kb]</a> </li>
             </ul>
         </div>
         <div class="right_box">
@@ -39,7 +44,7 @@
                 <li class="download">
                     <p>
                         Shree Ramcharitmanas Aarti (By Guruji)</p> 
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Ramcharitmanas Ji Aarti.pdf"
                         class="download_link">[98 Kb]</a> </li>
             </ul>
         </div>
