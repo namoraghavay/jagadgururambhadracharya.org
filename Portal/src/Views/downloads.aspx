@@ -19,12 +19,17 @@
                     <p>
                         Bhavarth Bodhini, Hindi (Shri Ramcharitmanas Tika)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
-                        class="download_link">[6.21 Mb]</a> </li>
+                        class="download_link">[6.21 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Gitaramayanam, Sanskrit + Hindi (गीतरामायणं संस्कृतगीतमहाकाव्यम्) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Gitaramayanam.pdf"
+                        class="download_link">[2.57 MB]</a> </li>
                 <li class="download">
                     <p>
                         Shree Raghav Seva, Hindi (श्री राघव सेवा विधि) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
-                        class="download_link">[346 Kb]</a> </li>
+                        class="download_link">[346 KB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
@@ -35,17 +40,17 @@
                     <p>
                         Authentic Biography of Goswami Tulsidas ji</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Biography of Goswami Tulsidas.pdf"
-                        class="download_link">[84 Kb]</a> </li>
+                        class="download_link">[84 KB]</a> </li>
                 <li class="download">
                     <p>
                         Hanuman Chalisa (Shuddh Path)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
-                        class="download_link">[112 Kb]</a> </li>
+                        class="download_link">[112 KB]</a> </li>
                 <li class="download">
                     <p>
                         Shree Ramcharitmanas Aarti (By Guruji)</p> 
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Ramcharitmanas Ji Aarti.pdf"
-                        class="download_link">[98 Kb]</a> </li>
+                        class="download_link">[98 KB]</a> </li>
             </ul>
         </div>
     </div>
