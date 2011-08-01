@@ -13,52 +13,52 @@
             Downloads</p>
         <div class="left_box">
             <h3>
-                Books Publications</h3>
+                Books by Guruji</h3>
             <ul>
                 <li class="download">
                     <p>
-                        Bhāvārthabodhinī, Avadhi + Hindi (भावार्थबोधिनी, Commentary on Śrīrāmacaritamānasa)</p>
+                        Bhāvārthabodhinī, Avadhi + Hindi (Commentary on Śrīrāmacaritamānasa)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
                         class="download_link">[6.21 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Gītarāmāyaṇam, Sanskrit + Hindi (गीतरामायणम्, Lyrical Epic Poem) </p>
+                        Gītarāmāyaṇam, Sanskrit + Hindi (Lyrical Epic Poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Gitaramayanam.pdf"
                         class="download_link">[2.57 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīrāghava Sevā Vidhi, Hindi (श्रीराघव सेवा विधि, Guide to Sevā of Śrīrāma) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
-                        class="download_link">[346 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Bhṛṅgadūtam, Sanskrit (शभृङ्गदूतम्, Minor messenger poem) </p>
+                        Bhṛṅgadūtam, Sanskrit (Minor messenger poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
                         class="download_link">[358 KB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrībhārgavarāghavīyam, Sanskrit (शश्रीभार्गवराघवीयम्, Epic poem) </p>
+                        Śrībhārgavarāghavīyam, Sanskrit (Epic poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sribhargavaraghaviyam.pdf"
                         class="download_link">[742 KB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
             <h3>
-                Other Publications</h3>
+                Booklets and Articles by Guruji</h3>
             <ul>
                 <li class="download">
                     <p>
-                        Authentic Biography of Goswami Tulsidas ji</p>
+                        Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
+                        class="download_link">[346 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Critical biography of Gosvāmī Tulasīdāsa</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Biography of Goswami Tulsidas.pdf"
                         class="download_link">[84 KB]</a> </li>
                 <li class="download">
                     <p>
-                        Hanuman Chalisa (Shuddh Path)</p>
+                        Critical Edition of Hanumān Cālīsā</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 KB]</a> </li>
                 <li class="download">
                     <p>
-                        Shree Ramcharitmanas Aarti (By Guruji)</p> 
+                        Āratī of Śrīrāmacaritamānasa</p> 
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Ramcharitmanas Ji Aarti.pdf"
                         class="download_link">[98 KB]</a> </li>
             </ul>
