@@ -17,19 +17,29 @@
             <ul>
                 <li class="download">
                     <p>
-                        Bhavarth Bodhini, Hindi (Shri Ramcharitmanas Tika)</p>
+                        Bhāvārthabodhinī, Avadhi + Hindi (भावार्थबोधिनी, Commentary on Śrīrāmacaritamānasa)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
                         class="download_link">[6.21 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Gitaramayanam, Sanskrit + Hindi (गीतरामायणं संस्कृतगीतमहाकाव्यम्) </p>
+                        Gītarāmāyaṇam, Sanskrit + Hindi (गीतरामायणम्, Lyrical Epic Poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Gitaramayanam.pdf"
                         class="download_link">[2.57 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Shree Raghav Seva, Hindi (श्री राघव सेवा विधि) </p>
+                        Śrīrāghava Sevā Vidhi, Hindi (श्रीराघव सेवा विधि, Guide to Sevā of Śrīrāma) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
                         class="download_link">[346 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Bhṛṅgadūtam, Sanskrit (शभृङ्गदूतम्, Minor messenger poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
+                        class="download_link">[358 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrībhārgavarāghavīyam, Sanskrit (शश्रीभार्गवराघवीयम्, Epic poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sribhargavaraghaviyam.pdf"
+                        class="download_link">[742 KB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
