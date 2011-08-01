@@ -17,7 +17,7 @@
             <ul>
                 <li class="download">
                     <p>
-                        Bhāvārthabodhinī, Hindi (Commentary on Śrīrāmacaritamānasa)</p>
+                        Bhāvārthabodhinī, Hindi (Rāmacaritamānasa commentary)</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ramacaritamanasa Bhavarthabodhini.pdf"
                         class="download_link">[6.21 MB]</a> </li>
                 <li class="download">
