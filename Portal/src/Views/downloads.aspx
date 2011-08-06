@@ -53,6 +53,11 @@
                         class="download_link">[84 KB]</a> </li>
                 <li class="download">
                     <p>
+                        Laghuraghuvaram (Sanskrit minor poem)</p> 
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Laghuraghuvaram.pdf"
+                        class="download_link">[556 KB]</a> </li>
+                <li class="download">
+                    <p>
                         Critical Edition of Hanumān Cālīsā</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 KB]</a> </li>
