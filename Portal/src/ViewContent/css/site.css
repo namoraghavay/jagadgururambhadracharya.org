@@ -237,3 +237,8 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 /*raghav seva page*/   
 .content_section.raghav_seva.hindi_font{font-size:16px;line-height:26px;}
 .content_section .right_align{text-align:right;}
+
+/*news page*/
+.tab_content .detailed_content img {max-Height:200px; max-width:300px;float:left;margin-right:15px;}
+.tab_content .detailed_content .content {float:left;}
+.news.detailed_content p {clear:none;}

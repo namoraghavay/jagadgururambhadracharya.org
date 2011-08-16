@@ -11,7 +11,12 @@
         on 
         <%=news.NewsDate.ToString(Config.DatePattern)%>
     </div>
-    <div class="detailed_content <%= i==0 ? "":"hide" %>">
+    
+    <div class="news detailed_content <%= i==0 ? "":"hide" %>">
+        <%if (!string.IsNullOrEmpty(news.NewsContent.SourceCuttingImage))
+          { %>
+        <img alt="<%=news.Title %>" src="/ViewContent/images/news/<%=news.NewsContent.SourceCuttingImage %>" />
+        <%} %>
         <%=news.NewsContent.DescriptionHtml %>
     </div>
 </div>

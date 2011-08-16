@@ -6,7 +6,7 @@
 <asp:Content ID="title" ContentPlaceHolderID="Javascript" runat="server">
     <% if (Model.DefaultTab.Equals(NewsTabs.Tulsipeeth))
        { %>
-    <title>News by Tulsipeeth</title>
+    <title>Rambhadracharya - News by Tulsipeeth</title>
     <%}
        else
        { %>
