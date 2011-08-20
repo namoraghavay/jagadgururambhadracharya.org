@@ -27,6 +27,8 @@ namespace guruji.ViewModels
                     return TITLE + "Hanuman Chalisa";
                 if (PageName == "raghavSeva")
                     return TITLE + "Raghav Seva - Vedic tradition";
+                if (PageName == "manas")
+                    return TITLE + "Shri Ramcharimanas Introduction and Download";
                 return TITLE;
             }
         }

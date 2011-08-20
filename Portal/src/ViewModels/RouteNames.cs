@@ -11,6 +11,7 @@ namespace guruji.ViewModels
         TulsidasBiography,
         Downloads,
         HanumanChalisa,
-        RaghavSeva
+        RaghavSeva,
+        Manas
     }
 }

@@ -118,8 +118,8 @@ div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
 	display: block;
 	float: left;
 	margin-right: 2px;
-	padding: 4px 7px 2px 7px;
-	border: 1px solid #ccc;
+	padding: 0 7px 0;
+	border: 1px solid #ccc;font-size:12px;
 }
 div.pagination a:hover {
 	background-color: #eee;
@@ -128,7 +128,7 @@ div.pagination a:hover {
 div.pagination span.current {
 	font-weight: bold;
 	background-color: #FF8C00;
-	border-color: #FF8C00;
+	border-color: #CCCCCC;
 	color: #fff;
 }
 div.pagination span.ellipsis {

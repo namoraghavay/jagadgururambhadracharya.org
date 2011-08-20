@@ -26,6 +26,7 @@
     </ul>
     <ul>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.TulsidasBiography)) %>">Biography of Tulsidas ji</a></li>
+        <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.Manas)) %>">Shri Ramcharitmanas Tika</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.HanumanChalisa)) %>">Shuddh publication of Hanuman Chalisa</a></li>
         <li><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.RaghavSeva)) %>">Shree Raghav Seva Vidhi</a></li>
     </ul>

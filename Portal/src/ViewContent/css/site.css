@@ -16,7 +16,7 @@ h1.logo { padding: 18px 0 0; float:left;}
 
 .center_align {text-align:center;}
 .right_align {text-align:right;}
-.hindi_font{font-family:Arial Unicode MS;}
+.hindi_font{font-family:Arial Unicode MS;!important;}
 /*naivgation*/
 .nav_wrap { clear:both; background: url(/ViewContent/images/nav_bg.jpg) repeat-x scroll left top; height: 40px; }
 .nivo-controlNav {color: #493E2C;padding-right: 10px;z-index: 99;}
@@ -77,7 +77,7 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
 }
 .tab_head .tab_link.selected_tab {
     background: none repeat scroll 0 0 #FF8C00;
-    color: #5A4939;
+    color: #4F250F;
     cursor:default;
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);
@@ -92,8 +92,8 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
     color:#F6F6F6;
     -moz-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);
 }
-.teaser_content:hover{background: none repeat scroll 0 0 #FF8C00;}
-.teaser_content.on {color:#5A4939;background: none repeat scroll 0 0 #FF8C00;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
+.teaser_content:hover{background: none repeat scroll 0 0 #FF8C00;color:#4F250F;}
+.teaser_content.on {color:#4F250F;background: none repeat scroll 0 0 #FF8C00;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
 .detailed_content { padding: 10px 20px;overflow:hidden;-moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);border-bottom: 3px solid #FF8C00;border-left: 1px solid #FF8C00;border-right: 1px solid #FF8C00;}
 .detailed_content p{padding:10px 0; clear:both;}
 
