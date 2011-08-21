@@ -36,6 +36,20 @@
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sribhargavaraghaviyam.pdf"
                         class="download_link">[742 KB]</a> </li>
             </ul>
+            <h3>
+                Presentations on JRHU</h3>
+            <ul>
+                <li class="download">
+                    <p>
+                        JRHU, English (Presentation on JRHU)</p>
+                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation.pdf"
+                        class="download_link">[1.05 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        JRHU, English (Full presentation on JRHU) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentaion Full.pdf"
+                        class="download_link">[5.88 MB]</a> </li>
+            </ul>
         </div>
         <div class="right_box">
             <h3>
