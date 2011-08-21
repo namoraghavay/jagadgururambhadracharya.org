@@ -47,7 +47,7 @@
                 <li class="download">
                     <p>
                         JRHU, English (Full presentation on JRHU) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentaion Full.pdf"
+                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation Full.pdf"
                         class="download_link">[5.88 MB]</a> </li>
             </ul>
         </div>
@@ -80,6 +80,15 @@
                         Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
                         class="download_link">[346 KB]</a> </li>
+            </ul>
+            <h3>
+                Other articles</h3>
+            <ul>
+                <li class="download">
+                    <p>
+                        Prosody in Rāmacaritamānasa, English & Hindi</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Metres in the Ramacaritamanasa.pdf"
+                        class="download_link">[276 KB]</a> </li>
             </ul>
         </div>
     </div>
