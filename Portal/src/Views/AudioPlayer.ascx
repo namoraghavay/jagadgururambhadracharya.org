@@ -13,7 +13,12 @@
             'icons': 'true',
             'controlbar.position': "bottom",
             'height':'32',
-            'file': '<%= "/ViewContent/audio_gallery/"+Model.SelectedAlbum+"/"+Model.JwPlayerId+".mp3" %>'
+            'file': '<%= "/ViewContent/audio_gallery/"+Model.SelectedAlbum+"/"+Model.JwPlayerId+".mp3" %>',
+            'plugins': "viral-2",
+            'viral.onpause': "false",
+            'viral.oncomplete': "false",
+            'viral.allowmenu': "false",
+            'viral.callout': "none"
         });
     });  
 </script>   
