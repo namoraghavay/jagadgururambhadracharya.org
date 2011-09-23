@@ -2,34 +2,30 @@
 <%@ Import Namespace="System.Collections.Generic"%>
 <%@ Import Namespace="guruji.ViewServices" %>
 <%@ Import Namespace="guruji.Domain" %>
+<div id="news_accordion" class="tab_content">
 <% for (int i = 0; i < Model.Count; i++)
    {
        var news = Model[i]; %>
-<div class="tab_content">
-    <div class="teaser_content <%= i==0 ? "on":"" %>">
+    <a class="teaser_content">
         <%=news.Title %>
         on 
         <%=news.NewsDate.ToString(Config.DatePattern)%>
-    </div>
+    </a>
     
-    <div class="news detailed_content <%= i==0 ? "":"hide" %>">
+    <div class="news detailed_content">
         <%if (!string.IsNullOrEmpty(news.NewsContent.SourceCuttingImage))
           { %>
         <img alt="<%=news.Title %>" src="/ViewContent/images/news/<%=news.NewsContent.SourceCuttingImage %>" />
         <%} %>
         <%=news.NewsContent.DescriptionHtml %>
     </div>
-</div>
 <% } %>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".teaser_content").click(function() {
-            $(this).next().toggle(500);
-            $('html, body').animate({
-                scrollTop: $(this).next().offset().top
-            });
-            ($(this).hasClass("on")) ? $(this).removeClass("on") : $(this).addClass("on");
+        jQuery('#news_accordion').accordion({
+            autoheight: false 
         });
     })
 </script>

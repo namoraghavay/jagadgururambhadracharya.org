@@ -83,6 +83,7 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
     -webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);
 }
 
+.tabs #events_accordion {margin-bottom:20px;}
 .teaser_content {
     background: none repeat scroll 0 0 #5A4939;
     display: block;
@@ -90,10 +91,10 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
     padding: 5px 0 5px 10px;
     cursor:pointer;
     color:#F6F6F6;
-    -moz-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);
+    -moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;behavior: url(/ViewContent/css/PIE.htc);
 }
 .teaser_content:hover{background: none repeat scroll 0 0 #FF8C00;color:#4F250F;}
-.teaser_content.on {color:#4F250F;background: none repeat scroll 0 0 #FF8C00;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
+.teaser_content.selected {color:#4F250F;background: none repeat scroll 0 0 #FF8C00;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
 .detailed_content { padding: 10px 20px;overflow:hidden;-moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);border-bottom: 3px solid #FF8C00;border-left: 1px solid #FF8C00;border-right: 1px solid #FF8C00;}
 .detailed_content p{padding:10px 0; clear:both;}
 

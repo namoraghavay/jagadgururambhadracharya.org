@@ -12,6 +12,7 @@
        { %>
     <title>Rambhadracharya - Jagadguru Rambhadracharya in Media</title>
     <%} %>
+    <script type="text/javascript" src="/ViewContent/js/jquery.accordion.js"></script>
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">

@@ -2,11 +2,11 @@
 <%@ Import Namespace="System.Collections.Generic"%>
 <%@ Import Namespace="guruji.ViewServices" %>
 <%@ Import Namespace="guruji.Domain" %>
+<div id="events_accordion" class="basic" style="float: left;">
 <% for (int i = 0; i < Model.Count; i++)
    {
        var katha = Model[i]; %>
-<div class="tab_content">
-    <div class="teaser_content <%= i==0 ? "on":"" %>">
+    <a class="teaser_content">
         <%=katha.Title %>
         from
         <%=katha.EventBeginDate.ToString(Config.DatePattern)%>
@@ -14,8 +14,8 @@
         <%=katha.EventEndDate.ToString(Config.DatePattern)%>
         at
         <%=katha.EventContent.Location %>
-    </div>
-    <div class="detailed_content <%= i==0 ? "":"hide" %>">
+    </a>
+    <div class="detailed_content">
         <div class="details">
             <ul>
                 <li>From <strong>
@@ -66,17 +66,13 @@
         <p>
             <%=katha.EventContent.Descrption %></p>
     </div>
-</div>
 <% } %>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $(".teaser_content").click(function() {
-            $(this).next().toggle(500);
-            $('html, body').animate({
-                scrollTop: $(this).next().offset().top
-            });
-            ($(this).hasClass("on")) ? $(this).removeClass("on") : $(this).addClass("on");
+        jQuery('#events_accordion').accordion({
+            autoheight: false
         });
     })
 </script>
