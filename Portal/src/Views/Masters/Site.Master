@@ -59,25 +59,6 @@
                 }
             }
         </script>
-
-        <script type="text/javascript">
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId: '<%=Config.FacebookAppId %>',
-                    status: true,
-                    cookie: true,
-                    xfbml: true
-                });
-            };
-            (function() {
-                var e = document.createElement('script');
-                e.type = 'text/javascript';
-                e.src = document.location.protocol + '//connect.facebook.net/en_GB/all.js';
-                e.async = true;
-                document.getElementById('fb-root').appendChild(e);
-            } ());
-        </script>
-
     </asp:PlaceHolder>
     <asp:ContentPlaceHolder ID="HeadIncludes" runat="server" />
     <asp:ContentPlaceHolder ID="StyleSheet" runat="server" />

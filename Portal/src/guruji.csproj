@@ -36,6 +36,8 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\System.Web.Abstractions.dll</HintPath>
@@ -231,9 +233,12 @@
     <Content Include="ViewContent\images\opa75.png" />
     <Content Include="ViewContent\images\prev-horizontal.png" />
     <Content Include="ViewContent\images\prev-vertical.png" />
+    <Content Include="ViewContent\js\accordion.js" />
+    <Content Include="ViewContent\js\facebook.all.js" />
     <Content Include="ViewContent\js\jquery.galleriffic.js" />
     <Content Include="ViewContent\js\jquery.jcarousel.min.js" />
     <Content Include="ViewContent\js\jquery.opacityrollover.js" />
+    <Content Include="ViewContent\js\jquery.tools.min.js" />
     <Content Include="ViewContent\videos\Ahalyoddhar.jpg" />
     <Content Include="ViewContent\videos\gallery.xml" />
     <Content Include="ViewContent\videos\lankadahan1.jpg" />

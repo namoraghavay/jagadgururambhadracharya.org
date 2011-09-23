@@ -2,14 +2,13 @@
 <%@ Import Namespace="guruji.Domain" %>
 <%@ Import Namespace="guruji.Controllers" %>
 <%@ Import Namespace="guruji.ViewModels" %>
+<%@ Import Namespace="guruji.ViewServices" %>
 <div class="header_wrap">
     <div>
         <div class="header">
             <h1 class="logo">
                 <a href="/" title="Homepage">
-                    <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
-<%--            <%Html.RenderPartial("LoginNav"); %>--%>
-            
+                    <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>            
             <%Html.RenderPartial("ContactUs"); %>
             
             <div class="fb_login">
@@ -78,7 +77,7 @@
                     <ul class="sub_menu">
                         <li><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Pictures Gallery</a></li>
                         <li><a href="/videos/ahalyoddhar?id=1">Videos</a></li>
-                        <li><a href="/audios/<%=Server.UrlPathEncode("Sarayu (Ram Bhajans)") %>">Audios</a></li>
+                        <li><a href="/audios/<%=Server.UrlPathEncode("Bhajan Sarayu (Ram Bhajans)") %>">Audios</a></li>
                     </ul>
                 </li>
                 <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">
@@ -96,3 +95,20 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: '<%=Config.FacebookAppId %>',
+            status: true,
+            cookie: true,
+            xfbml: true
+        });
+    };
+    (function() {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.src = document.location.protocol + '//connect.facebook.net/en_GB/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+    } ());
+</script>
