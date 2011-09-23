@@ -242,3 +242,6 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 .tab_content .detailed_content img {max-Height:200px; max-width:300px;float:left;margin-right:15px;}
 .tab_content .detailed_content .content {float:left;}
 .news.detailed_content p {clear:none;}
+
+/*audio player*/
+.audio_player {margin:0 0 20px 20px;}

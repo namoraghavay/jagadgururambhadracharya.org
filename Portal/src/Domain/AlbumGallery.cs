@@ -5,16 +5,11 @@ using guruji.Common;
 
 namespace guruji.Domain
 {
-    public class PictureGallery
+    public class AlbumGallery
     {
         public DirectoryInfo[] AlbumsFolders { get; set; }
 
-//        public static Gallery ConstructGallery(string albumXml)
-//        {
-//            return new Serializer().Deserialize<Gallery>(albumXml); 
-//        }
-//
-        public PictureGallery(string galleryPath)
+        public AlbumGallery(string galleryPath)
         {
             AlbumsFolders = new DirectoryInfo(galleryPath).GetDirectories();
         }

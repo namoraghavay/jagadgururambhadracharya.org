@@ -5,9 +5,16 @@ using System.Web;
 
 namespace guruji.ViewModels
 {
-    public class PictureGalleryViewModel
+    public class AudioPlayerViewModel
     {
-        public PictureGalleryViewModel(string selectedAlbumName, DirectoryInfo[] albumFolders)
+        public string JwPlayerId { get; set; }
+
+        public string SelectedAlbum { get; set; }
+    }
+
+    public class AlbumGalleryViewModel
+    {
+        public AlbumGalleryViewModel(string selectedAlbumName, DirectoryInfo[] albumFolders)
         {
             AlbumFolders = albumFolders;
             SelectedAlbumFolder = selectedAlbumName;

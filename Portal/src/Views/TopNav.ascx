@@ -8,6 +8,7 @@
             <h1 class="logo">
                 <a href="/" title="Homepage">
                     <img src="/ViewContent/images/logo.jpg" alt="Jagadguru Rambhadracharya" /></a></h1>
+<%--            <%Html.RenderPartial("LoginNav"); %>--%>
             
             <%Html.RenderPartial("ContactUs"); %>
             
@@ -69,7 +70,7 @@
                     </ul>
                 </li>
                 <%
-                    var galleryPage = (url.Contains("photogallery") || url.Contains("videos"))
+                    var galleryPage = (url.Contains("photogallery") || url.Contains("videos") || url.Contains("audio"))
                                         ? "current"
                                         : "trigger"; %>
                 <li class="<%=galleryPage %>"><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>
@@ -77,6 +78,7 @@
                     <ul class="sub_menu">
                         <li><a href='/photogallery/<%=Server.UrlPathEncode("Raghav Ji") %>'>Pictures Gallery</a></li>
                         <li><a href="/videos/ahalyoddhar?id=1">Videos</a></li>
+                        <li><a href="/audios/<%=Server.UrlPathEncode("Sarayu (Ram Bhajans)") %>">Audios</a></li>
                     </ul>
                 </li>
                 <li class="trigger"><a href="<%=Url.RouteUrl(Enum.GetName(type, RouteNames.JRHU)) %>">

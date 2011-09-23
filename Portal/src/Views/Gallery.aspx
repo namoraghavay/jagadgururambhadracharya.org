@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage<PictureGalleryViewModel>" %>
+<%@ Page Language="C#" MasterPageFile="~/Views/Masters/Site.Master" Inherits="guruji.PortalViewPage<AlbumGalleryViewModel>" %>
 
 <%@ Import Namespace="System.IO" %>
 <%@ Import Namespace="guruji.Domain" %>
@@ -19,10 +19,12 @@
             <ul id="mycarousel" class="jcarousel-skin-tango">
                 <%
                     var albums = Model.AlbumFolders;
+                    const string GALLERY_PATH = "/ViewContent/photo_gallery/";
+                    
                     for (int index = 0; index < albums.Length; index++)
                     {
                         var album = albums[index];
-                        var landingImageFolder = "/ViewContent/gallery/" + album + "/thumbs";
+                        var landingImageFolder = GALLERY_PATH + album + "/thumbs";
                 %>
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
@@ -61,10 +63,10 @@
             <div id="thumbs" class="navigation">
                 <ul class="thumbs noscript">
                     <%
-                        var albumPath = Server.MapPath("/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/thumbs");
-                        var thumbsFolder1 = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/thumbs";
-                        var imagesFolder = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/images";
-                        var originalsFolder = "/ViewContent/gallery/" + Model.SelectedAlbumFolder + "/originals";
+                        var albumPath = Server.MapPath(GALLERY_PATH + Model.SelectedAlbumFolder + "/thumbs");
+                        var thumbsFolder1 = GALLERY_PATH + Model.SelectedAlbumFolder + "/thumbs";
+                        var imagesFolder = GALLERY_PATH + Model.SelectedAlbumFolder + "/images";
+                        var originalsFolder = GALLERY_PATH + Model.SelectedAlbumFolder + "/originals";
                         foreach (var imagePath in Directory.GetFiles(Server.UrlDecode(albumPath), "*.jpg"))
                         {
                             var imageName = imagePath.Split('\\').Last();

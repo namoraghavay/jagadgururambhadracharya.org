@@ -12,6 +12,8 @@ namespace guruji.ViewModels
         Downloads,
         HanumanChalisa,
         RaghavSeva,
-        Manas
+        Manas,
+        Login,
+        AudioGallery
     }
 }

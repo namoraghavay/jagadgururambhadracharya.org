@@ -70,7 +70,7 @@
     <Compile Include="Controllers\LoginHandler.cs" />
     <Compile Include="Controllers\PortalAuthorizeAttribute.cs" />
     <Compile Include="Controllers\PortalSession.cs" />
-    <Compile Include="Domain\PictureGallery.cs" />
+    <Compile Include="Domain\AlbumGallery.cs" />
     <Compile Include="Mappers\EventMapper.cs" />
     <Compile Include="PortalViewMasterPage.cs">
       <SubType>ASPXCodeBehind</SubType>
@@ -80,7 +80,7 @@
     <Compile Include="Services\ProfileService.cs" />
     <Compile Include="ViewModels\EventsViewModel.cs" />
     <Compile Include="ViewModels\NewsViewModel.cs" />
-    <Compile Include="ViewModels\PictureGalleryViewModel.cs" />
+    <Compile Include="ViewModels\AlbumGalleryViewModel.cs" />
     <Compile Include="ViewModels\EventForm.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\CustomErrorHandler.cs" />
@@ -239,7 +239,9 @@
     <Content Include="ViewContent\videos\lankadahan1.jpg" />
     <Content Include="ViewContent\videos\sundar_kand.jpg" />
     <Content Include="Views\AboutGurujiTeaser.ascx" />
+    <Content Include="Views\AudioPlayer.ascx" />
     <Content Include="Views\ContactUs.ascx" />
+    <Content Include="Views\Audios.aspx" />
     <Content Include="Views\downloads.aspx" />
     <Content Include="Views\JrhuDonate.aspx" />
     <Content Include="Views\JrhuTeaser.ascx" />
