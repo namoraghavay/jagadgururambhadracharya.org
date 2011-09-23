@@ -245,3 +245,4 @@ iframe {margin: 0 0 30px 80px;padding:5px;border:1px solid #CCC;}
 
 /*audio player*/
 .audio_player {margin:0 0 20px 20px;}
+.audio_player .file_name{float:left;}

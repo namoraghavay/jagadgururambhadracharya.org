@@ -48,7 +48,8 @@
         </div>
         <div id="gallery_container">
             <div>
-                <p class="page_heading"><%=Server.UrlDecode(Model.SelectedAlbumFolder) %></p>
+                <p class="page_heading">
+                    <%=Server.UrlDecode(Model.SelectedAlbumFolder) %></p>
             </div>
             <%
                 var albumPath = Server.MapPath(GALLERY_PATH + Model.SelectedAlbumFolder);
@@ -57,17 +58,19 @@
                 foreach (var file in audioFileNames)
                 {
             %>
-                <div class="audio_player">
-                    <div>
-                        <%=file.Substring(3) %>
-                    </div>
-                    <div>
-                        <%Html.RenderPartial("AudioPlayer", new AudioPlayerViewModel {JwPlayerId = file.Split('.').FirstOrDefault(), SelectedAlbum = Model.SelectedAlbumFolder}); %>        
-                    </div>
-                </div>    
+            <div class="audio_player">
+                <div class="file_name">
+                    <%=file.Substring(3) %>
+                </div>
+                <div class="download">
+                    <a class="download_link" href="/ViewContent/audio_gallery/<%=Model.SelectedAlbumFolder %>/<%=file %>">Download</a>
+                </div>
+                <div>
+                    <%Html.RenderPartial("AudioPlayer", new AudioPlayerViewModel { JwPlayerId = file.Split('.').FirstOrDefault(), SelectedAlbum = Model.SelectedAlbumFolder }); %>
+                </div>
+            </div>
             <%
                 } %>
-            
         </div>
 
         <script type="text/javascript">
