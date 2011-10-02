@@ -29,14 +29,14 @@
                 %>
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
-                        <div id="album_image_<%= index + 1  %>" class="carousalimg">
+                        <div id="album_image_<%= index + 1  %>" class="carousalimg  <%=(Model.SelectedAlbumFolder == Server.UrlPathEncode(album.Name)) ? "carousel_selected" : "" %>">
                             <a class="album_link" href="/audios/<%=Server.UrlPathEncode(album.Name) %>">
                                 <%
                                     var files = Directory.GetFiles(Server.MapPath(imageFolder));
                                     string albumThumb = files.Where(x => x.Split('\\').Last().StartsWith("thumb.")).FirstOrDefault();
                                 %>
                                 <img src="<%=imageFolder %>/<%=albumThumb.Split(Convert.ToChar("\\")).Last() %>"
-                                    alt="" class="carousel_item <%=(Model.SelectedAlbumFolder == Server.UrlPathEncode(album.Name)) ? "carousel_selected" : "" %>" />
+                                    alt="" class="carousel_item" />
                                 <%=album.Name %>
                             </a>
                         </div>

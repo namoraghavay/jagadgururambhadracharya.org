@@ -24,9 +24,9 @@
                 %>
                 <li class="jcarousel-item-<%=index + 1 %>">
                     <div class="carousel-item-container">
-                        <div id="album_image_<%= index + 1  %>" class="carousalimg">
+                        <div id="album_image_<%= index + 1  %>" class="carousalimg <%=(Model.SelectedAlbum.Name == album.Name) ? "carousel_selected" : "" %>">
                             <a class="album_link" href="/videos/<%=album.Name %>?id=1">
-                                <img src="/ViewContent/videos/<%=album.Name %>.jpg" alt="<%=album.Title %>" class="carousel_item <%=(Model.SelectedAlbum.Name == album.Name) ? "carousel_selected" : "" %>" />
+                                <img src="/ViewContent/videos/<%=album.Name %>.jpg" alt="<%=album.Title %>" class="carousel_item" />
                                     <%=album.Title %>
                             </a>
                         </div>

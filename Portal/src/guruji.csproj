@@ -233,7 +233,7 @@
     <Content Include="ViewContent\images\opa75.png" />
     <Content Include="ViewContent\images\prev-horizontal.png" />
     <Content Include="ViewContent\images\prev-vertical.png" />
-    <Content Include="ViewContent\js\accordion.js" />
+    <Content Include="ViewContent\js\jquery.accordion.js" />
     <Content Include="ViewContent\js\facebook.all.js" />
     <Content Include="ViewContent\js\jquery.galleriffic.js" />
     <Content Include="ViewContent\js\jquery.jcarousel.min.js" />

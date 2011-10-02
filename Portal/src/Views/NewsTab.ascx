@@ -1,31 +1,30 @@
 <%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<List<NewsItem>>" %>
-<%@ Import Namespace="System.Collections.Generic"%>
+<%@ Import Namespace="System.Collections.Generic" %>
 <%@ Import Namespace="guruji.ViewServices" %>
 <%@ Import Namespace="guruji.Domain" %>
 <div id="news_accordion" class="tab_content">
-<% for (int i = 0; i < Model.Count; i++)
-   {
-       var news = Model[i]; %>
+    <% foreach (var newsItem in Model)
+       {
+    %>
     <a class="teaser_content">
-        <%=news.Title %>
-        on 
-        <%=news.NewsDate.ToString(Config.DatePattern)%>
+        <%=newsItem.Title %>
+        on
+        <%=newsItem.NewsDate.ToString(Config.DatePattern)%>
     </a>
-    
     <div class="news detailed_content">
-        <%if (!string.IsNullOrEmpty(news.NewsContent.SourceCuttingImage))
+        <%if (!string.IsNullOrEmpty(newsItem.NewsContent.SourceCuttingImage))
           { %>
-        <img alt="<%=news.Title %>" src="/ViewContent/images/news/<%=news.NewsContent.SourceCuttingImage %>" />
+        <img alt="<%=newsItem.Title %>" src="/ViewContent/images/news/<%=newsItem.NewsContent.SourceCuttingImage %>" />
         <%} %>
-        <%=news.NewsContent.DescriptionHtml %>
+        <%=newsItem.NewsContent.DescriptionHtml %>
     </div>
-<% } %>
+    <% } %>
 </div>
 
 <script type="text/javascript">
     $(document).ready(function() {
         jQuery('#news_accordion').accordion({
-            autoheight: false 
+            autoheight: false
         });
     })
 </script>

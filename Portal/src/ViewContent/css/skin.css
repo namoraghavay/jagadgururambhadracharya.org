@@ -1,6 +1,6 @@
 .jcarousel-skin-tango .jcarousel-container {
     -moz-border-radius: 4px;    -webkit-border-radius: 4px;    border-radius: 4px 4px 4px 4px;
-    background: #C7C498;margin: 20px 0 40px 0;overflow: hidden;border:1px solid #ccc;behavior: url(/ViewContent/css/PIE.htc);
+    background: #f6f6f6;margin: 20px 0 40px 0;overflow: hidden;border:2px solid #ccc;behavior: url(/ViewContent/css/PIE.htc);
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl {

@@ -34,7 +34,7 @@
                     <li>
                         <strong><%= katha.TelecastContent.IsLive ? "Live" : "Recorded" %></strong>
                         telecast on:
-                        <%=katha.TelecastContent.ChannelName%></li>
+                        <strong><%=katha.TelecastContent.ChannelName%></strong></li>
                     <% if (!katha.TelecastContent.IsLive)
                        { %>
                     <li>Telecast From:
