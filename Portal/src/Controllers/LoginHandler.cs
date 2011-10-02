@@ -17,10 +17,17 @@ namespace guruji.Controllers
         private readonly IProfileService profileService;
         private readonly IPortalSession session;
 
-        public LoginHandler(IProfileService profileService, IPortalSession session)
+        private static readonly ILoginHandler instance = new LoginHandler();
+
+        public static ILoginHandler Instance()
         {
-            this.profileService = profileService;
-            this.session = session;
+            return instance;
+        }
+
+        private LoginHandler()
+        {
+            profileService = ProfileService.Instance();
+            session = new PortalSession();
         }
 
         public void Login(string email, string password, bool keepMeSignedIn)

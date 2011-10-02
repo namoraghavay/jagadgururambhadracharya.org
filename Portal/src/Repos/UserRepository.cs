@@ -5,7 +5,7 @@ namespace guruji.Repos
 {
     public class UserRepository : Repository, IUserRepository
     {
-        protected UserRepository(ISessionFactory sessionFactory) : base(sessionFactory)
+        public UserRepository(ISessionFactory sessionFactory) : base(sessionFactory)
         {
         }
 

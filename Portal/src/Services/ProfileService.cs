@@ -13,9 +13,16 @@ namespace guruji.Services
     {
         private readonly IUserRepository userRepository;
 
-        public ProfileService(IUserRepository userRepository)
+        private static readonly IProfileService instance = new ProfileService(NHibernateSessionFactory.Instance());
+
+        public static IProfileService Instance()
         {
-            this.userRepository = userRepository;
+            return instance;
+        }
+
+        private ProfileService(NHibernateSessionFactory repositoryFactory)
+        {
+            userRepository = repositoryFactory.UserRepository;
         }
 
         public PortalUser AuthenticateUser(string email, Password password)

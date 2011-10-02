@@ -7,34 +7,37 @@ namespace guruji.Controllers
 {
     public class AuthenticationController : BaseController
     {
-//        private readonly ILoginHandler loginHandler;
+        private readonly ILoginHandler loginHandler;
 
-//        public AuthenticationController(ILoginHandler loginHandler)
-//        {
-//            this.loginHandler = loginHandler;
-//        }
+        public AuthenticationController()
+        {
+            loginHandler = LoginHandler.Instance();
+        }
 
-//        [AcceptVerbs(HttpVerbs.Post)]
-//        public ActionResult Login(string email, string password, string returnUrl)
-//        {
-//            try
-//            {
-//                loginHandler.Login(email, password, true);
-//            }
-//            catch (UserNotAuthorizedException)
-//            {
-//                Response.StatusCode = 403;
-//                return new ContentResult { Content = "Your Login or Password is incorrect." };
-//            }
-//
-//            if (!string.IsNullOrEmpty(returnUrl)) return Redirect(returnUrl);
-//            return new EmptyResult();
-//        }
+        [AcceptVerbs(HttpVerbs.Post)]
+        public ActionResult Login(string email, string password, string returnUrl)
+        {
+            try
+            {
+                loginHandler.Login(email, password, true);
+            }
+            catch (UserNotAuthorizedException)
+            {
+                Response.StatusCode = 403;
+                return new ContentResult { Content = "Your Login or Password is incorrect." };
+            }
+
+            if (!string.IsNullOrEmpty(returnUrl)) return Redirect(returnUrl);
+            return new EmptyResult();
+        }
 
         public string FConnect()
         {
-            var query = Request.Url.Query;
-            new PortalSession().PortalUser = new FacebookUser{FacebookId = query.Split('&').First().Replace("?", ""), Role = UserRole.Facebook};
+            if (Request.Url != null)
+            {
+                var query = Request.Url.Query;
+                new PortalSession().PortalUser = new FacebookUser{FacebookId = query.Split('&').First().Replace("?", ""), Role = UserRole.Facebook};
+            }
             return "done";
         }
     
@@ -43,10 +46,10 @@ namespace guruji.Controllers
             new PortalSession().PortalUser = PortalUser.CreateGuestUser();
         }
     
-//        public ActionResult Logout(string returnUrl)
-//        {
-//            loginHandler.Logout();
-//            return Redirect("default.aspx");
-//        }
+        public ActionResult Logout(string returnUrl)
+        {
+            loginHandler.Logout();
+            return Redirect("default.aspx");
+        }
     }
 }

@@ -47,6 +47,11 @@ namespace guruji.Repos
             get { return new UserRoleRepository(sessionFactory); }
         }
 
+        public IUserRepository UserRepository
+        {
+            get { return new UserRepository(sessionFactory); }
+        }
+
         public void Dispose()
         {
             sessionFactory.Dispose();
