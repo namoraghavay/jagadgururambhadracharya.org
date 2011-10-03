@@ -2,181 +2,8 @@
 <Gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema>">
 	<Albums>
 		<Album>
-			<Name>ahalyoddhar</Name>
-			<Title>Ahalyoddhar - Naari ka Samman</Title>
-			<Description>Tulsidas ji respects "Naari" more than any other poet does. Guruji explains alongwith the prasang of Ahalyoddhar.</Description>
-			<Videos>
-				<Video>
-					<Title>Part - 1</Title>
-					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/MEErX8fexvc" frameborder="0" allowTransparency="true"</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 2</Title>
-					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/pCDy2JFIxEg" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 3</Title>
-					<Id>3</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/03lZByp-DOs" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 4</Title>
-					<Id>4</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/BT-mCsgXAtU" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 5</Title>
-					<Id>5</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/5H_GQtdw47E" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 6</Title>
-					<Id>6</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/KhIflrKw27c" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 7</Title>
-					<Id>7</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/s84zNAjwrMw" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 8</Title>
-					<Id>8</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ged_Y-D0rd0" frameborder="0" allowfullscreen</Iframe>				
-				</Video>
-				<Video>
-					<Title>Part - 9</Title>
-					<Id>9</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/Z3zWJBbJSNM" frameborder="0" allowfullscreen</Iframe>				
-				</Video>
-				<Video>
-					<Title>Part - 10</Title>
-					<Id>10</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8DoV8VPb1IY" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 11</Title>
-					<Id>11</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/QbzzFDoRLyc" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part - 12</Title>
-					<Id>12</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/r5yqc_MX4C8" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-			</Videos>
-		</Album>
-		<Album>
-			<Name>bhagavata</Name>
-			<Title>Bhagavata Katha</Title>
-			<Description>Bhagavata Katha in Naimisharanya, Uttar Pradesh, India</Description>
-			<Videos>
-				<Video>
-					<Title>Part 01 (Day 1, Part 1)</Title>
-					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CWYOUUOJylM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 02 (Day 1, Part 2)</Title>
-					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/G-XVZCKyDmY" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 03 (Day 2, Part 1)</Title>
-					<Id>3</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/yIYkRWEawZM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 04 (Day 2, Part 2)</Title>
-					<Id>4</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CyK5TFG67XU" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 07 (Day 4, Part 1)</Title>
-					<Id>7</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uTI66w52aY0" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 08 (Day 4, Part 2)</Title>
-					<Id>8</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WL6SvRSGNGM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 11 (Day 6, Part 1)</Title>
-					<Id>11</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/FAtXglastE8" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 12 (Day 6, Part 2)</Title>
-					<Id>12</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8H3huzwNxoU" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 13 (Day 7, Part 1)</Title>
-					<Id>13</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WuRLgzDAg4E" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 14 (Day 7, Part 2)</Title>
-					<Id>14</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uO753HOxH4U" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 15 (Day 8, Part 1)</Title>
-					<Id>15</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4xxGhLsaQGc" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>Part 16 (Day 8, Part 2)</Title>
-					<Id>16</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/TVRhVVECcNw" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-			</Videos>
-		</Album>
-		<Album>
-			<Name>jrhu</Name>
-			<Title>JR Handicapped University</Title>
-			<Description>An Intoduction to JRHU</Description>
-			<Videos>
-				<Video>
-					<Title>JRHU on Sanskar TV</Title>
-					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4_yOkZIcyk8" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>An Introduction to JRHU (2003-04)</Title>
-					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/V2Ztj2M7Eas" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<!--
-				<Video>
-					<Title>JRHU - Part 2 of 5</Title>
-					<Id>3</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4ZtTzshYO_I" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>JRHU - Part 3 of 5</Title>
-					<Id>4</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/qpNV7wC5odk" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>JRHU - Part 4 of 5</Title>
-					<Id>5</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/lD5M1BJDPAM" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				<Video>
-					<Title>JRHU - Part 5 of 5</Title>
-					<Id>6</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/bgO0IU36Kpg" frameborder="0" allowfullscreen</Iframe>
-				</Video>
-				-->
-			</Videos>
-		</Album>
-		<Album>
 			<Name>manasdharma</Name>
-			<Title>Manas Dharma (Sep 2009)</Title>
+			<Title>Manas Dharma Ramkatha (Sep 2009)</Title>
 			<Description>Shri Ram Katha in Muradabad, Uttar Pradesh, India</Description>
 			<Videos>
 				<Video>
@@ -272,8 +99,193 @@
 			</Videos>
 		</Album>
 		<Album>
+			<Name>bhagavata</Name>
+			<Title>Bhagavata Katha</Title>
+			<Description>Bhagavata Katha in Naimisharanya, Uttar Pradesh, India</Description>
+			<Videos>
+				<Video>
+					<Title>Part 01 (Day 1, Part 1)</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CWYOUUOJylM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 02 (Day 1, Part 2)</Title>
+					<Id>2</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/G-XVZCKyDmY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 03 (Day 2, Part 1)</Title>
+					<Id>3</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/yIYkRWEawZM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 04 (Day 2, Part 2)</Title>
+					<Id>4</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/CyK5TFG67XU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 07 (Day 4, Part 1)</Title>
+					<Id>7</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uTI66w52aY0" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 08 (Day 4, Part 2)</Title>
+					<Id>8</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WL6SvRSGNGM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 11 (Day 6, Part 1)</Title>
+					<Id>11</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/FAtXglastE8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 12 (Day 6, Part 2)</Title>
+					<Id>12</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8H3huzwNxoU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 13 (Day 7, Part 1)</Title>
+					<Id>13</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/WuRLgzDAg4E" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 14 (Day 7, Part 2)</Title>
+					<Id>14</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/uO753HOxH4U" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 15 (Day 8, Part 1)</Title>
+					<Id>15</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4xxGhLsaQGc" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part 16 (Day 8, Part 2)</Title>
+					<Id>16</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/TVRhVVECcNw" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+		<Album>
+			<Name>SingaporeKatha2011</Name>
+			<Title>Shri Ram Katha, Singapore June2011</Title>
+			<Videos>
+				<Video>
+					<Title>Day - 1</Title>
+					<Id>1</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/fkQbNt9Q1j4" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 2</Title>
+					<Id>2</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/nC1ciPouXmA" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 3</Title>
+					<Id>3</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/R9ldiJQKAWY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 4</Title>
+					<Id>4</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/IWC5fR0D4K8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 5</Title>
+					<Id>5</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/a9-e_xNoAyI" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 6</Title>
+					<Id>6</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/HiURb8sINLE" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 7</Title>
+					<Id>7</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/ormc0e1S1Y8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 8</Title>
+					<Id>8</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/fOSqlLZePJE" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Day - 9</Title>
+					<Id>9</Id>
+					<Iframe>width="560" height="349" src="http://www.youtube.com/embed/eCz4f6kdR-g" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+		<Album>
+			<Name>ahalyoddhar</Name>
+			<Title>Ahalyoddhar - Naari ka Samman</Title>
+			<Description>Tulsidas ji respects "Naari" more than any other poet does. Guruji explains alongwith the prasang of Ahalyoddhar.</Description>
+			<Videos>
+				<Video>
+					<Title>Part - 1</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/MEErX8fexvc" frameborder="0" allowTransparency="true"</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 2</Title>
+					<Id>2</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/pCDy2JFIxEg" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 3</Title>
+					<Id>3</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/03lZByp-DOs" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 4</Title>
+					<Id>4</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/BT-mCsgXAtU" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 5</Title>
+					<Id>5</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/5H_GQtdw47E" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 6</Title>
+					<Id>6</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/KhIflrKw27c" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 7</Title>
+					<Id>7</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/s84zNAjwrMw" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 8</Title>
+					<Id>8</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ged_Y-D0rd0" frameborder="0" allowfullscreen</Iframe>				
+				</Video>
+				<Video>
+					<Title>Part - 9</Title>
+					<Id>9</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/Z3zWJBbJSNM" frameborder="0" allowfullscreen</Iframe>				
+				</Video>
+				<Video>
+					<Title>Part - 10</Title>
+					<Id>10</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/8DoV8VPb1IY" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 11</Title>
+					<Id>11</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/QbzzFDoRLyc" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Part - 12</Title>
+					<Id>12</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/r5yqc_MX4C8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+		<Album>
 			<Name>sundar_kand</Name>
-			<Title>Sundar Kand</Title>
+			<Title>Sundar Kand Katha</Title>
 			<Description>Katha when Hanuman ji enters Lanks in search of Sita Ji.</Description>
 			<Videos>
 				<Video>
@@ -285,6 +297,23 @@
 					<Title>Sundar Kand Part 2</Title>
 					<Id>2</Id>
 					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ifzIiiLl7AM" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+			</Videos>
+		</Album>
+		<Album>
+			<Name>jrhu</Name>
+			<Title>JR Handicapped University</Title>
+			<Description>An Intoduction to JRHU</Description>
+			<Videos>
+				<Video>
+					<Title>JRHU on Sanskar TV</Title>
+					<Id>1</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/4_yOkZIcyk8" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>An Introduction to JRHU (2003-04)</Title>
+					<Id>2</Id>
+					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/V2Ztj2M7Eas" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 			</Videos>
 		</Album>
