@@ -80,6 +80,11 @@
                         Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
                         class="download_link">[346 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Sandhyopāsanā, Hindi (Guide to performing Sandhyā, book scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
+                        class="download_link">[16 MB]</a> </li>
             </ul>
             <h3>
                 Other articles</h3>
