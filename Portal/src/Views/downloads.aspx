@@ -35,6 +35,11 @@
                         Śrībhārgavarāghavīyam, Sanskrit (Epic poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sribhargavaraghaviyam.pdf"
                         class="download_link">[742 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
+                        class="download_link">[278 KB]</a> </li>
             </ul>
             <h3>
                 Presentations on JRHU</h3>
