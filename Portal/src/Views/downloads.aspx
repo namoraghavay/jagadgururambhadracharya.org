@@ -40,6 +40,16 @@
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
                         class="download_link">[278 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrīgaṅgāmahimnastotram, Sanskrit (Hymn, book scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srigangamahimnastotram.pdf"
+                        class="download_link">[13 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramasuprabhatam.pdf"
+                        class="download_link">[16 MB]</a> </li>
             </ul>
             <h3>
                 Presentations on JRHU</h3>
