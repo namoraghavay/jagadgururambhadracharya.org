@@ -42,6 +42,11 @@
                         class="download_link">[278 KB]</a> </li>
                 <li class="download">
                     <p>
+                        Śrīsarayūlaharī, Sanskrit (Hymn, book scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisarayulahari.pdf"
+                        class="download_link">[13 MB]</a> </li>
+                <li class="download">
+                    <p>
                         Śrīgaṅgāmahimnastotram, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srigangamahimnastotram.pdf"
                         class="download_link">[13 MB]</a> </li>
@@ -50,20 +55,6 @@
                         Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramasuprabhatam.pdf"
                         class="download_link">[16 MB]</a> </li>
-            </ul>
-            <h3>
-                Presentations on JRHU</h3>
-            <ul>
-                <li class="download">
-                    <p>
-                        JRHU, English (Presentation on JRHU)</p>
-                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation.pdf"
-                        class="download_link">[1.05 MB]</a> </li>
-                <li class="download">
-                    <p>
-                        JRHU, English (Full presentation on JRHU) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation Full.pdf"
-                        class="download_link">[5.88 MB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
@@ -109,6 +100,20 @@
                         Prosody in Rāmacaritamānasa, English & Hindi</p>
                     <a target="_blank" href="/ViewContent/pdfs/Metres in the Ramacaritamanasa.pdf"
                         class="download_link">[276 KB]</a> </li>
+            </ul>
+            <h3>
+                Presentations on JRHU</h3>
+            <ul>
+                <li class="download">
+                    <p>
+                        JRHU, English (Presentation on JRHU)</p>
+                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation.pdf"
+                        class="download_link">[1.05 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        JRHU, English (Full presentation on JRHU) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation Full.pdf"
+                        class="download_link">[5.88 MB]</a> </li>
             </ul>
         </div>
     </div>
