@@ -126,7 +126,7 @@
                         class="download_link">[1.05 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Singapore Katha Flyer, Hindi (Presentation on JRHU)</p>
+                        Singapore Katha Flyer, Hindi</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer Hindi.pdf"
                         class="download_link">[861 KB]</a> </li>
                 <li class="download">
