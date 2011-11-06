@@ -55,6 +55,16 @@
                         Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramasuprabhatam.pdf"
                         class="download_link">[16 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
+                        class="download_link">[16 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
+                        class="download_link">[346 KB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
@@ -81,16 +91,6 @@
                         Critical Edition of Hanumān Cālīsā</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
-                        class="download_link">[346 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
-                        class="download_link">[16 MB]</a> </li>
             </ul>
             <h3>
                 Other articles</h3>
@@ -100,10 +100,35 @@
                         Prosody in Rāmacaritamānasa, English & Hindi</p>
                     <a target="_blank" href="/ViewContent/pdfs/Metres in the Ramacaritamanasa.pdf"
                         class="download_link">[276 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Guruji's Biography in Hindi</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hindi Biography.pdf"
+                        class="download_link">[124 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Printing errors in Śrībhārgavarāghavīyam, Sanskrit</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sribhargavaraghaviyam Errata.pdf"
+                        class="download_link">[886 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Printing errors in Bhṛṅgadūtam, Sanskrit</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam Errata.pdf"
+                        class="download_link">[308 KB]</a> </li>
             </ul>
             <h3>
-                Presentations on JRHU</h3>
+                Flyers and Presentations</h3>
             <ul>
+                <li class="download">
+                    <p>
+                        Singapore Katha Flyer, English</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer English.pdf"
+                        class="download_link">[1.05 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Singapore Katha Flyer, Hindi (Presentation on JRHU)</p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer Hindi.pdf"
+                        class="download_link">[861 KB]</a> </li>
                 <li class="download">
                     <p>
                         JRHU, English (Presentation on JRHU)</p>
