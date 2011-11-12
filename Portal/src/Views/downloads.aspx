@@ -37,6 +37,11 @@
                         class="download_link">[742 KB]</a> </li>
                 <li class="download">
                     <p>
+                        Ājādacandraśekharacaritam, Sanskrit (Minor poem, scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ajadacandrasekaracaritam.pdf"
+                        class="download_link">[6.4 MB]</a> </li>
+                <li class="download">
+                    <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
                         class="download_link">[278 KB]</a> </li>
@@ -59,7 +64,7 @@
                     <p>
                         Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
-                        class="download_link">[16 MB]</a> </li>
+                        class="download_link">[1.9 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
