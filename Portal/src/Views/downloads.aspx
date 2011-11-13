@@ -39,7 +39,7 @@
                     <p>
                         Ājādacandraśekharacaritam, Sanskrit (Minor poem, scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ajadacandrasekaracaritam.pdf"
-                        class="download_link">[6.4 MB]</a> </li>
+                        class="download_link">[6.6 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
