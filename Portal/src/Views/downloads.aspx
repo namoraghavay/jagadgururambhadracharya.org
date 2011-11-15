@@ -42,6 +42,11 @@
                         class="download_link">[6.6 MB]</a> </li>
                 <li class="download">
                     <p>
+                        Aṣṭāvakra, Hindi (Minor poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ashtavakra.pdf"
+                        class="download_link">[46 MB]</a> </li>
+                <li class="download">
+                    <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
                         class="download_link">[278 KB]</a> </li>
