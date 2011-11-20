@@ -44,7 +44,7 @@
                     <p>
                         Aṣṭāvakra, Hindi (Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ashtavakra.pdf"
-                        class="download_link">[46 MB]</a> </li>
+                        class="download_link">[28 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
@@ -54,7 +54,7 @@
                     <p>
                         Śrīsarayūlaharī, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisarayulahari.pdf"
-                        class="download_link">[13 MB]</a> </li>
+                        class="download_link">[2 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīgaṅgāmahimnastotram, Sanskrit (Hymn, book scan) </p>
@@ -69,7 +69,7 @@
                     <p>
                         Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
-                        class="download_link">[1.9 MB]</a> </li>
+                        class="download_link">[2.4 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
