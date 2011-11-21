@@ -59,7 +59,7 @@
                     <p>
                         Śrīgaṅgāmahimnastotram, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srigangamahimnastotram.pdf"
-                        class="download_link">[13 MB]</a> </li>
+                        class="download_link">[2.7 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
