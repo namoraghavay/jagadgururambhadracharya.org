@@ -64,7 +64,7 @@
                     <p>
                         Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramasuprabhatam.pdf"
-                        class="download_link">[16 MB]</a> </li>
+                        class="download_link">[2.8 MB]</a> </li>
                 <li class="download">
                     <p>
                         Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
