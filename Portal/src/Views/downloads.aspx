@@ -155,6 +155,62 @@
                     <a target="_blank" href="/ViewContent/pdfs/JRHU Presentation Full.pdf"
                         class="download_link">[5.88 MB]</a> </li>
             </ul>
+            <h3>
+                Past issues of Shri Tulsi Peeth Saurabh</h3>
+            <ul>
+                <li class="download">
+                    <p>
+                        Jan 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200901.pdf" class="download_link">[176 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Feb 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200902.pdf" class="download_link">[222 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Mar 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200903.pdf" class="download_link">[179 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Apr 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200904.pdf" class="download_link">[179 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        May 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200905.pdf" class="download_link">[180 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Jun 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200906.pdf" class="download_link">[176 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Jul 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200907.pdf" class="download_link">[190 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Aug 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200908.pdf" class="download_link">[197 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Sep 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200909.pdf" class="download_link">[203 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Oct 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200910.pdf" class="download_link">[196 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Nov 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200911.pdf" class="download_link">[208 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Dec 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS200912.pdf" class="download_link">[192 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Jan 2011</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STS201101.pdf" class="download_link">[184 KB]</a> </li>
+            </ul>
         </div>
     </div>
 </asp:Content>
