@@ -160,8 +160,16 @@
             <ul>
                 <li class="download">
                     <p>
-                        Jan 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[176 KB]</a> </li>
+                        All issues from 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STPS2009.pdf" class="download_link">[1.35 MB]</a> </li>
+                <li>
+                    <p>
+                        Individual issues from 2009</p>
+                    <a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[January]</a> 
+					<a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[February]</a> 
+					<a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[March]</a> 
+					</li>
+				<!--	
                 <li class="download">
                     <p>
                         Feb 2009</p>
@@ -206,6 +214,7 @@
                     <p>
                         Dec 2009</p>
                     <a target="_blank" href="/ViewContent/pdfs/STPS200912.pdf" class="download_link">[192 KB]</a> </li>
+				-->
                 <li class="download">
                     <p>
                         Jan 2011</p>
