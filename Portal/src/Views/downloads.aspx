@@ -22,12 +22,7 @@
                         class="download_link">[6.21 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Bhṛṅgadūtam, Sanskrit (Minor messenger poem) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
-                        class="download_link">[358 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Gītarāmāyaṇam, Sanskrit + Hindi (Lyrical Epic Poem) </p>
+                        Gītarāmāyaṇam, Sanskrit (Epic Poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Gitaramayanam.pdf"
                         class="download_link">[2.57 MB]</a> </li>
                 <li class="download">
@@ -37,14 +32,24 @@
                         class="download_link">[742 KB]</a> </li>
                 <li class="download">
                     <p>
+                        Aṣṭāvakra, Hindi (Epic poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ashtavakra.pdf"
+                        class="download_link">[28 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Arundhatī, Hindi (Epic poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Arundhati.pdf"
+                        class="download_link">[7.15 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Bhṛṅgadūtam, Sanskrit (Minor messenger poem) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
+                        class="download_link">[358 KB]</a> </li>
+                <li class="download">
+                    <p>
                         Ājādacandraśekharacaritam, Sanskrit (Minor poem, scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ajadacandrasekaracaritam.pdf"
                         class="download_link">[6.6 MB]</a> </li>
-                <li class="download">
-                    <p>
-                        Aṣṭāvakra, Hindi (Minor poem) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ashtavakra.pdf"
-                        class="download_link">[28 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
@@ -164,7 +169,7 @@
                     <a target="_blank" href="/ViewContent/pdfs/STPS2009.pdf" class="download_link">[1.35 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Individual issues from 2009</p>
+                        Individual issues from 2009<br/></p>
                     <a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[Jan]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200902.pdf" class="download_link">[Feb]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200903.pdf" class="download_link">[Mar]</a> 
