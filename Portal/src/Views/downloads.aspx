@@ -162,10 +162,9 @@
                     <p>
                         All issues from 2009</p>
                     <a target="_blank" href="/ViewContent/pdfs/STPS2009.pdf" class="download_link">[1.35 MB]</a> </li>
-                <li>
+                <li class="download">
                     <p>
                         Individual issues from 2009</p>
-					<p>
                     <a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[Jan]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200902.pdf" class="download_link">[Feb]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200903.pdf" class="download_link">[Mar]</a> 
@@ -178,7 +177,6 @@
 					<a target="_blank" href="/ViewContent/pdfs/STPS200910.pdf" class="download_link">[Oct]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200911.pdf" class="download_link">[Nov]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200912.pdf" class="download_link">[Dec]</a> 
-					</p>
 					</li>
 				<!--	
                 <li class="download">
