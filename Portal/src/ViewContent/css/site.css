@@ -67,10 +67,10 @@ h2 {background: none repeat scroll 0 0 #C7C498;color: #414032;display: block;fon
 .tab_head {font:13px "Trebuchet MS",Arial,Helvetica,sans-serif;padding:0 10px 0px 10px;margin: 1px 0 5px; overflow:hidden; font-weight: bold; background:#5A4939;-moz-border-radius: 4px 4px 4px 4px;-webkit-border-radius: 4px 4px 4px 4px;border-radius:4px 4px 4px 4px;behavior: url(/ViewContent/css/PIE.htc);border-bottom: 3px solid #f57e00;}
 .tab_head .tab_link:hover {color:#f57e00;}
 .tab_head .tab_link { display: block;float: left;margin-right: 15px;padding:5px 10px;color:#f6f6f6; text-transform: uppercase;}
-.tab_head .tab_link.selected_tab {background: none repeat scroll 0 0 #f57e00;color: #4F250F;cursor:default;moz-border-radius: 4px 4px 0 0;webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
+.tab_head .tab_link.selected_tab {background: none repeat scroll 0 0 #f57e00;color: #4F250F;cursor:default;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
 .tabs {font:13px "Trebuchet MS",Arial,Helvetica,sans-serif;}
 .tabs #events_accordion {margin-bottom:20px;}
-.teaser_content {background: none repeat scroll 0 0 #5A4939;display: block;margin-top: 5px;padding: 5px 0 5px 10px;cursor:pointer;color:#F6F6F6;moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;behavior: url(/ViewContent/css/PIE.htc);}
+.teaser_content {background: none repeat scroll 0 0 #5A4939; display: block; margin-top: 5px; padding: 5px 0 5px 10px; cursor:pointer; color:#F6F6F6; -moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;behavior: url(/ViewContent/css/PIE.htc);}
 .teaser_content:hover{background: none repeat scroll 0 0 #f57e00;color:#4F250F;}
 .teaser_content.selected {color:#4F250F;background: none repeat scroll 0 0 #f57e00;-moz-border-radius: 4px 4px 0 0;-webkit-border-radius: 4px 4px 0 0;border-radius:4px 4px 0 0;behavior: url(/ViewContent/css/PIE.htc);}
 .detailed_content { padding: 10px 20px;overflow:hidden;-moz-border-radius:0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius:0 0 4px 4px;behavior: url(/ViewContent/css/PIE.htc);border-bottom: 3px solid #f57e00;border-left: 1px solid #f57e00;border-right: 1px solid #f57e00;}
