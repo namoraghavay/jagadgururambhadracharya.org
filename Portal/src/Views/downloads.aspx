@@ -39,7 +39,7 @@
                     <p>
                         Arundhatī, Hindi (Epic poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Arundhati.pdf"
-                        class="download_link">[7.15 MB]</a> </li>
+                        class="download_link">[8.79 MB]</a> </li>
                 <li class="download">
                     <p>
                         Bhṛṅgadūtam, Sanskrit (Minor messenger poem) </p>
