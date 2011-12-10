@@ -58,7 +58,7 @@
                 <li class="download">
                     <p>
                         Śrīsītārāmavivāhadarśana, Hindi (Discourse, scan) </p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracahrya - Srisitaramavivahadarsana.pdf"
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramavivahadarsana.pdf"
                         class="download_link">[7.0 MB]</a> </li>
                 <li class="download">
                     <p>
