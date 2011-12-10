@@ -10,5 +10,8 @@
             <%Html.RenderPartial("JrhuTeaser"); %>
             <%Html.RenderPartial("NewsTeaser", Model.LatestNews); %>
         </div>
+        <div class="section_cont">
+            <% Html.RenderPartial("LatestArrivals"); %>
+        </div>    
     </div>
 </asp:Content>

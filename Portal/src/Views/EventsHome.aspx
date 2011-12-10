@@ -15,7 +15,7 @@
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">
-        <img alt="" src="https://lh3.googleusercontent.com/-qxFjVNS98NU/TeelS46U0KI/AAAAAAAAAB8/NsQ4iTbVLek/kathas_featured.jpg" />
+        <img alt="" src="/ViewContent/images/banners/kathas_featured.jpg" />
     </div>
     <div class="main_content">
         <div class="tab_head">

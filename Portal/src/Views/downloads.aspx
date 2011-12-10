@@ -6,7 +6,7 @@
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">
-        <img alt="Biography of Rambhadracharya" src="https://lh4.googleusercontent.com/-RTECprFZHUU/TeelT9tFzuI/AAAAAAAAACA/r-NrflYdJOg/literature_featured.jpg" />
+        <img alt="Biography of Rambhadracharya" src="/ViewContent/images/banners/literature_featured.jpg" />
     </div>
     <div class="main_content">
         <p class="page_heading">
@@ -124,6 +124,11 @@
                         Critical Edition of Hanumān Cālīsā</p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Hanuman Chalisa.pdf"
                         class="download_link">[112 KB]</a> </li>
+                <li class="download">
+                    <p>
+                        Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
+                        class="download_link">[278 KB]</a> </li>
             </ul>
         </div>
         <div class="right_box">
@@ -154,16 +159,16 @@
             <h3>
                 Flyers and Presentations</h3>
             <ul>
-                <li class="download">
-                    <p>
-                        Singapore Katha Flyer, English</p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer English.pdf"
-                        class="download_link">[1.05 MB]</a> </li>
-                <li class="download">
-                    <p>
-                        Singapore Katha Flyer, Hindi</p>
-                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer Hindi.pdf"
-                        class="download_link">[861 KB]</a> </li>
+<%--                <li class="download">--%>
+<%--                    <p>--%>
+<%--                        Singapore Katha Flyer, English</p>--%>
+<%--                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer English.pdf"--%>
+<%--                        class="download_link">[1.05 MB]</a> </li>--%>
+<%--                <li class="download">--%>
+<%--                    <p>--%>
+<%--                        Singapore Katha Flyer, Hindi</p>--%>
+<%--                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Singapore Katha Flyer Hindi.pdf"--%>
+<%--                        class="download_link">[861 KB]</a> </li>--%>
                 <li class="download">
                     <p>
                         JRHU, English (Presentation on JRHU)</p>
@@ -198,56 +203,6 @@
 					<a target="_blank" href="/ViewContent/pdfs/STPS200911.pdf" class="download_link">[Nov]</a> 
 					<a target="_blank" href="/ViewContent/pdfs/STPS200912.pdf" class="download_link">[Dec]</a> 
 					</li>
-				<!--	
-                <li class="download">
-                    <p>
-                        Feb 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200901.pdf" class="download_link">[169 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Feb 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200902.pdf" class="download_link">[222 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Mar 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200903.pdf" class="download_link">[179 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Apr 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200904.pdf" class="download_link">[179 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        May 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200905.pdf" class="download_link">[180 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Jun 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200906.pdf" class="download_link">[176 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Jul 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200907.pdf" class="download_link">[190 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Aug 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200908.pdf" class="download_link">[197 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Sep 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200909.pdf" class="download_link">[203 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Oct 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200910.pdf" class="download_link">[196 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Nov 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200911.pdf" class="download_link">[208 KB]</a> </li>
-                <li class="download">
-                    <p>
-                        Dec 2009</p>
-                    <a target="_blank" href="/ViewContent/pdfs/STPS200912.pdf" class="download_link">[192 KB]</a> </li>
-				-->
                 <li class="download">
                     <p>
                         Jan 2011</p>
