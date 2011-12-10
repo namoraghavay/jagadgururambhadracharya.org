@@ -285,18 +285,53 @@
 		</Album>
 		<Album>
 			<Name>sundar_kand</Name>
-			<Title>Sundar Kand Katha</Title>
+			<Title>Valmikiya Sundar Kand Katha</Title>
 			<Description>Katha when Hanuman ji enters Lanks in search of Sita Ji.</Description>
 			<Videos>
 				<Video>
 					<Title>Sundar Kand Part 1</Title>
 					<Id>1</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/iNjQMGHV_EU" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/DBP45MmPIgc" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 				<Video>
 					<Title>Sundar Kand Part 2</Title>
 					<Id>2</Id>
-					<Iframe>width="425" height="349" src="http://www.youtube.com/embed/ifzIiiLl7AM" frameborder="0" allowfullscreen</Iframe>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/Juro-bVYu6M" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 3</Title>
+					<Id>3</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/p9QEBUqDC20" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 4</Title>
+					<Id>4</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/JrWHHHNG7bo" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 5</Title>
+					<Id>5</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/akbev-b5cxs" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 6</Title>
+					<Id>6</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/krfSEWNMgus" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 7</Title>
+					<Id>7</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/hQaLvAMkiu0" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 8</Title>
+					<Id>8</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/tZiYIIqpEag" frameborder="0" allowfullscreen</Iframe>
+				</Video>
+				<Video>
+					<Title>Sundar Kand Part 9</Title>
+					<Id>9</Id>
+					<Iframe>width="420" height="315" src="http://www.youtube.com/embed/wszUKuhhGW4" frameborder="0" allowfullscreen</Iframe>
 				</Video>
 			</Videos>
 		</Album>

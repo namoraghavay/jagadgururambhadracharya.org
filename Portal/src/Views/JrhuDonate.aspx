@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="main_content" ContentPlaceHolderID="MainContentContainer" runat="server">
     <div class="featured_img">
-        <img alt="JRHU" src="https://lh4.googleusercontent.com/-hEQsEPhGnTE/Te0FK-HPKyI/AAAAAAAAADI/whcAbtxA5j4/u4.jpg" />
+        <img alt="JRHU" src="/ViewContent/images/banners/u4.jpg" />
     </div>
     <div class="main_content">
         <p class="page_heading">

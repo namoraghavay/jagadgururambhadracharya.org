@@ -247,6 +247,7 @@
     <Content Include="Views\AudioPlayer.ascx" />
     <Content Include="Views\ContactUs.ascx" />
     <Content Include="Views\Audios.aspx" />
+    <Content Include="Views\LatestArrivals.ascx" />
     <Content Include="Views\downloads.aspx" />
     <Content Include="Views\JrhuDonate.aspx" />
     <Content Include="Views\JrhuTeaser.ascx" />

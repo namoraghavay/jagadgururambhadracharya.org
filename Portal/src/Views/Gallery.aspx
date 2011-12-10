@@ -6,6 +6,7 @@
 <asp:Content ID="head_content" ContentPlaceHolderID="HeadIncludes" runat="server">
     <link rel="stylesheet" href="/ViewContent/css/galleriffic-2.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="/ViewContent/css/skin.css" />
+    <script type="text/javascript" src="/ViewContent/js/jquery.opacityrollover.js"></script>
 
     <script type="text/javascript">
         document.write('<style>.noscript { display: none; }</style>');
