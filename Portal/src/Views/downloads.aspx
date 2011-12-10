@@ -57,6 +57,11 @@
                         class="download_link">[7.0 MB]</a> </li>
                 <li class="download">
                     <p>
+                        Śrīsītārāmavivāhadarśana, Hindi (Discourse, scan) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracahrya - Srisitaramavivahadarsana.pdf"
+                        class="download_link">[7.0 MB]</a> </li>
+                <li class="download">
+                    <p>
                         Ājādacandraśekharacaritam, Sanskrit (Minor poem, scan) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ajadacandrasekaracaritam.pdf"
                         class="download_link">[6.6 MB]</a> </li>
