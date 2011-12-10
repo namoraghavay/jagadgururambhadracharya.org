@@ -42,7 +42,7 @@
                         class="download_link">[8.79 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Bhṛṅgadūtam, Sanskrit (Minor messenger poem) </p>
+                        Bhṛṅgadūtam, Sanskrit (Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
                         class="download_link">[358 KB]</a> </li>
                 <li class="download">
@@ -52,19 +52,19 @@
                         class="download_link">[1.48 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīrāmastavarājastotre Śrīrāghavakṛpābhāṣyam, Sanskrit (Commentary, scan) </p>
+                        Śrīrāmastavarājastotre Śrīrāghavakṛpābhāṣyam, Sanskrit (Commentary) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sriramastavarajastotre Sriraghavakrpabhasyam.pdf"
                         class="download_link">[7.0 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīsītārāmavivāhadarśana, Hindi (Discourse, scan) </p>
+                        Śrīsītārāmavivāhadarśana, Hindi (Discourse) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramavivahadarsana.pdf"
-                        class="download_link">[7.0 MB]</a> </li>
+                        class="download_link">[7.5 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Ājādacandraśekharacaritam, Sanskrit (Minor poem, scan) </p>
+                        Ājādacandraśekharacaritam, Sanskrit (Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Ajadacandrasekaracaritam.pdf"
-                        class="download_link">[6.6 MB]</a> </li>
+                        class="download_link">[4.4 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīsītāsudhānidhiḥ, Sanskrit (Minor poem, excerpts) </p>
@@ -72,32 +72,32 @@
                         class="download_link">[278 KB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīsarayūlaharī, Sanskrit (Hymn, book scan) </p>
+                        Śrīsarayūlaharī, Sanskrit (Hymn) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisarayulahari.pdf"
                         class="download_link">[2 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīgaṅgāmahimnastotram, Sanskrit (Hymn, book scan) </p>
+                        Śrīgaṅgāmahimnastotram, Sanskrit (Hymn) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srigangamahimnastotram.pdf"
                         class="download_link">[2.7 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīsītārāmasuprabhātam, Sanskrit (Hymn, book scan) </p>
+                        Śrīsītārāmasuprabhātam, Sanskrit (Hymn) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitaramasuprabhatam.pdf"
                         class="download_link">[2.8 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Sandhyopāsanā, Hindi (Sandhyā guide, book scan) </p>
+                        Sandhyopāsanā, Hindi (Sandhyā guide) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sandhyopasana.pdf"
                         class="download_link">[2.4 MB]</a> </li>
                 <li class="download">
                     <p>
                         Śrīrāghava Sevā Vidhi, Hindi (Guide to Sevā of Śrīrāma) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Shree Raghav Seva.pdf"
-                        class="download_link">[346 KB]</a> </li>
+                        class="download_link">[1.5 MB]</a> </li>
                 <li class="download">
                     <p>
-                        Śrīrāghavabhāvadarśanam, Sanskrit + Hindi (Book scan) </p>
+                        Śrīrāghavabhāvadarśanam, Sanskrit(Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sriraghavabhavadarsanam.pdf"
                         class="download_link">[2.4 MB]</a> </li>
             </ul>
