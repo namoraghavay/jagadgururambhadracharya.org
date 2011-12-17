@@ -4,24 +4,9 @@ namespace guruji.Controllers
 {
     public class ArticlesController : BaseController
     {
-        public ActionResult BiographyTulsidas()
+        public ActionResult ViewArticle(string htmlName)
         {
-            return HtmlViewFor("biographyTulsidas");
-        }
-
-        public ActionResult HanumanChalisa()
-        {
-            return HtmlViewFor("hanumanChalisa");
-        }
-
-        public ActionResult RaghavSeva()
-        {
-            return HtmlViewFor("raghavSeva");
-        }
-
-        public ActionResult Manas()
-        {
-            return HtmlViewFor("manas");
+            return HtmlViewFor(htmlName);
         }
     }
 }
