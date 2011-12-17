@@ -16,7 +16,7 @@ namespace guruji
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Literature), "literature", new { controller = "AboutGuruji", action = "LiteratureHome" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Awards), "awards", new { controller = "AboutGuruji", action = "Awards" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Virudavali), "virudavali", new { controller = "AboutGuruji", action = "Virudavali" }, defaultPageConstraints);
-            RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.CriticalEdition), "tulsidas/{htmlName}", new { controller = "Articles", action = "viewArticle" }, defaultPageConstraints);
+            RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.CriticalEdition), "Ramcharitmanas_tulsipeeth/{htmlName}", new { controller = "Articles", action = "viewArticle" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.TulsidasBiography), "tulsidas/{htmlName}", new { controller = "Articles", action = "viewArticle" }, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.HanumanChalisa), "rambhadracharya/{htmlName}", new { controller = "Articles", action = "viewArticle"}, defaultPageConstraints);
             RouteTable.Routes.MapRoute(Enum.GetName(type, RouteNames.Manas), "ramcharitmanas/{htmlName}", new { controller = "Articles", action = "viewArticle" }, defaultPageConstraints);
