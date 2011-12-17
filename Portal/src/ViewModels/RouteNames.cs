@@ -14,6 +14,7 @@ namespace guruji.ViewModels
         RaghavSeva,
         Manas,
         Login,
-        AudioGallery
+        AudioGallery,
+        CriticalEdition
     }
 }
