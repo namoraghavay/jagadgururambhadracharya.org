@@ -111,6 +111,8 @@
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhaktigitasudha.pdf"
                         class="download_link">[7.2 MB]</a> </li>
             </ul>
+        </div>
+        <div class="right_box">
             <h3>
                 Booklets and Articles by Guruji</h3>
             <ul>
@@ -140,8 +142,6 @@
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
                         class="download_link">[278 KB]</a> </li>
             </ul>
-        </div>
-        <div class="right_box">
             <h3>
                 Other articles</h3>
             <ul>
