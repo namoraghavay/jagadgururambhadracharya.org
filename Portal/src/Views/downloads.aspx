@@ -42,6 +42,11 @@
                         class="download_link">[8.79 MB]</a> </li>
                 <li class="download">
                     <p>
+                        Brahmasūtreṣu Śrīrāghavakṛpābhāṣyam, Sanskrit (Commentary) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Brahmasutresu Sriraghavakrpabhasyam.pdf"
+                        class="download_link">[15.1 MB]</a> </li>
+                <li class="download">
+                    <p>
                         Bhṛṅgadūtam, Sanskrit (Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhrngadutam.pdf"
                         class="download_link">[358 KB]</a> </li>
@@ -100,7 +105,14 @@
                         Śrīrāghavabhāvadarśanam, Sanskrit(Minor poem) </p>
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Sriraghavabhavadarsanam.pdf"
                         class="download_link">[2.4 MB]</a> </li>
+                <li class="download">
+                    <p>
+                        Bhaktigītasudhā, Hindi (Poem collection) </p>
+                    <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Bhaktigitasudha.pdf"
+                        class="download_link">[7.2 MB]</a> </li>
             </ul>
+        </div>
+        <div class="right_box">
             <h3>
                 Booklets and Articles by Guruji</h3>
             <ul>
@@ -130,8 +142,6 @@
                     <a target="_blank" href="/ViewContent/pdfs/Jagadguru Rambhadracharya - Srisitasudhanidhih.pdf"
                         class="download_link">[278 KB]</a> </li>
             </ul>
-        </div>
-        <div class="right_box">
             <h3>
                 Other articles</h3>
             <ul>
