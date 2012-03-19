@@ -24,7 +24,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         jQuery('#news_accordion').accordion({
-            autoheight: false
+        autoheight: false, header: "a.accordion-label"
         });
     })
 </script>
