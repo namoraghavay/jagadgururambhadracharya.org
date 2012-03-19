@@ -24,8 +24,9 @@
 <script type="text/javascript">
     $(document).ready(function() {
         jQuery('#news_accordion').accordion({
-        autoheight: false, header: "a.accordion-label"
+            header: '.teaser_content',
+            autoheight: false
         });
-    })
+    });
 </script>
 
